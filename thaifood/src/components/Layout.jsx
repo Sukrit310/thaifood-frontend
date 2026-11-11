@@ -1,0 +1,13 @@
+import { useState, useEffect } from 'react';
+import { Link, NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom';
+import { useAuth } from '../auth/AuthContext';
+import { isMockMode } from '../api/backend';
+export default function Layout() {
+  const { member, logout } = useAuth();
+  const [menuOpen, setMenuOpen] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
+  useEffect(() => { setMenuOpen(false); window.scrollTo?.(0, 0); }, [location.pathname]);
+  function signOut() { logout(); navigate('/'); }
+  return <div className="app-shell"><a className="skip-link" href="#main-content">ข้ามไปยังเนื้อหา</a><header className="site-header"><div className="container header-inner"><Link to="/" className="brand" aria-label="ThaiFood Guide หน้าแรก"><span className="brand-mark" aria-hidden="true">t<span>f</span><i /></span><span>ThaiFood<span className="brand-sub">GUIDE</span></span></Link><button className="mobile-toggle btn btn-secondary" aria-expanded={menuOpen} aria-controls="main-nav" onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? 'ปิดเมนู' : 'เมนู'}</button><nav id="main-nav" className={`main-nav ${menuOpen ? 'open' : ''}`} aria-label="เมนูหลัก"><NavLink end to="/">หน้าแรก</NavLink><NavLink to="/restaurants">ค้นหาร้านอาหาร</NavLink>{member && <NavLink to="/favorites">ร้านโปรด</NavLink>}{member?.role === 'admin' && <NavLink to="/admin">จัดการระบบ</NavLink>}</nav><div className={`header-account ${menuOpen ? 'open' : ''}`}>{member ? <><NavLink className="profile-link" to="/profile"><span className="avatar">{member.displayName.slice(0, 1)}</span><span>{member.displayName}</span></NavLink><button className="text-button" onClick={signOut}>ออกจากระบบ</button></> : <><Link className="login-link" to="/login">เข้าสู่ระบบ</Link><Link className="btn btn-primary btn-small" to="/register">สมัครสมาชิก <span aria-hidden="true">↗</span></Link></>}</div></div></header>{isMockMode && <div className="demo-banner">ข้อมูลสาธิต · ร้านอาหารและรีวิวเป็นข้อมูลสมมติสำหรับทดลองใช้งาน</div>}<main id="main-content" tabIndex={-1}><Outlet /></main><footer className="site-footer"><div className="container footer-top"><Link to="/" className="brand"><span className="brand-mark" aria-hidden="true">t<span>f</span><i /></span><span>ThaiFood<span className="brand-sub">GUIDE</span></span></Link><p>ค้นพบรสชาติท้องถิ่น เก็บความทรงจำระหว่างทาง</p><Link className="text-link" to="/restaurants">ออกไปอร่อยด้วยกัน ↗</Link></div><div className="container footer-bottom"><span>ThaiFood Guide · โครงการแนะนำร้านอาหารทั่วประเทศไทย</span><span>ภาพประกอบสร้างสำหรับโครงการ · คะแนนจากรีวิวบนเว็บ</span></div></footer></div>;
+}
