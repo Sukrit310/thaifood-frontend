@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, Navigate, useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '../auth/AuthContext';
 import { isMockMode } from '../api/backend';
+import { validateCurrentPassword } from '../utils/validation';
 
 export default function Login() {
   const { member, login } = useAuth();
@@ -20,6 +21,8 @@ export default function Login() {
     event.preventDefault();
     if (busy) return;
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email.trim()) || !form.password) { setError('กรุณากรอกอีเมลที่ถูกต้องและรหัสผ่าน'); return; }
+    const invalid = validateCurrentPassword(form.password);
+    if (invalid) { setError(invalid); return; }
     setBusy(true); setError('');
     try {
       await login({ email: form.email.trim(), password: form.password });

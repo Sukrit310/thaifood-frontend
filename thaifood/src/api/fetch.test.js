@@ -84,8 +84,8 @@ test('non JSON successful responses become useful invalid-response errors', asyn
   await expect(api.request('/api/restaurants')).rejects.toMatchObject({ status: 502, code: 'INVALID_RESPONSE' });
 });
 
-test('real mode without URL fails clearly without calling fetch', async () => {
-  process.env.REACT_APP_API_URL = '';
+test('invalid backend origin fails clearly without calling fetch', async () => {
+  process.env.REACT_APP_API_URL = 'https://github.com/Sukrit310/thaifood-backend';
   jest.resetModules();
   const unconfigured = require('./backend');
   await expect(unconfigured.request('/api/restaurants')).rejects.toMatchObject({ code: 'CONFIGURATION_ERROR' });
@@ -148,4 +148,26 @@ test('public authentication errors preserve an already active session', async ()
   await expect(services.authService.login({ email: 'wrong@example.com', password: 'WrongPassword123' })).rejects.toMatchObject({ status: 401 });
   expect(api.getToken()).toBe('active-session');
   expect(global.fetch.mock.calls[0][1].headers.Authorization).toBeUndefined();
+});
+
+test('wrong current password 401 preserves a valid session but expired auth still logs out', async () => {
+  api.setToken('valid-session');
+  global.fetch.mockResolvedValueOnce(jsonResponse(401, { error: { code: 'INVALID_CREDENTIALS', message: 'current password is incorrect' } }));
+  await expect(services.authService.changePassword({ currentPassword: 'WrongPassword123', newPassword: 'NewPassword123' })).rejects.toMatchObject({ status: 401, code: 'INVALID_CREDENTIALS' });
+  expect(api.getToken()).toBe('valid-session');
+  global.fetch.mockResolvedValueOnce(jsonResponse(401, { error: { code: 'UNAUTHORIZED', message: 'invalid token' } }));
+  await expect(services.authService.changePassword({ currentPassword: 'OldPassword123', newPassword: 'NewPassword123' })).rejects.toMatchObject({ status: 401, code: 'UNAUTHORIZED' });
+  expect(api.getToken()).toBeNull();
+});
+
+test('development proxy preserves API paths and browser headers while production uses the Go origin', async () => {
+  const oldNodeEnv = process.env.NODE_ENV;
+  try {
+    process.env.NODE_ENV = 'development';
+    jest.resetModules();
+    global.fetch.mockResolvedValue(jsonResponse(200, { items: [] }));
+    const proxied = require('./backend');
+    await proxied.request('/api/provinces');
+    expect(global.fetch).toHaveBeenCalledWith('/api/provinces', expect.objectContaining({ method: 'GET' }));
+  } finally { process.env.NODE_ENV = oldNodeEnv; }
 });

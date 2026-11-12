@@ -91,7 +91,8 @@ test('registration cannot assign admin; profile and password changes work', asyn
   const session = await authService.login({ email: 'new@example.com', password: 'LongPassword123' });
   setToken(session.token);
   expect(await authService.updateProfile({ displayName: 'ชื่อใหม่' })).toMatchObject({ displayName: 'ชื่อใหม่' });
-  await expect(authService.changePassword({ currentPassword: 'wrong', newPassword: 'AnotherPassword123' })).rejects.toMatchObject({ status: 400 });
+  await expect(authService.changePassword({ currentPassword: 'wrong', newPassword: 'AnotherPassword123' })).rejects.toMatchObject({ status: 401, code: 'INVALID_CREDENTIALS' });
+  expect(getToken()).toBe(session.token);
   expect(await authService.changePassword({ currentPassword: 'LongPassword123', newPassword: 'AnotherPassword123' })).toBeNull();
   await expect(authService.login({ email: 'new@example.com', password: 'LongPassword123' })).rejects.toMatchObject({ status: 401 });
   expect(await authService.login({ email: 'new@example.com', password: 'AnotherPassword123' })).toHaveProperty('token');
@@ -154,4 +155,85 @@ test('mock session continues in memory when browser storage becomes inaccessible
   } finally {
     read.mockRestore();
   }
+});
+
+test.each([
+  ['Thai text with nine UTF-8 bytes', 'กกก'],
+  ['exactly 72 UTF-8 bytes', 'ก'.repeat(24)],
+  ['18 non-BMP characters at exactly 72 UTF-8 bytes', '😀'.repeat(18)],
+])('registration accepts %s under Go byte-based password limits', async (_, password) => {
+  const member = await authService.register({ email: 'unicode@example.com', password, displayName: 'สมาชิกใหม่' });
+  expect(member).toMatchObject({ email: 'unicode@example.com', role: 'member' });
+  expect(await authService.login({ email: member.email, password })).toHaveProperty('token');
+});
+
+test.each(['ก'.repeat(25), 'a'.repeat(73), 'abcdefg'])('registration rejects passwords outside Go 8–72 UTF-8 byte bounds', async password => {
+  await expect(authService.register({ email: 'invalid@example.com', password, displayName: 'สมาชิกใหม่' })).rejects.toMatchObject({ status: 400, code: 'VALIDATION_ERROR' });
+});
+
+test('display names accept 100 trimmed Unicode code points and reject 101', async () => {
+  const displayName = '😀'.repeat(100);
+  const member = await authService.register({ email: 'display@example.com', password: 'ExamplePassword123', displayName: `  ${displayName}  ` });
+  expect(member.displayName).toBe(displayName);
+  const session = await authService.login({ email: member.email, password: 'ExamplePassword123' });
+  setToken(session.token);
+  expect((await authService.updateProfile({ displayName: ` ${'ข'.repeat(100)} ` })).displayName).toBe('ข'.repeat(100));
+  await expect(authService.updateProfile({ displayName: '😀'.repeat(101) })).rejects.toMatchObject({ status: 400 });
+});
+
+test('reviews measure their 10–5000 bounds in trimmed Unicode code points', async () => {
+  await login();
+  await expect(reviewService.create(118, { rating: 5, text: '😀'.repeat(9) })).rejects.toMatchObject({ status: 400 });
+  const longReview = await reviewService.create(118, { rating: 5, text: `  ${'😀'.repeat(5000)}  ` });
+  expect(longReview.text).toBe('😀'.repeat(5000));
+  await reviewService.remove(longReview.id);
+  await expect(reviewService.create(118, { rating: 5, text: '😀'.repeat(5001) })).rejects.toMatchObject({ status: 400 });
+  expect((await reviewService.create(118, { rating: 4, text: '😀'.repeat(10) })).text).toBe('😀'.repeat(10));
+});
+
+const validRestaurantInput = { name: 'ร้านทดสอบ', provinceId: 1, categoryId: 1, address: 'ที่อยู่ตัวอย่าง', description: 'รายละเอียดร้านอาหาร', imageUrl: null };
+
+test('admin may omit coordinates but explicit null coordinates are rejected', async () => {
+  await login('admin@example.com');
+  const restaurant = await adminService.createRestaurant(validRestaurantInput);
+  expect(restaurant).toMatchObject({ name: 'ร้านทดสอบ', imageUrl: null });
+  for (const coordinate of ['latitude', 'longitude']) {
+    await expect(adminService.createRestaurant({ ...validRestaurantInput, [coordinate]: null })).rejects.toMatchObject({ status: 400 });
+    await expect(adminService.updateRestaurant(restaurant.id, { ...validRestaurantInput, [coordinate]: null })).rejects.toMatchObject({ status: 400 });
+  }
+  expect(await adminService.updateRestaurant(restaurant.id, { ...validRestaurantInput, latitude: 0, longitude: 0 })).toMatchObject({ latitude: 0, longitude: 0 });
+  expect(await adminService.updateRestaurant(restaurant.id, { name: 'แก้ไขโดยไม่ส่งพิกัด' })).toMatchObject({ name: 'แก้ไขโดยไม่ส่งพิกัด', latitude: 0, longitude: 0 });
+});
+
+test.each([
+  ['relative path', '/images/food-rice.svg'],
+  ['userinfo', 'https://user:password@example.com/food.jpg'],
+  ['non HTTP protocol', 'javascript:alert(1)'],
+  ['empty raw host', 'https:///food.jpg'],
+  ['more than 2048 bytes', `https://example.com/${'a'.repeat(2048)}`],
+])('admin rejects image URL outside Go absolute HTTP(S) URL rules: %s', async (_, imageUrl) => {
+  await login('admin@example.com');
+  await expect(adminService.createRestaurant({ ...validRestaurantInput, imageUrl })).rejects.toMatchObject({ status: 400 });
+});
+
+test('admin accepts valid absolute HTTP(S) image URLs and null', async () => {
+  await login('admin@example.com');
+  expect(await adminService.createRestaurant({ ...validRestaurantInput, imageUrl: 'https://example.com/food.jpg' })).toMatchObject({ imageUrl: 'https://example.com/food.jpg' });
+  expect(await adminService.createRestaurant({ ...validRestaurantInput, imageUrl: null })).toMatchObject({ imageUrl: null });
+});
+
+test('admin text field limits match Go Unicode bounds', async () => {
+  await login('admin@example.com');
+  const restaurant = await adminService.createRestaurant({ ...validRestaurantInput, name: '😀'.repeat(200), address: '😀'.repeat(1000), description: '😀'.repeat(5000) });
+  expect(restaurant.name).toBe('😀'.repeat(200));
+  for (const [field, limit] of [['name', 200], ['address', 1000], ['description', 5000]]) {
+    await expect(adminService.updateRestaurant(restaurant.id, { ...validRestaurantInput, [field]: '😀'.repeat(limit + 1) })).rejects.toMatchObject({ status: 400 });
+  }
+});
+
+test('login and current password reject more than 72 UTF-8 bytes', async () => {
+  await expect(authService.login({ email: 'demo@example.com', password: 'ก'.repeat(25) })).rejects.toMatchObject({ status: 400, code: 'VALIDATION_ERROR' });
+  await login();
+  await expect(authService.changePassword({ currentPassword: 'ก'.repeat(25), newPassword: 'ExamplePassword123' })).rejects.toMatchObject({ status: 400, code: 'VALIDATION_ERROR' });
+  await expect(authService.changePassword({ currentPassword: 'ExamplePassword123', newPassword: 'ก'.repeat(25) })).rejects.toMatchObject({ status: 400, code: 'VALIDATION_ERROR' });
 });

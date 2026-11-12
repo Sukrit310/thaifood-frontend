@@ -1,7 +1,9 @@
 import { mockFetch } from '../mock/server';
+import { resolveApiConfig } from './config';
 
-export const isMockMode = process.env.REACT_APP_USE_MOCK !== 'false';
-const API_URL = (process.env.REACT_APP_API_URL || '').replace(/\/+$/, '');
+const config = resolveApiConfig({ REACT_APP_USE_MOCK: process.env.REACT_APP_USE_MOCK, REACT_APP_API_URL: process.env.REACT_APP_API_URL, NODE_ENV: process.env.NODE_ENV, REACT_APP_DEV_PROXY: process.env.REACT_APP_DEV_PROXY });
+export const isMockMode = config.useMock;
+const API_URL = config.useDevProxy ? '' : config.apiUrl;
 const TOKEN_KEY = 'thaifood.token';
 let memoryToken = null;
 
@@ -37,7 +39,7 @@ export async function request(path, { method = 'GET', body, signal } = {}) {
   if (body !== undefined) options.body = JSON.stringify(body);
   let response;
   try {
-    if (!isMockMode && !API_URL) throw new ApiError(0, 'CONFIGURATION_ERROR', 'กรุณาตั้ง REACT_APP_API_URL เป็น URL ของ Go Backend');
+    if (!isMockMode && config.error) throw new ApiError(0, 'CONFIGURATION_ERROR', config.error);
     response = await (isMockMode ? mockFetch : fetch)(`${API_URL}${path}`, options);
   } catch (error) {
     if (error.name === 'AbortError' || error instanceof ApiError) throw error;
@@ -52,7 +54,8 @@ export async function request(path, { method = 'GET', body, signal } = {}) {
   if (!response.ok) {
     // A response only invalidates the session that authorized its request.
     // Older requests and public login failures must not log out a newer user.
-    if (response.status === 401 && token && token === getToken()) {
+    const rejectedCurrentPassword = path === '/api/me/password' && payload?.error?.code === 'INVALID_CREDENTIALS';
+    if (response.status === 401 && !rejectedCurrentPassword && token && token === getToken()) {
       setToken(null);
       window.dispatchEvent(new Event('thaifood:unauthorized'));
     }

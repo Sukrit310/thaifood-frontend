@@ -17,8 +17,8 @@ export function mockPasswordDigest(password) {
   let hash1 = 2166136261;
   let hash2 = 5381;
   for (const char of String(password)) {
-    hash1 = Math.imul(hash1 ^ char.charCodeAt(0), 16777619);
-    hash2 = Math.imul(hash2, 33) ^ char.charCodeAt(0);
+    hash1 = Math.imul(hash1 ^ char.codePointAt(0), 16777619);
+    hash2 = Math.imul(hash2, 33) ^ char.codePointAt(0);
   }
   return `mock-only:${(hash1 >>> 0).toString(16)}:${(hash2 >>> 0).toString(16)}`;
 }

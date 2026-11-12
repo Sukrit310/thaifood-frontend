@@ -1,4 +1,5 @@
 import { categories, createSeedData, mockPasswordDigest, provinces } from './data';
+import { unicodeLength, validateCurrentPassword, validateDisplayName, validateImageUrl, validateNewPassword } from '../utils/validation';
 
 export const MOCK_STORAGE_KEY = 'thaifood.mock.v2';
 let memoryData;
@@ -76,12 +77,20 @@ function getBody(options) {
   }
 }
 function requiredString(value, label, min = 1, max = 1000) {
-  if (typeof value !== 'string' || value.trim().length < min || value.trim().length > max) validation(`${label}ต้องมีความยาว ${min}–${max} ตัวอักษร`);
+  if (typeof value !== 'string' || unicodeLength(value.trim()) < min || unicodeLength(value.trim()) > max) validation(`${label}ต้องมีความยาว ${min}–${max} ตัวอักษร`);
   return value.trim();
 }
-function password(value) {
-  if (typeof value !== 'string' || value.length < 8 || value.length > 128) validation('รหัสผ่านต้องมีความยาว 8–128 ตัวอักษร');
+function password(value, current = false) {
+  if (typeof value !== 'string') validation('กรุณากรอกรหัสผ่าน');
+  const error = current ? validateCurrentPassword(value) : validateNewPassword(value);
+  if (error) validation(error);
   return value;
+}
+function displayName(value) {
+  if (typeof value !== 'string') validation('กรุณากรอกชื่อที่แสดง');
+  const error = validateDisplayName(value);
+  if (error) validation(error);
+  return value.trim();
 }
 function restaurantBody(body, previous) {
   const province = body.provinceId === undefined && previous ? provinces.find(item => item.nameTh === previous.province) : provinces.find(item => item.id === body.provinceId);
@@ -90,11 +99,16 @@ function restaurantBody(body, previous) {
   const values = { ...previous, ...body };
   const latitude = values.latitude ?? null;
   const longitude = values.longitude ?? null;
-  if (latitude !== null && (!Number.isFinite(latitude) || latitude < -90 || latitude > 90)) validation('ละติจูดต้องอยู่ระหว่าง -90 ถึง 90');
-  if (longitude !== null && (!Number.isFinite(longitude) || longitude < -180 || longitude > 180)) validation('ลองจิจูดต้องอยู่ระหว่าง -180 ถึง 180');
-  const imageUrl = values.imageUrl || null;
-  if (imageUrl !== null && (typeof imageUrl !== 'string' || !/^(https?:\/\/|\/images\/)/i.test(imageUrl))) validation('URL รูปภาพต้องเป็น http หรือ https');
-  return { name: requiredString(values.name, 'ชื่อร้าน', 1, 150), province: province.nameTh, category: category.nameTh, address: requiredString(values.address, 'ที่อยู่', 1, 500), description: requiredString(values.description, 'รายละเอียด', 1, 3000), latitude, longitude, imageUrl };
+  if (body.latitude !== undefined && (!Number.isFinite(body.latitude) || body.latitude < -90 || body.latitude > 90)) validation('ละติจูดต้องอยู่ระหว่าง -90 ถึง 90');
+  if (body.longitude !== undefined && (!Number.isFinite(body.longitude) || body.longitude < -180 || body.longitude > 180)) validation('ลองจิจูดต้องอยู่ระหว่าง -180 ถึง 180');
+  let imageUrl = previous?.imageUrl ?? null;
+  if (body.imageUrl !== undefined && body.imageUrl !== null) {
+    if (typeof body.imageUrl !== 'string') validation('URL รูปภาพต้องเป็นข้อความหรือ null');
+    const imageError = validateImageUrl(body.imageUrl);
+    if (imageError) validation(imageError);
+    imageUrl = body.imageUrl.trim() || null;
+  } else if (body.imageUrl === null) imageUrl = null;
+  return { name: requiredString(values.name, 'ชื่อร้าน', 1, 200), province: province.nameTh, category: category.nameTh, address: requiredString(values.address, 'ที่อยู่', 1, 1000), description: requiredString(values.description, 'รายละเอียด', 1, 5000), latitude, longitude, imageUrl };
 }
 const response = (status, payload = null) => ({ status, ok: status >= 200 && status < 300, json: async () => copy(payload), text: async () => payload === null ? '' : JSON.stringify(payload) });
 
@@ -123,7 +137,7 @@ function route(url, options, data) {
     if (method === 'POST') {
       const member = getMember(options, data);
       if (!Number.isInteger(body.rating) || body.rating < 1 || body.rating > 5) validation('กรุณาให้คะแนนเป็นจำนวนเต็มตั้งแต่ 1 ถึง 5');
-      const text = requiredString(body.text, 'ข้อความรีวิว', 10, 3000);
+      const text = requiredString(body.text, 'ข้อความรีวิว', 10, 5000);
       if (data.reviews.some(review => review.restaurantId === restaurant.id && review.memberId === member.id)) fail(409, 'DUPLICATE_REVIEW', 'คุณรีวิวร้านนี้แล้ว สามารถลบรีวิวเดิมเพื่อเขียนใหม่ได้');
       const review = { id: data.nextReviewId++, restaurantId: restaurant.id, memberId: member.id, rating: body.rating, text, createdAt: new Date().toISOString() };
       data.reviews.push(review); save(data);
@@ -133,14 +147,15 @@ function route(url, options, data) {
   if (method === 'POST' && path === '/api/auth/register') {
     const email = requiredString(body.email, 'อีเมล', 3, 254).toLowerCase();
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) validation('รูปแบบอีเมลไม่ถูกต้อง');
-    const displayName = requiredString(body.displayName, 'ชื่อที่แสดง', 1, 80);
+    const memberDisplayName = displayName(body.displayName);
     const passwordDigest = mockPasswordDigest(password(body.password));
     if (data.members.some(member => member.email === email)) fail(409, 'EMAIL_EXISTS', 'อีเมลนี้ถูกใช้งานแล้ว');
-    const member = { id: data.nextMemberId++, email, displayName, role: 'member', passwordDigest };
+    const member = { id: data.nextMemberId++, email, displayName: memberDisplayName, role: 'member', passwordDigest };
     data.members.push(member); save(data);
     return response(201, memberPublic(member));
   }
   if (method === 'POST' && path === '/api/auth/login') {
+    password(body.password, true);
     const member = data.members.find(item => item.email === String(body.email || '').trim().toLowerCase() && item.passwordDigest === mockPasswordDigest(body.password || ''));
     if (!member) fail(401, 'INVALID_CREDENTIALS', 'อีเมลหรือรหัสผ่านไม่ถูกต้อง');
     const token = `mock_${Date.now().toString(36)}_${Math.random().toString(36).slice(2)}_${member.id}`;
@@ -150,12 +165,14 @@ function route(url, options, data) {
   if (path === '/api/me') {
     const member = getMember(options, data);
     if (method === 'GET') return response(200, memberPublic(member));
-    if (method === 'PATCH') { member.displayName = requiredString(body.displayName, 'ชื่อที่แสดง', 1, 80); save(data); return response(200, memberPublic(member)); }
+    if (method === 'PATCH') { member.displayName = displayName(body.displayName); save(data); return response(200, memberPublic(member)); }
   }
   if (method === 'PUT' && path === '/api/me/password') {
     const member = getMember(options, data);
-    if (member.passwordDigest !== mockPasswordDigest(body.currentPassword || '')) validation('รหัสผ่านเดิมไม่ถูกต้อง');
-    member.passwordDigest = mockPasswordDigest(password(body.newPassword)); save(data);
+    const currentPassword = password(body.currentPassword, true);
+    const newPassword = password(body.newPassword);
+    if (member.passwordDigest !== mockPasswordDigest(currentPassword)) fail(401, 'INVALID_CREDENTIALS', 'รหัสผ่านเดิมไม่ถูกต้อง');
+    member.passwordDigest = mockPasswordDigest(newPassword); save(data);
     return response(204);
   }
   if (path === '/api/favorites') {
