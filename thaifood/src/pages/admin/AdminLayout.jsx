@@ -1,9 +1,15 @@
 import React from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
+import './Admin.css';
 
 export default function AdminLayout() {
   const links = [['/admin', 'ภาพรวม'], ['/admin/restaurants', 'ร้านอาหาร'], ['/admin/reviews', 'รีวิว'], ['/admin/members', 'สมาชิก']];
-  return <section className="container py-8 md:py-12"><div className="mb-7 flex flex-wrap items-end justify-between gap-4"><div><p className="eyebrow">THAIFOOD MANAGEMENT</p><p className="text-2xl font-bold">พื้นที่ผู้ดูแลระบบ</p></div><span className="rounded-full bg-green-100 px-3 py-1 text-xs font-semibold text-green-900">ADMIN</span></div>
-    <nav aria-label="เมนูผู้ดูแลระบบ" className="flex gap-2 overflow-x-auto border-b mb-8 pb-3">{links.map(([to, label]) => <NavLink key={to} to={to} end={to === '/admin'} className={({ isActive }) => `whitespace-nowrap rounded-lg px-4 py-2 text-sm font-semibold ${isActive ? 'bg-green-900 text-white' : 'text-gray-600 hover:bg-gray-100'}`}>{label}</NavLink>)}</nav><Outlet />
-  </section>;
+  const icons = ['M3 3h6v6H3zM15 3h6v6h-6zM3 15h6v6H3zM15 15h6v6h-6z', 'M4 8h16M6 8v12h12V8M8 4h8M10 12v4M14 12v4', 'M4 4h16v12H9l-5 4V4zM8 8h8M8 12h5', 'M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75'];
+  return <section className="admin-page"><div className="container admin-shell">
+    <aside className="admin-sidebar" aria-label="พื้นที่ผู้ดูแลระบบ"><div className="admin-sidebar-heading"><p className="admin-sidebar-title">พื้นที่ผู้ดูแลระบบ</p><span className="admin-role">ADMIN</span></div>
+      <p className="admin-sidebar-note">ดูแลร้านอาหารและชุมชนนักชิม</p>
+      <nav aria-label="เมนูผู้ดูแลระบบ" className="admin-nav">{links.map(([to, label], index) => <NavLink key={to} to={to} end={to === '/admin'}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true"><path d={icons[index]} /></svg>{label}</NavLink>)}</nav>
+    </aside>
+    <div className="admin-content"><Outlet /></div>
+  </div></section>;
 }

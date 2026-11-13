@@ -105,9 +105,9 @@ export default function Layout() {
       </div>
     </header>
 
-    <div className="layout-demo-banner" role="note" aria-label="ข้อมูลสาธิต">
-      <div className="container"><span className="layout-demo-dot" aria-hidden="true" /><p>{isMockMode ? 'ข้อมูลสาธิต · ร้านอาหารและรีวิวเป็นข้อมูลสมมติสำหรับทดลองใช้งาน' : 'ร้านอาหารเริ่มต้นเป็นข้อมูลสมมติสำหรับโครงการสาธิต'}</p></div>
-    </div>
+    {isMockMode && <div className="layout-demo-banner" role="note" aria-label="ข้อมูลสาธิต">
+      <div className="container"><span className="layout-demo-dot" aria-hidden="true" /><p>ข้อมูลสาธิต · ร้านอาหารและรีวิวเป็นข้อมูลสมมติสำหรับทดลองใช้งาน</p></div>
+    </div>}
 
     <main id="main-content" tabIndex={-1} ref={mainRef}><Outlet /></main>
 
