@@ -1,0 +1,2925 @@
+{
+  "status": "failed",
+  "target": "http://127.0.0.1:3100",
+  "browsers": [
+    {
+      "engine": "chromium",
+      "version": "141.0.7390.37"
+    },
+    {
+      "engine": "firefox",
+      "version": "142.0.1"
+    }
+  ],
+  "viewportChecks": [
+    {
+      "engine": "chromium",
+      "route": "/",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "home-query",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        },
+        {
+          "id": "home-province",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "home-query",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 311.75
+        },
+        {
+          "id": "home-province",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 311.75
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "home-query",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 422.609375
+        },
+        {
+          "id": "home-province",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 245.609375
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "home-query",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 553.4375
+        },
+        {
+          "id": "home-province",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 376.4375
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/restaurants",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "restaurant-search",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/restaurants",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "restaurant-search",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 671.90625
+        },
+        {
+          "id": "province-filter",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 265.953125
+        },
+        {
+          "id": "category-filter",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 265.953125
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/restaurants",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "restaurant-search",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 311.3125
+        },
+        {
+          "id": "province-filter",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 220.609375
+        },
+        {
+          "id": "category-filter",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 220.625
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/restaurants",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "restaurant-search",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 423.125
+        },
+        {
+          "id": "province-filter",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 303.4375
+        },
+        {
+          "id": "category-filter",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 303.4375
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/restaurants/29",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": 1,
+      "fields": []
+    },
+    {
+      "engine": "chromium",
+      "route": "/restaurants/29",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1": 1,
+      "fields": []
+    },
+    {
+      "engine": "chromium",
+      "route": "/restaurants/29",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1": 1,
+      "fields": []
+    },
+    {
+      "engine": "chromium",
+      "route": "/restaurants/29",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "fields": []
+    },
+    {
+      "engine": "chromium",
+      "route": "/login",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "login-email",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        },
+        {
+          "id": "login-password",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/login",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "login-email",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 454
+        },
+        {
+          "id": "login-password",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 454
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/login",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "login-email",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 378.234375
+        },
+        {
+          "id": "login-password",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 378.234375
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/login",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "login-email",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 438
+        },
+        {
+          "id": "login-password",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 438
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/register",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "register-name",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        },
+        {
+          "id": "register-email",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        },
+        {
+          "id": "register-password",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        },
+        {
+          "id": "register-confirm",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/register",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "register-name",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 454
+        },
+        {
+          "id": "register-email",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 454
+        },
+        {
+          "id": "register-password",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 454
+        },
+        {
+          "id": "register-confirm",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 454
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/register",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "register-name",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 378.234375
+        },
+        {
+          "id": "register-email",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 378.234375
+        },
+        {
+          "id": "register-password",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 378.234375
+        },
+        {
+          "id": "register-confirm",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 378.234375
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/register",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "register-name",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 438
+        },
+        {
+          "id": "register-email",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 438
+        },
+        {
+          "id": "register-password",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 438
+        },
+        {
+          "id": "register-confirm",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 438
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/profile",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "profile-email",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        },
+        {
+          "id": "profile-name",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/profile",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "profile-email",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 655.90625
+        },
+        {
+          "id": "profile-name",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 655.90625
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/profile",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "profile-email",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 702
+        },
+        {
+          "id": "profile-name",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 702
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/profile",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "profile-email",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 702
+        },
+        {
+          "id": "profile-name",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 702
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/change-password",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "current-password",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        },
+        {
+          "id": "new-password",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        },
+        {
+          "id": "confirm-password",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/change-password",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "current-password",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 655.90625
+        },
+        {
+          "id": "new-password",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 655.90625
+        },
+        {
+          "id": "confirm-password",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 655.90625
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/change-password",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "current-password",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 702
+        },
+        {
+          "id": "new-password",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 702
+        },
+        {
+          "id": "confirm-password",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 702
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/change-password",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "current-password",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 702
+        },
+        {
+          "id": "new-password",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 702
+        },
+        {
+          "id": "confirm-password",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 702
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/favorites",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": 1,
+      "fields": []
+    },
+    {
+      "engine": "chromium",
+      "route": "/favorites",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1": 1,
+      "fields": []
+    },
+    {
+      "engine": "chromium",
+      "route": "/favorites",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1": 1,
+      "fields": []
+    },
+    {
+      "engine": "chromium",
+      "route": "/favorites",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "fields": []
+    },
+    {
+      "engine": "chromium",
+      "route": "/[REDACTED]",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": 1,
+      "fields": []
+    },
+    {
+      "engine": "chromium",
+      "route": "/[REDACTED]",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1": 1,
+      "fields": []
+    },
+    {
+      "engine": "chromium",
+      "route": "/[REDACTED]",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1": 1,
+      "fields": []
+    },
+    {
+      "engine": "chromium",
+      "route": "/[REDACTED]",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "fields": []
+    },
+    {
+      "engine": "chromium",
+      "route": "/[REDACTED]/restaurants",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "[REDACTED]-search",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/[REDACTED]/restaurants",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "[REDACTED]-search",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 588.90625
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/[REDACTED]/restaurants",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "[REDACTED]-search",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 581.546875
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/[REDACTED]/restaurants",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "[REDACTED]-search",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 859
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/[REDACTED]/restaurants/new",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "restaurant-name",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        },
+        {
+          "id": "restaurant-province",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        },
+        {
+          "id": "restaurant-category",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        },
+        {
+          "id": "restaurant-description",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        },
+        {
+          "id": "restaurant-address",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        },
+        {
+          "id": "restaurant-latitude",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        },
+        {
+          "id": "restaurant-longitude",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        },
+        {
+          "id": "restaurant-image",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/[REDACTED]/restaurants/new",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "restaurant-name",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 655.90625
+        },
+        {
+          "id": "restaurant-province",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 317.953125
+        },
+        {
+          "id": "restaurant-category",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 317.953125
+        },
+        {
+          "id": "restaurant-description",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 655.90625
+        },
+        {
+          "id": "restaurant-address",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 655.90625
+        },
+        {
+          "id": "restaurant-latitude",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 317.953125
+        },
+        {
+          "id": "restaurant-longitude",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 317.953125
+        },
+        {
+          "id": "restaurant-image",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 655.90625
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/[REDACTED]/restaurants/new",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "restaurant-name",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 648.546875
+        },
+        {
+          "id": "restaurant-province",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 314.265625
+        },
+        {
+          "id": "restaurant-category",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 314.28125
+        },
+        {
+          "id": "restaurant-description",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 648.546875
+        },
+        {
+          "id": "restaurant-address",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 648.546875
+        },
+        {
+          "id": "restaurant-latitude",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 314.265625
+        },
+        {
+          "id": "restaurant-longitude",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 314.28125
+        },
+        {
+          "id": "restaurant-image",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 648.546875
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/[REDACTED]/restaurants/new",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "restaurant-name",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 926
+        },
+        {
+          "id": "restaurant-province",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 453
+        },
+        {
+          "id": "restaurant-category",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 453
+        },
+        {
+          "id": "restaurant-description",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 926
+        },
+        {
+          "id": "restaurant-address",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 926
+        },
+        {
+          "id": "restaurant-latitude",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 453
+        },
+        {
+          "id": "restaurant-longitude",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 453
+        },
+        {
+          "id": "restaurant-image",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 926
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/[REDACTED]/restaurants/29/edit",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "restaurant-name",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        },
+        {
+          "id": "restaurant-province",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        },
+        {
+          "id": "restaurant-category",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        },
+        {
+          "id": "restaurant-description",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        },
+        {
+          "id": "restaurant-address",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        },
+        {
+          "id": "restaurant-latitude",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        },
+        {
+          "id": "restaurant-longitude",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        },
+        {
+          "id": "restaurant-image",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/[REDACTED]/restaurants/29/edit",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "restaurant-name",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 655.90625
+        },
+        {
+          "id": "restaurant-province",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 317.953125
+        },
+        {
+          "id": "restaurant-category",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 317.953125
+        },
+        {
+          "id": "restaurant-description",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 655.90625
+        },
+        {
+          "id": "restaurant-address",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 655.90625
+        },
+        {
+          "id": "restaurant-latitude",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 317.953125
+        },
+        {
+          "id": "restaurant-longitude",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 317.953125
+        },
+        {
+          "id": "restaurant-image",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 655.90625
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/[REDACTED]/restaurants/29/edit",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "restaurant-name",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 648.546875
+        },
+        {
+          "id": "restaurant-province",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 314.265625
+        },
+        {
+          "id": "restaurant-category",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 314.28125
+        },
+        {
+          "id": "restaurant-description",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 648.546875
+        },
+        {
+          "id": "restaurant-address",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 648.546875
+        },
+        {
+          "id": "restaurant-latitude",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 314.265625
+        },
+        {
+          "id": "restaurant-longitude",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 314.28125
+        },
+        {
+          "id": "restaurant-image",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 648.546875
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/[REDACTED]/restaurants/29/edit",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "restaurant-name",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 926
+        },
+        {
+          "id": "restaurant-province",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 453
+        },
+        {
+          "id": "restaurant-category",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 453
+        },
+        {
+          "id": "restaurant-description",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 926
+        },
+        {
+          "id": "restaurant-address",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 926
+        },
+        {
+          "id": "restaurant-latitude",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 453
+        },
+        {
+          "id": "restaurant-longitude",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 453
+        },
+        {
+          "id": "restaurant-image",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 926
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/[REDACTED]/members",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": 1,
+      "fields": []
+    },
+    {
+      "engine": "chromium",
+      "route": "/[REDACTED]/members",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1": 1,
+      "fields": []
+    },
+    {
+      "engine": "chromium",
+      "route": "/[REDACTED]/members",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1": 1,
+      "fields": []
+    },
+    {
+      "engine": "chromium",
+      "route": "/[REDACTED]/members",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "fields": []
+    },
+    {
+      "engine": "chromium",
+      "route": "/[REDACTED]/reviews?restaurant=29",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "review-restaurant",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 335
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/[REDACTED]/reviews?restaurant=29",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "review-restaurant",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 576
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/[REDACTED]/reviews?restaurant=29",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "review-restaurant",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 576
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "route": "/[REDACTED]/reviews?restaurant=29",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "review-restaurant",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 576
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "route": "/",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "home-query",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        },
+        {
+          "id": "home-province",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "route": "/",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "home-query",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 311.76666259765625
+        },
+        {
+          "id": "home-province",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 311.76666259765625
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "route": "/",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "home-query",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 422.6166687011719
+        },
+        {
+          "id": "home-province",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 246.5
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "route": "/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "home-query",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 553.4500122070312
+        },
+        {
+          "id": "home-province",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 377.33331298828125
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "route": "/restaurants",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "restaurant-search",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "route": "/restaurants",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "restaurant-search",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 671.933349609375
+        },
+        {
+          "id": "province-filter",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 265.9666748046875
+        },
+        {
+          "id": "category-filter",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 265.9666748046875
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "route": "/restaurants",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "restaurant-search",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 311.3333435058594
+        },
+        {
+          "id": "province-filter",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 220.61666870117188
+        },
+        {
+          "id": "category-filter",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 220.61666870117188
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "route": "/restaurants",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "restaurant-search",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 423.1333312988281
+        },
+        {
+          "id": "province-filter",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 303.433349609375
+        },
+        {
+          "id": "category-filter",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 303.433349609375
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "route": "/restaurants/29",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": 1,
+      "fields": []
+    },
+    {
+      "engine": "firefox",
+      "route": "/restaurants/29",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1": 1,
+      "fields": []
+    },
+    {
+      "engine": "firefox",
+      "route": "/restaurants/29",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1": 1,
+      "fields": []
+    },
+    {
+      "engine": "firefox",
+      "route": "/restaurants/29",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "fields": []
+    },
+    {
+      "engine": "firefox",
+      "route": "/login",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "login-email",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        },
+        {
+          "id": "login-password",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "route": "/login",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "login-email",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 454
+        },
+        {
+          "id": "login-password",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 454
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "route": "/login",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "login-email",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 378.23333740234375
+        },
+        {
+          "id": "login-password",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 378.23333740234375
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "route": "/login",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "login-email",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 438
+        },
+        {
+          "id": "login-password",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 438
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "route": "/register",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "register-name",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        },
+        {
+          "id": "register-email",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        },
+        {
+          "id": "register-password",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        },
+        {
+          "id": "register-confirm",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 293
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "route": "/register",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "register-name",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 454
+        },
+        {
+          "id": "register-email",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 454
+        },
+        {
+          "id": "register-password",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 454
+        },
+        {
+          "id": "register-confirm",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 454
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "route": "/register",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "register-name",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 378.23333740234375
+        },
+        {
+          "id": "register-email",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 378.23333740234375
+        },
+        {
+          "id": "register-password",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 378.23333740234375
+        },
+        {
+          "id": "register-confirm",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 378.23333740234375
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "route": "/register",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "fields": [
+        {
+          "id": "register-name",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 438
+        },
+        {
+          "id": "register-email",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 438
+        },
+        {
+          "id": "register-password",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 438
+        },
+        {
+          "id": "register-confirm",
+          "label": 1,
+          "fontSize": "16px",
+          "width": 438
+        }
+      ]
+    }
+  ],
+  "accessibility": [
+    {
+      "engine": "chromium",
+      "route": "/",
+      "width": 1440,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": [
+                ".home-community-copy > .home-kicker[lang=\"en\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #b64e2e, background color: #f1e2cf, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "nodes": [
+            {
+              "target": [
+                ".home-destination-north"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                ".home-destination-central"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                ".home-destination-south"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                ".home-destination-isan"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/29\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/30\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/31\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/32\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/33\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/34\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": 1
+        }
+      ],
+      "passes": 29
+    },
+    {
+      "engine": "chromium",
+      "route": "/restaurants",
+      "width": 1440,
+      "violations": [
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "nodes": [
+            {
+              "target": [
+                "a[href=\"/restaurants/29\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/30\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/31\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/32\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/33\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/34\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/35\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/36\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/37\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/38\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/39\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/40\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": 1
+        }
+      ],
+      "passes": 28
+    },
+    {
+      "engine": "chromium",
+      "route": "/restaurants/29",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": 2
+        }
+      ],
+      "passes": 27
+    },
+    {
+      "engine": "chromium",
+      "route": "/login",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [],
+      "passes": 23
+    },
+    {
+      "engine": "chromium",
+      "route": "/register",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [],
+      "passes": 23
+    },
+    {
+      "engine": "chromium",
+      "route": "/profile",
+      "width": 1440,
+      "violations": [
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "nodes": [
+            {
+              "target": [
+                ".layout-profile-link"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            }
+          ]
+        }
+      ],
+      "incomplete": [],
+      "passes": 22
+    },
+    {
+      "engine": "chromium",
+      "route": "/change-password",
+      "width": 1440,
+      "violations": [
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "nodes": [
+            {
+              "target": [
+                ".layout-profile-link"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            }
+          ]
+        }
+      ],
+      "incomplete": [],
+      "passes": 22
+    },
+    {
+      "engine": "chromium",
+      "route": "/favorites",
+      "width": 1440,
+      "violations": [
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "nodes": [
+            {
+              "target": [
+                ".layout-profile-link"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                ".restaurant-card-link"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            }
+          ]
+        }
+      ],
+      "incomplete": [],
+      "passes": 22
+    },
+    {
+      "engine": "chromium",
+      "route": "/[REDACTED]",
+      "width": 1440,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": [
+                ".[REDACTED]-role"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #b64e2e, background color: #f1e2cf, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "nodes": [
+            {
+              "target": [
+                ".layout-profile-link"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            }
+          ]
+        }
+      ],
+      "incomplete": [],
+      "passes": 19
+    },
+    {
+      "engine": "chromium",
+      "route": "/[REDACTED]/restaurants",
+      "width": 1440,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": [
+                ".[REDACTED]-role"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #b64e2e, background color: #f1e2cf, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "nodes": [
+            {
+              "target": [
+                ".layout-profile-link"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "button[aria-label=\"ลบร้าน ภัตตาคารจันทร์เพ็ญ\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "button[aria-label=\"ลบร้าน บ้านใน\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "button[aria-label=\"ลบร้าน Blue Elephant\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "button[aria-label=\"ลบร้าน นายโซว\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "button[aria-label=\"ลบร้าน ประจักษ์เป็ดย่าง\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "button[aria-label=\"ลบร้าน เมธาวลัย ศรแดง\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "button[aria-label=\"ลบร้าน Little Tree\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "button[aria-label=\"ลบร้าน ข้าวเปิ๊บยายเครื่อง\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "button[aria-label=\"ลบร้าน หลู้ลำ\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "button[aria-label=\"ลบร้าน คุ้มขันโตก\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "button[aria-label=\"ลบร้าน โป่งแยงแอ่งดอย\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "button[aria-label=\"ลบร้าน ข้าวเม่า-ข้าวฟ่าง\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            }
+          ]
+        }
+      ],
+      "incomplete": [],
+      "passes": 28
+    },
+    {
+      "engine": "chromium",
+      "route": "/[REDACTED]/restaurants/new",
+      "width": 1440,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": [
+                ".[REDACTED]-role"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #b64e2e, background color: #f1e2cf, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "nodes": [
+            {
+              "target": [
+                ".layout-profile-link"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            }
+          ]
+        }
+      ],
+      "incomplete": [],
+      "passes": 22
+    },
+    {
+      "engine": "chromium",
+      "route": "/[REDACTED]/restaurants/29/edit",
+      "width": 1440,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": [
+                ".[REDACTED]-role"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #b64e2e, background color: #f1e2cf, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "nodes": [
+            {
+              "target": [
+                ".layout-profile-link"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            }
+          ]
+        }
+      ],
+      "incomplete": [],
+      "passes": 22
+    },
+    {
+      "engine": "chromium",
+      "route": "/[REDACTED]/members",
+      "width": 1440,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": [
+                ".[REDACTED]-role"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #b64e2e, background color: #f1e2cf, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".[REDACTED]-member-role-[REDACTED]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #b64e2e, background color: #f1e2cf, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "nodes": [
+            {
+              "target": [
+                ".layout-profile-link"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            }
+          ]
+        }
+      ],
+      "incomplete": [],
+      "passes": 26
+    },
+    {
+      "engine": "chromium",
+      "route": "/[REDACTED]/reviews?restaurant=29",
+      "width": 1440,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": [
+                ".[REDACTED]-role"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #b64e2e, background color: #f1e2cf, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "nodes": [
+            {
+              "target": [
+                ".layout-profile-link"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                ".[REDACTED]-action"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            }
+          ]
+        }
+      ],
+      "incomplete": [],
+      "passes": 28
+    },
+    {
+      "engine": "firefox",
+      "route": "/",
+      "width": 1440,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": [
+                ".home-community-copy > .home-kicker[lang=\"en\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #b64e2e, background color: #f1e2cf, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "nodes": [
+            {
+              "target": [
+                ".home-destination-north"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                ".home-destination-central"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                ".home-destination-south"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                ".home-destination-isan"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/29\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/30\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/31\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/32\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/33\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/34\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": 1
+        }
+      ],
+      "passes": 29
+    },
+    {
+      "engine": "firefox",
+      "route": "/restaurants",
+      "width": 1440,
+      "violations": [
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "nodes": [
+            {
+              "target": [
+                "a[href=\"/restaurants/29\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/30\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/31\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/32\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/33\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/34\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/35\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/36\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/37\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/38\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/39\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "a[href=\"/restaurants/40\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": 1
+        }
+      ],
+      "passes": 28
+    },
+    {
+      "engine": "firefox",
+      "route": "/restaurants/29",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": 2
+        }
+      ],
+      "passes": 27
+    },
+    {
+      "engine": "firefox",
+      "route": "/login",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [],
+      "passes": 23
+    },
+    {
+      "engine": "firefox",
+      "route": "/register",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [],
+      "passes": 23
+    }
+  ],
+  "checks": [
+    "chromium:14 routes ×4widths; real Admin read-only session, keyboard menu/skip/focus, reduced motion and corrected logout"
+  ],
+  "pageErrors": [],
+  "corsErrors": [],
+  "requests": [
+    {
+      "method": "GET",
+      "path": "/api/provinces",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/provinces",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/provinces",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/provinces",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/categories",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/categories",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/29",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/29/reviews",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/29",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/29/reviews",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/favorites",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/favorites",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/[REDACTED]/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/[REDACTED]/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/categories",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/provinces",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/provinces",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/categories",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/provinces",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/categories",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/29",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/provinces",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/categories",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/29",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/[REDACTED]/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/[REDACTED]/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/29/reviews",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/29/reviews",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/provinces",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/provinces",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/provinces",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/categories",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/provinces",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/categories",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/29",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/29/reviews",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/29",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/29/reviews",
+      "status": 200
+    }
+  ],
+  "failure": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n304 !== 200\n\n    at open (/workspaces/thaifood-frontend/docs/qa/final-acceptance/support.cjs:48:99)\n    at async login (/workspaces/thaifood-frontend/docs/qa/final-acceptance/support.cjs:53:3)\n    at async /workspaces/thaifood-frontend/docs/qa/final-acceptance/cross-browser.cjs:34:23"
+}

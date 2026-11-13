@@ -1,0 +1,74 @@
+- link "ข้ามไปยังเนื้อหา":
+  - /url: "#main-content"
+- banner:
+  - link "ThaiFood หน้าแรก":
+    - /url: /
+    - text: ThaiFood.
+  - navigation "เมนูหลัก":
+    - link "หน้าแรก":
+      - /url: /
+    - link "ค้นหาร้านอาหาร":
+      - /url: /restaurants
+    - link "ร้านโปรด":
+      - /url: /favorites
+    - link "จัดการระบบ":
+      - /url: /[REDACTED_NAME]
+  - link "โปรไฟล์ [REDACTED_NAME]":
+    - /url: /profile
+    - text: โปรไฟล์
+    - strong: [REDACTED_NAME]
+  - button "ออกจากระบบ"
+- main:
+  - complementary "พื้นที่ผู้ดูแลระบบ":
+    - paragraph: พื้นที่ผู้ดูแลระบบ
+    - text: ADMIN
+    - paragraph: ดูแลร้านอาหารและชุมชนนักชิม
+    - navigation "เมนูผู้ดูแลระบบ":
+      - link "ภาพรวม":
+        - /url: /[REDACTED_NAME]
+      - link "ร้านอาหาร":
+        - /url: /[REDACTED_NAME]/restaurants
+      - link "รีวิว":
+        - /url: /[REDACTED_NAME]/reviews
+      - link "สมาชิก":
+        - /url: /[REDACTED_NAME]/members
+  - heading "ภาพรวม" [level=1]
+  - paragraph: ดูแลข้อมูลร้านอาหารและชุมชนนักชิมของเรา
+  - link "ร้านอาหารทั้งหมด 59 จัดการร้านอาหาร →":
+    - /url: /[REDACTED_NAME]/restaurants
+    - heading "ร้านอาหารทั้งหมด" [level=2]
+    - paragraph: "59"
+    - text: จัดการร้านอาหาร →
+  - link "สมาชิกทั้งหมด 6 ดูรายชื่อสมาชิก →":
+    - /url: /[REDACTED_NAME]/members
+    - heading "สมาชิกทั้งหมด" [level=2]
+    - paragraph: "6"
+    - text: ดูรายชื่อสมาชิก →
+  - heading "ให้ทุกมื้อมีข้อมูลที่เชื่อถือได้" [level=2]
+  - paragraph: เพิ่มร้านใหม่ ตรวจสอบข้อมูล และดูแลรีวิวของสมาชิก
+  - link "เพิ่มร้านอาหาร":
+    - /url: /[REDACTED_NAME]/restaurants/new
+  - link "จัดการรีวิว":
+    - /url: /[REDACTED_NAME]/reviews
+- contentinfo:
+  - link "ThaiFood หน้าแรก":
+    - /url: /
+    - text: ThaiFood.
+  - paragraph: ทุกจังหวัด มีเรื่องอร่อยให้ค้นพบ
+  - paragraph: ค้นพบรสชาติท้องถิ่น เก็บร้านที่อยากไป และแบ่งปันมื้อที่ประทับใจ
+  - navigation "เมนูท้ายเว็บ":
+    - heading "ออกไปอร่อยด้วยกัน" [level=2]
+    - link "หน้าแรก":
+      - /url: /
+    - link "ค้นหาร้านอาหาร":
+      - /url: /restaurants
+    - link "ร้านโปรด":
+      - /url: /favorites
+  - navigation "บัญชีผู้ใช้ในท้ายเว็บ":
+    - heading "มุมของคุณ" [level=2]
+    - link "โปรไฟล์ของฉัน":
+      - /url: /profile
+    - link "จัดการระบบ":
+      - /url: /[REDACTED_NAME]
+  - paragraph: © 2026 ThaiFood. โครงการแนะนำร้านอาหารทั่วประเทศไทย
+  - paragraph: ภาพประกอบสร้างสำหรับโครงการ · คะแนนจากรีวิวบนเว็บ

@@ -1,0 +1,4910 @@
+{
+  "status": "passed",
+  "viewports": [
+    {
+      "route": "/admin",
+      "width": 320,
+      "scrollWidth": 320,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 20,
+        "y": 150,
+        "width": 280,
+        "height": 219.5,
+        "right": 300,
+        "bottom": 369.5
+      },
+      "content": {
+        "x": 20,
+        "y": 401.5,
+        "width": 280,
+        "height": 790.59375,
+        "right": 300,
+        "bottom": 1192.09375
+      },
+      "shellColumns": 1,
+      "tableDisplay": null,
+      "controls": [
+        {
+          "tag": "A",
+          "x": 37,
+          "y": 247.5,
+          "width": 119,
+          "height": 48.5,
+          "right": 156,
+          "bottom": 296,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 164,
+          "y": 247.5,
+          "width": 119,
+          "height": 48.5,
+          "right": 283,
+          "bottom": 296,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 37,
+          "y": 304,
+          "width": 119,
+          "height": 48.5,
+          "right": 156,
+          "bottom": 352.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 164,
+          "y": 304,
+          "width": 119,
+          "height": 48.5,
+          "right": 283,
+          "bottom": 352.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 45,
+          "y": 1059.09375,
+          "width": 124,
+          "height": 48,
+          "right": 169,
+          "bottom": 1107.09375,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 45,
+          "y": 1119.09375,
+          "width": 102,
+          "height": 48,
+          "right": 147,
+          "bottom": 1167.09375,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 20,
+        "y": 150,
+        "width": 335,
+        "height": 219.5,
+        "right": 355,
+        "bottom": 369.5
+      },
+      "content": {
+        "x": 20,
+        "y": 401.5,
+        "width": 335,
+        "height": 730.59375,
+        "right": 355,
+        "bottom": 1132.09375
+      },
+      "shellColumns": 1,
+      "tableDisplay": null,
+      "controls": [
+        {
+          "tag": "A",
+          "x": 37,
+          "y": 247.5,
+          "width": 146.5,
+          "height": 48.5,
+          "right": 183.5,
+          "bottom": 296,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 191.5,
+          "y": 247.5,
+          "width": 146.5,
+          "height": 48.5,
+          "right": 338,
+          "bottom": 296,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 37,
+          "y": 304,
+          "width": 146.5,
+          "height": 48.5,
+          "right": 183.5,
+          "bottom": 352.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 191.5,
+          "y": 304,
+          "width": 146.5,
+          "height": 48.5,
+          "right": 338,
+          "bottom": 352.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 45,
+          "y": 1059.09375,
+          "width": 124,
+          "height": 48,
+          "right": 169,
+          "bottom": 1107.09375,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 181,
+          "y": 1059.09375,
+          "width": 102,
+          "height": 48,
+          "right": 283,
+          "bottom": 1107.09375,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 23.046875,
+        "y": 150,
+        "width": 721.90625,
+        "height": 227.5,
+        "right": 744.953125,
+        "bottom": 377.5
+      },
+      "content": {
+        "x": 23.046875,
+        "y": 409.5,
+        "width": 721.90625,
+        "height": 502.796875,
+        "right": 744.953125,
+        "bottom": 912.296875
+      },
+      "shellColumns": 1,
+      "tableDisplay": null,
+      "controls": [
+        {
+          "tag": "A",
+          "x": 44.046875,
+          "y": 251.5,
+          "width": 335.953125,
+          "height": 48.5,
+          "right": 380,
+          "bottom": 300,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 388,
+          "y": 251.5,
+          "width": 335.953125,
+          "height": 48.5,
+          "right": 723.953125,
+          "bottom": 300,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 44.046875,
+          "y": 308,
+          "width": 335.953125,
+          "height": 48.5,
+          "right": 380,
+          "bottom": 356.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 388,
+          "y": 308,
+          "width": 335.953125,
+          "height": 48.5,
+          "right": 723.953125,
+          "bottom": 356.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 48.046875,
+          "y": 839.296875,
+          "width": 124,
+          "height": 48,
+          "right": 172.046875,
+          "bottom": 887.296875,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 184.046875,
+          "y": 839.296875,
+          "width": 102,
+          "height": 48,
+          "right": 286.046875,
+          "bottom": 887.296875,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 30.71875,
+        "y": 174,
+        "width": 216,
+        "height": 381.5,
+        "right": 246.71875,
+        "bottom": 555.5
+      },
+      "content": {
+        "x": 278.71875,
+        "y": 174,
+        "width": 714.546875,
+        "height": 520.0625,
+        "right": 993.265625,
+        "bottom": 694.0625
+      },
+      "shellColumns": 2,
+      "tableDisplay": null,
+      "controls": [
+        {
+          "tag": "A",
+          "x": 51.71875,
+          "y": 316.5,
+          "width": 174,
+          "height": 48.5,
+          "right": 225.71875,
+          "bottom": 365,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 51.71875,
+          "y": 373,
+          "width": 174,
+          "height": 48.5,
+          "right": 225.71875,
+          "bottom": 421.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 51.71875,
+          "y": 429.5,
+          "width": 174,
+          "height": 48.5,
+          "right": 225.71875,
+          "bottom": 478,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 51.71875,
+          "y": 486,
+          "width": 174,
+          "height": 48.5,
+          "right": 225.71875,
+          "bottom": 534.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 303.71875,
+          "y": 621.0625,
+          "width": 124,
+          "height": 48,
+          "right": 427.71875,
+          "bottom": 669.0625,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 439.71875,
+          "y": 621.0625,
+          "width": 102,
+          "height": 48,
+          "right": 541.71875,
+          "bottom": 669.0625,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 100,
+        "y": 174,
+        "width": 216,
+        "height": 381.5,
+        "right": 316,
+        "bottom": 555.5
+      },
+      "content": {
+        "x": 348,
+        "y": 174,
+        "width": 992,
+        "height": 546.1875,
+        "right": 1340,
+        "bottom": 720.1875
+      },
+      "shellColumns": 2,
+      "tableDisplay": null,
+      "controls": [
+        {
+          "tag": "A",
+          "x": 121,
+          "y": 316.5,
+          "width": 174,
+          "height": 48.5,
+          "right": 295,
+          "bottom": 365,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 121,
+          "y": 373,
+          "width": 174,
+          "height": 48.5,
+          "right": 295,
+          "bottom": 421.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 121,
+          "y": 429.5,
+          "width": 174,
+          "height": 48.5,
+          "right": 295,
+          "bottom": 478,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 121,
+          "y": 486,
+          "width": 174,
+          "height": 48.5,
+          "right": 295,
+          "bottom": 534.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 373,
+          "y": 647.1875,
+          "width": 124,
+          "height": 48,
+          "right": 497,
+          "bottom": 695.1875,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 509,
+          "y": 647.1875,
+          "width": 102,
+          "height": 48,
+          "right": 611,
+          "bottom": 695.1875,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin/restaurants",
+      "width": 320,
+      "scrollWidth": 320,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 20,
+        "y": 150,
+        "width": 280,
+        "height": 219.5,
+        "right": 300,
+        "bottom": 369.5
+      },
+      "content": {
+        "x": 20,
+        "y": 401.5,
+        "width": 280,
+        "height": 3450,
+        "right": 300,
+        "bottom": 3851.5
+      },
+      "shellColumns": 1,
+      "tableDisplay": "block",
+      "controls": [
+        {
+          "tag": "A",
+          "x": 37,
+          "y": 247.5,
+          "width": 119,
+          "height": 48.5,
+          "right": 156,
+          "bottom": 296,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 164,
+          "y": 247.5,
+          "width": 119,
+          "height": 48.5,
+          "right": 283,
+          "bottom": 296,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 37,
+          "y": 304,
+          "width": 119,
+          "height": 48.5,
+          "right": 156,
+          "bottom": 352.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 164,
+          "y": 304,
+          "width": 119,
+          "height": 48.5,
+          "right": 283,
+          "bottom": 352.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 20,
+          "y": 527.5,
+          "width": 280,
+          "height": 48,
+          "right": 300,
+          "bottom": 575.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 41,
+          "y": 661,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 709,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 41,
+          "y": 725,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 773,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 129,
+          "y": 1040,
+          "width": 44,
+          "height": 44,
+          "right": 173,
+          "bottom": 1084,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 185,
+          "y": 1040,
+          "width": 44,
+          "height": 44,
+          "right": 229,
+          "bottom": 1084,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 129,
+          "y": 1283.5,
+          "width": 44,
+          "height": 44,
+          "right": 173,
+          "bottom": 1327.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 185,
+          "y": 1283.5,
+          "width": 44,
+          "height": 44,
+          "right": 229,
+          "bottom": 1327.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 129,
+          "y": 1527,
+          "width": 44,
+          "height": 44,
+          "right": 173,
+          "bottom": 1571,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 185,
+          "y": 1527,
+          "width": 44,
+          "height": 44,
+          "right": 229,
+          "bottom": 1571,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 129,
+          "y": 1770.5,
+          "width": 44,
+          "height": 44,
+          "right": 173,
+          "bottom": 1814.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 185,
+          "y": 1770.5,
+          "width": 44,
+          "height": 44,
+          "right": 229,
+          "bottom": 1814.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 129,
+          "y": 2014,
+          "width": 44,
+          "height": 44,
+          "right": 173,
+          "bottom": 2058,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 185,
+          "y": 2014,
+          "width": 44,
+          "height": 44,
+          "right": 229,
+          "bottom": 2058,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 129,
+          "y": 2257.5,
+          "width": 44,
+          "height": 44,
+          "right": 173,
+          "bottom": 2301.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 185,
+          "y": 2257.5,
+          "width": 44,
+          "height": 44,
+          "right": 229,
+          "bottom": 2301.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 129,
+          "y": 2501,
+          "width": 44,
+          "height": 44,
+          "right": 173,
+          "bottom": 2545,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 185,
+          "y": 2501,
+          "width": 44,
+          "height": 44,
+          "right": 229,
+          "bottom": 2545,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 129,
+          "y": 2744.5,
+          "width": 44,
+          "height": 44,
+          "right": 173,
+          "bottom": 2788.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 185,
+          "y": 2744.5,
+          "width": 44,
+          "height": 44,
+          "right": 229,
+          "bottom": 2788.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 129,
+          "y": 2988,
+          "width": 44,
+          "height": 44,
+          "right": 173,
+          "bottom": 3032,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 185,
+          "y": 2988,
+          "width": 44,
+          "height": 44,
+          "right": 229,
+          "bottom": 3032,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 129,
+          "y": 3231.5,
+          "width": 44,
+          "height": 44,
+          "right": 173,
+          "bottom": 3275.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 185,
+          "y": 3231.5,
+          "width": 44,
+          "height": 44,
+          "right": 229,
+          "bottom": 3275.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 129,
+          "y": 3475,
+          "width": 44,
+          "height": 44,
+          "right": 173,
+          "bottom": 3519,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 185,
+          "y": 3475,
+          "width": 44,
+          "height": 44,
+          "right": 229,
+          "bottom": 3519,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 129,
+          "y": 3718.5,
+          "width": 44,
+          "height": 44,
+          "right": 173,
+          "bottom": 3762.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 185,
+          "y": 3718.5,
+          "width": 44,
+          "height": 44,
+          "right": 229,
+          "bottom": 3762.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 122,
+          "y": 3803.5,
+          "width": 92,
+          "height": 48,
+          "right": 214,
+          "bottom": 3851.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 226,
+          "y": 3803.5,
+          "width": 74,
+          "height": 48,
+          "right": 300,
+          "bottom": 3851.5,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin/restaurants",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 20,
+        "y": 150,
+        "width": 335,
+        "height": 219.5,
+        "right": 355,
+        "bottom": 369.5
+      },
+      "content": {
+        "x": 20,
+        "y": 401.5,
+        "width": 335,
+        "height": 3422,
+        "right": 355,
+        "bottom": 3823.5
+      },
+      "shellColumns": 1,
+      "tableDisplay": "block",
+      "controls": [
+        {
+          "tag": "A",
+          "x": 37,
+          "y": 247.5,
+          "width": 146.5,
+          "height": 48.5,
+          "right": 183.5,
+          "bottom": 296,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 191.5,
+          "y": 247.5,
+          "width": 146.5,
+          "height": 48.5,
+          "right": 338,
+          "bottom": 296,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 37,
+          "y": 304,
+          "width": 146.5,
+          "height": 48.5,
+          "right": 183.5,
+          "bottom": 352.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 191.5,
+          "y": 304,
+          "width": 146.5,
+          "height": 48.5,
+          "right": 338,
+          "bottom": 352.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 20,
+          "y": 499.5,
+          "width": 335,
+          "height": 48,
+          "right": 355,
+          "bottom": 547.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 41,
+          "y": 633,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 681,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 41,
+          "y": 697,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 745,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 129,
+          "y": 1012,
+          "width": 44,
+          "height": 44,
+          "right": 173,
+          "bottom": 1056,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 185,
+          "y": 1012,
+          "width": 44,
+          "height": 44,
+          "right": 229,
+          "bottom": 1056,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 129,
+          "y": 1255.5,
+          "width": 44,
+          "height": 44,
+          "right": 173,
+          "bottom": 1299.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 185,
+          "y": 1255.5,
+          "width": 44,
+          "height": 44,
+          "right": 229,
+          "bottom": 1299.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 129,
+          "y": 1499,
+          "width": 44,
+          "height": 44,
+          "right": 173,
+          "bottom": 1543,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 185,
+          "y": 1499,
+          "width": 44,
+          "height": 44,
+          "right": 229,
+          "bottom": 1543,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 129,
+          "y": 1742.5,
+          "width": 44,
+          "height": 44,
+          "right": 173,
+          "bottom": 1786.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 185,
+          "y": 1742.5,
+          "width": 44,
+          "height": 44,
+          "right": 229,
+          "bottom": 1786.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 129,
+          "y": 1986,
+          "width": 44,
+          "height": 44,
+          "right": 173,
+          "bottom": 2030,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 185,
+          "y": 1986,
+          "width": 44,
+          "height": 44,
+          "right": 229,
+          "bottom": 2030,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 129,
+          "y": 2229.5,
+          "width": 44,
+          "height": 44,
+          "right": 173,
+          "bottom": 2273.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 185,
+          "y": 2229.5,
+          "width": 44,
+          "height": 44,
+          "right": 229,
+          "bottom": 2273.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 129,
+          "y": 2473,
+          "width": 44,
+          "height": 44,
+          "right": 173,
+          "bottom": 2517,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 185,
+          "y": 2473,
+          "width": 44,
+          "height": 44,
+          "right": 229,
+          "bottom": 2517,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 129,
+          "y": 2716.5,
+          "width": 44,
+          "height": 44,
+          "right": 173,
+          "bottom": 2760.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 185,
+          "y": 2716.5,
+          "width": 44,
+          "height": 44,
+          "right": 229,
+          "bottom": 2760.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 129,
+          "y": 2960,
+          "width": 44,
+          "height": 44,
+          "right": 173,
+          "bottom": 3004,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 185,
+          "y": 2960,
+          "width": 44,
+          "height": 44,
+          "right": 229,
+          "bottom": 3004,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 129,
+          "y": 3203.5,
+          "width": 44,
+          "height": 44,
+          "right": 173,
+          "bottom": 3247.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 185,
+          "y": 3203.5,
+          "width": 44,
+          "height": 44,
+          "right": 229,
+          "bottom": 3247.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 129,
+          "y": 3447,
+          "width": 44,
+          "height": 44,
+          "right": 173,
+          "bottom": 3491,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 185,
+          "y": 3447,
+          "width": 44,
+          "height": 44,
+          "right": 229,
+          "bottom": 3491,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 129,
+          "y": 3690.5,
+          "width": 44,
+          "height": 44,
+          "right": 173,
+          "bottom": 3734.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 185,
+          "y": 3690.5,
+          "width": 44,
+          "height": 44,
+          "right": 229,
+          "bottom": 3734.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 177,
+          "y": 3775.5,
+          "width": 92,
+          "height": 48,
+          "right": 269,
+          "bottom": 3823.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 281,
+          "y": 3775.5,
+          "width": 74,
+          "height": 48,
+          "right": 355,
+          "bottom": 3823.5,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin/restaurants",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 23.046875,
+        "y": 150,
+        "width": 721.90625,
+        "height": 227.5,
+        "right": 744.953125,
+        "bottom": 377.5
+      },
+      "content": {
+        "x": 23.046875,
+        "y": 409.5,
+        "width": 721.90625,
+        "height": 1467,
+        "right": 744.953125,
+        "bottom": 1876.5
+      },
+      "shellColumns": 1,
+      "tableDisplay": "table",
+      "controls": [
+        {
+          "tag": "A",
+          "x": 44.046875,
+          "y": 251.5,
+          "width": 335.953125,
+          "height": 48.5,
+          "right": 380,
+          "bottom": 300,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 388,
+          "y": 251.5,
+          "width": 335.953125,
+          "height": 48.5,
+          "right": 723.953125,
+          "bottom": 300,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 44.046875,
+          "y": 308,
+          "width": 335.953125,
+          "height": 48.5,
+          "right": 380,
+          "bottom": 356.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 388,
+          "y": 308,
+          "width": 335.953125,
+          "height": 48.5,
+          "right": 723.953125,
+          "bottom": 356.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 608.953125,
+          "y": 409.5,
+          "width": 136,
+          "height": 48,
+          "right": 744.953125,
+          "bottom": 457.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 44.046875,
+          "y": 573,
+          "width": 588.90625,
+          "height": 48,
+          "right": 632.953125,
+          "bottom": 621,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 648.953125,
+          "y": 573,
+          "width": 75,
+          "height": 48,
+          "right": 723.953125,
+          "bottom": 621,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 583.984375,
+          "y": 804.5,
+          "width": 44,
+          "height": 44,
+          "right": 627.984375,
+          "bottom": 848.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 639.984375,
+          "y": 804.5,
+          "width": 44,
+          "height": 44,
+          "right": 683.984375,
+          "bottom": 848.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 583.984375,
+          "y": 889.5,
+          "width": 44,
+          "height": 44,
+          "right": 627.984375,
+          "bottom": 933.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 639.984375,
+          "y": 889.5,
+          "width": 44,
+          "height": 44,
+          "right": 683.984375,
+          "bottom": 933.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 583.984375,
+          "y": 974.5,
+          "width": 44,
+          "height": 44,
+          "right": 627.984375,
+          "bottom": 1018.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 639.984375,
+          "y": 974.5,
+          "width": 44,
+          "height": 44,
+          "right": 683.984375,
+          "bottom": 1018.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 583.984375,
+          "y": 1059.5,
+          "width": 44,
+          "height": 44,
+          "right": 627.984375,
+          "bottom": 1103.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 639.984375,
+          "y": 1059.5,
+          "width": 44,
+          "height": 44,
+          "right": 683.984375,
+          "bottom": 1103.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 583.984375,
+          "y": 1144.5,
+          "width": 44,
+          "height": 44,
+          "right": 627.984375,
+          "bottom": 1188.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 639.984375,
+          "y": 1144.5,
+          "width": 44,
+          "height": 44,
+          "right": 683.984375,
+          "bottom": 1188.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 583.984375,
+          "y": 1229.5,
+          "width": 44,
+          "height": 44,
+          "right": 627.984375,
+          "bottom": 1273.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 639.984375,
+          "y": 1229.5,
+          "width": 44,
+          "height": 44,
+          "right": 683.984375,
+          "bottom": 1273.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 583.984375,
+          "y": 1314.5,
+          "width": 44,
+          "height": 44,
+          "right": 627.984375,
+          "bottom": 1358.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 639.984375,
+          "y": 1314.5,
+          "width": 44,
+          "height": 44,
+          "right": 683.984375,
+          "bottom": 1358.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 583.984375,
+          "y": 1399.5,
+          "width": 44,
+          "height": 44,
+          "right": 627.984375,
+          "bottom": 1443.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 639.984375,
+          "y": 1399.5,
+          "width": 44,
+          "height": 44,
+          "right": 683.984375,
+          "bottom": 1443.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 583.984375,
+          "y": 1484.5,
+          "width": 44,
+          "height": 44,
+          "right": 627.984375,
+          "bottom": 1528.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 639.984375,
+          "y": 1484.5,
+          "width": 44,
+          "height": 44,
+          "right": 683.984375,
+          "bottom": 1528.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 583.984375,
+          "y": 1569.5,
+          "width": 44,
+          "height": 44,
+          "right": 627.984375,
+          "bottom": 1613.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 639.984375,
+          "y": 1569.5,
+          "width": 44,
+          "height": 44,
+          "right": 683.984375,
+          "bottom": 1613.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 583.984375,
+          "y": 1654.5,
+          "width": 44,
+          "height": 44,
+          "right": 627.984375,
+          "bottom": 1698.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 639.984375,
+          "y": 1654.5,
+          "width": 44,
+          "height": 44,
+          "right": 683.984375,
+          "bottom": 1698.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 583.984375,
+          "y": 1739.5,
+          "width": 44,
+          "height": 44,
+          "right": 627.984375,
+          "bottom": 1783.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 639.984375,
+          "y": 1739.5,
+          "width": 44,
+          "height": 44,
+          "right": 683.984375,
+          "bottom": 1783.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 566.953125,
+          "y": 1828.5,
+          "width": 92,
+          "height": 48,
+          "right": 658.953125,
+          "bottom": 1876.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 670.953125,
+          "y": 1828.5,
+          "width": 74,
+          "height": 48,
+          "right": 744.953125,
+          "bottom": 1876.5,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin/restaurants",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 30.71875,
+        "y": 174,
+        "width": 216,
+        "height": 381.5,
+        "right": 246.71875,
+        "bottom": 555.5
+      },
+      "content": {
+        "x": 278.71875,
+        "y": 174,
+        "width": 714.546875,
+        "height": 1471.234375,
+        "right": 993.265625,
+        "bottom": 1645.234375
+      },
+      "shellColumns": 2,
+      "tableDisplay": "table",
+      "controls": [
+        {
+          "tag": "A",
+          "x": 51.71875,
+          "y": 316.5,
+          "width": 174,
+          "height": 48.5,
+          "right": 225.71875,
+          "bottom": 365,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 51.71875,
+          "y": 373,
+          "width": 174,
+          "height": 48.5,
+          "right": 225.71875,
+          "bottom": 421.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 51.71875,
+          "y": 429.5,
+          "width": 174,
+          "height": 48.5,
+          "right": 225.71875,
+          "bottom": 478,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 51.71875,
+          "y": 486,
+          "width": 174,
+          "height": 48.5,
+          "right": 225.71875,
+          "bottom": 534.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 857.265625,
+          "y": 174,
+          "width": 136,
+          "height": 48,
+          "right": 993.265625,
+          "bottom": 222,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 299.71875,
+          "y": 341.578125,
+          "width": 581.546875,
+          "height": 48,
+          "right": 881.265625,
+          "bottom": 389.578125,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 897.265625,
+          "y": 341.578125,
+          "width": 75,
+          "height": 48,
+          "right": 972.265625,
+          "bottom": 389.578125,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 834.140625,
+          "y": 573.234375,
+          "width": 44,
+          "height": 44,
+          "right": 878.140625,
+          "bottom": 617.234375,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 890.140625,
+          "y": 573.234375,
+          "width": 44,
+          "height": 44,
+          "right": 934.140625,
+          "bottom": 617.234375,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 834.140625,
+          "y": 658.234375,
+          "width": 44,
+          "height": 44,
+          "right": 878.140625,
+          "bottom": 702.234375,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 890.140625,
+          "y": 658.234375,
+          "width": 44,
+          "height": 44,
+          "right": 934.140625,
+          "bottom": 702.234375,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 834.140625,
+          "y": 743.234375,
+          "width": 44,
+          "height": 44,
+          "right": 878.140625,
+          "bottom": 787.234375,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 890.140625,
+          "y": 743.234375,
+          "width": 44,
+          "height": 44,
+          "right": 934.140625,
+          "bottom": 787.234375,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 834.140625,
+          "y": 828.234375,
+          "width": 44,
+          "height": 44,
+          "right": 878.140625,
+          "bottom": 872.234375,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 890.140625,
+          "y": 828.234375,
+          "width": 44,
+          "height": 44,
+          "right": 934.140625,
+          "bottom": 872.234375,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 834.140625,
+          "y": 913.234375,
+          "width": 44,
+          "height": 44,
+          "right": 878.140625,
+          "bottom": 957.234375,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 890.140625,
+          "y": 913.234375,
+          "width": 44,
+          "height": 44,
+          "right": 934.140625,
+          "bottom": 957.234375,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 834.140625,
+          "y": 998.234375,
+          "width": 44,
+          "height": 44,
+          "right": 878.140625,
+          "bottom": 1042.234375,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 890.140625,
+          "y": 998.234375,
+          "width": 44,
+          "height": 44,
+          "right": 934.140625,
+          "bottom": 1042.234375,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 834.140625,
+          "y": 1083.234375,
+          "width": 44,
+          "height": 44,
+          "right": 878.140625,
+          "bottom": 1127.234375,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 890.140625,
+          "y": 1083.234375,
+          "width": 44,
+          "height": 44,
+          "right": 934.140625,
+          "bottom": 1127.234375,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 834.140625,
+          "y": 1168.234375,
+          "width": 44,
+          "height": 44,
+          "right": 878.140625,
+          "bottom": 1212.234375,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 890.140625,
+          "y": 1168.234375,
+          "width": 44,
+          "height": 44,
+          "right": 934.140625,
+          "bottom": 1212.234375,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 834.140625,
+          "y": 1253.234375,
+          "width": 44,
+          "height": 44,
+          "right": 878.140625,
+          "bottom": 1297.234375,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 890.140625,
+          "y": 1253.234375,
+          "width": 44,
+          "height": 44,
+          "right": 934.140625,
+          "bottom": 1297.234375,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 834.140625,
+          "y": 1338.234375,
+          "width": 44,
+          "height": 44,
+          "right": 878.140625,
+          "bottom": 1382.234375,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 890.140625,
+          "y": 1338.234375,
+          "width": 44,
+          "height": 44,
+          "right": 934.140625,
+          "bottom": 1382.234375,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 834.140625,
+          "y": 1423.234375,
+          "width": 44,
+          "height": 44,
+          "right": 878.140625,
+          "bottom": 1467.234375,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 890.140625,
+          "y": 1423.234375,
+          "width": 44,
+          "height": 44,
+          "right": 934.140625,
+          "bottom": 1467.234375,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 834.140625,
+          "y": 1508.234375,
+          "width": 44,
+          "height": 44,
+          "right": 878.140625,
+          "bottom": 1552.234375,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 890.140625,
+          "y": 1508.234375,
+          "width": 44,
+          "height": 44,
+          "right": 934.140625,
+          "bottom": 1552.234375,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 815.265625,
+          "y": 1597.234375,
+          "width": 92,
+          "height": 48,
+          "right": 907.265625,
+          "bottom": 1645.234375,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 919.265625,
+          "y": 1597.234375,
+          "width": 74,
+          "height": 48,
+          "right": 993.265625,
+          "bottom": 1645.234375,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin/restaurants",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 100,
+        "y": 174,
+        "width": 216,
+        "height": 381.5,
+        "right": 316,
+        "bottom": 555.5
+      },
+      "content": {
+        "x": 348,
+        "y": 174,
+        "width": 992,
+        "height": 1487.5,
+        "right": 1340,
+        "bottom": 1661.5
+      },
+      "shellColumns": 2,
+      "tableDisplay": "table",
+      "controls": [
+        {
+          "tag": "A",
+          "x": 121,
+          "y": 316.5,
+          "width": 174,
+          "height": 48.5,
+          "right": 295,
+          "bottom": 365,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 121,
+          "y": 373,
+          "width": 174,
+          "height": 48.5,
+          "right": 295,
+          "bottom": 421.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 121,
+          "y": 429.5,
+          "width": 174,
+          "height": 48.5,
+          "right": 295,
+          "bottom": 478,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 121,
+          "y": 486,
+          "width": 174,
+          "height": 48.5,
+          "right": 295,
+          "bottom": 534.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 1204,
+          "y": 174,
+          "width": 136,
+          "height": 48,
+          "right": 1340,
+          "bottom": 222,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 369,
+          "y": 349.5,
+          "width": 859,
+          "height": 48,
+          "right": 1228,
+          "bottom": 397.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 1244,
+          "y": 349.5,
+          "width": 75,
+          "height": 48,
+          "right": 1319,
+          "bottom": 397.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 1111.5,
+          "y": 589.5,
+          "width": 44,
+          "height": 44,
+          "right": 1155.5,
+          "bottom": 633.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 1167.5,
+          "y": 589.5,
+          "width": 44,
+          "height": 44,
+          "right": 1211.5,
+          "bottom": 633.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 1111.5,
+          "y": 674.5,
+          "width": 44,
+          "height": 44,
+          "right": 1155.5,
+          "bottom": 718.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 1167.5,
+          "y": 674.5,
+          "width": 44,
+          "height": 44,
+          "right": 1211.5,
+          "bottom": 718.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 1111.5,
+          "y": 759.5,
+          "width": 44,
+          "height": 44,
+          "right": 1155.5,
+          "bottom": 803.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 1167.5,
+          "y": 759.5,
+          "width": 44,
+          "height": 44,
+          "right": 1211.5,
+          "bottom": 803.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 1111.5,
+          "y": 844.5,
+          "width": 44,
+          "height": 44,
+          "right": 1155.5,
+          "bottom": 888.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 1167.5,
+          "y": 844.5,
+          "width": 44,
+          "height": 44,
+          "right": 1211.5,
+          "bottom": 888.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 1111.5,
+          "y": 929.5,
+          "width": 44,
+          "height": 44,
+          "right": 1155.5,
+          "bottom": 973.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 1167.5,
+          "y": 929.5,
+          "width": 44,
+          "height": 44,
+          "right": 1211.5,
+          "bottom": 973.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 1111.5,
+          "y": 1014.5,
+          "width": 44,
+          "height": 44,
+          "right": 1155.5,
+          "bottom": 1058.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 1167.5,
+          "y": 1014.5,
+          "width": 44,
+          "height": 44,
+          "right": 1211.5,
+          "bottom": 1058.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 1111.5,
+          "y": 1099.5,
+          "width": 44,
+          "height": 44,
+          "right": 1155.5,
+          "bottom": 1143.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 1167.5,
+          "y": 1099.5,
+          "width": 44,
+          "height": 44,
+          "right": 1211.5,
+          "bottom": 1143.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 1111.5,
+          "y": 1184.5,
+          "width": 44,
+          "height": 44,
+          "right": 1155.5,
+          "bottom": 1228.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 1167.5,
+          "y": 1184.5,
+          "width": 44,
+          "height": 44,
+          "right": 1211.5,
+          "bottom": 1228.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 1111.5,
+          "y": 1269.5,
+          "width": 44,
+          "height": 44,
+          "right": 1155.5,
+          "bottom": 1313.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 1167.5,
+          "y": 1269.5,
+          "width": 44,
+          "height": 44,
+          "right": 1211.5,
+          "bottom": 1313.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 1111.5,
+          "y": 1354.5,
+          "width": 44,
+          "height": 44,
+          "right": 1155.5,
+          "bottom": 1398.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 1167.5,
+          "y": 1354.5,
+          "width": 44,
+          "height": 44,
+          "right": 1211.5,
+          "bottom": 1398.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 1111.5,
+          "y": 1439.5,
+          "width": 44,
+          "height": 44,
+          "right": 1155.5,
+          "bottom": 1483.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 1167.5,
+          "y": 1439.5,
+          "width": 44,
+          "height": 44,
+          "right": 1211.5,
+          "bottom": 1483.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 1111.5,
+          "y": 1524.5,
+          "width": 44,
+          "height": 44,
+          "right": 1155.5,
+          "bottom": 1568.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 1167.5,
+          "y": 1524.5,
+          "width": 44,
+          "height": 44,
+          "right": 1211.5,
+          "bottom": 1568.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 1162,
+          "y": 1613.5,
+          "width": 92,
+          "height": 48,
+          "right": 1254,
+          "bottom": 1661.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 1266,
+          "y": 1613.5,
+          "width": 74,
+          "height": 48,
+          "right": 1340,
+          "bottom": 1661.5,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin/restaurants/new",
+      "width": 320,
+      "scrollWidth": 320,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 20,
+        "y": 150,
+        "width": 280,
+        "height": 219.5,
+        "right": 300,
+        "bottom": 369.5
+      },
+      "content": {
+        "x": 20,
+        "y": 401.5,
+        "width": 280,
+        "height": 1511,
+        "right": 300,
+        "bottom": 1912.5
+      },
+      "shellColumns": 1,
+      "tableDisplay": null,
+      "controls": [
+        {
+          "tag": "A",
+          "x": 37,
+          "y": 247.5,
+          "width": 119,
+          "height": 48.5,
+          "right": 156,
+          "bottom": 296,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 164,
+          "y": 247.5,
+          "width": 119,
+          "height": 48.5,
+          "right": 283,
+          "bottom": 296,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 37,
+          "y": 304,
+          "width": 119,
+          "height": 48.5,
+          "right": 156,
+          "bottom": 352.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 164,
+          "y": 304,
+          "width": 119,
+          "height": 48.5,
+          "right": 283,
+          "bottom": 352.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 20,
+          "y": 401.5,
+          "width": 152,
+          "height": 44,
+          "right": 172,
+          "bottom": 445.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 41,
+          "y": 708.5,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 756.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "SELECT",
+          "x": 41,
+          "y": 809,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 857,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "SELECT",
+          "x": 41,
+          "y": 909.5,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 957.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "TEXTAREA",
+          "x": 41,
+          "y": 1010,
+          "width": 238,
+          "height": 160,
+          "right": 279,
+          "bottom": 1170,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 41,
+          "y": 1286,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 1334,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 41,
+          "y": 1386.5,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 1434.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 41,
+          "y": 1487,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 1535,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 41,
+          "y": 1628.5,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 1676.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 41,
+          "y": 1783.5,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 1831.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 41,
+          "y": 1843.5,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 1891.5,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin/restaurants/new",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 20,
+        "y": 150,
+        "width": 335,
+        "height": 219.5,
+        "right": 355,
+        "bottom": 369.5
+      },
+      "content": {
+        "x": 20,
+        "y": 401.5,
+        "width": 335,
+        "height": 1511,
+        "right": 355,
+        "bottom": 1912.5
+      },
+      "shellColumns": 1,
+      "tableDisplay": null,
+      "controls": [
+        {
+          "tag": "A",
+          "x": 37,
+          "y": 247.5,
+          "width": 146.5,
+          "height": 48.5,
+          "right": 183.5,
+          "bottom": 296,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 191.5,
+          "y": 247.5,
+          "width": 146.5,
+          "height": 48.5,
+          "right": 338,
+          "bottom": 296,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 37,
+          "y": 304,
+          "width": 146.5,
+          "height": 48.5,
+          "right": 183.5,
+          "bottom": 352.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 191.5,
+          "y": 304,
+          "width": 146.5,
+          "height": 48.5,
+          "right": 338,
+          "bottom": 352.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 20,
+          "y": 401.5,
+          "width": 152,
+          "height": 44,
+          "right": 172,
+          "bottom": 445.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 41,
+          "y": 708.5,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 756.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "SELECT",
+          "x": 41,
+          "y": 809,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 857,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "SELECT",
+          "x": 41,
+          "y": 909.5,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 957.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "TEXTAREA",
+          "x": 41,
+          "y": 1010,
+          "width": 293,
+          "height": 160,
+          "right": 334,
+          "bottom": 1170,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 41,
+          "y": 1286,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 1334,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 41,
+          "y": 1386.5,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 1434.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 41,
+          "y": 1487,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 1535,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 41,
+          "y": 1628.5,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 1676.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 41,
+          "y": 1783.5,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 1831.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 41,
+          "y": 1843.5,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 1891.5,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin/restaurants/new",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 23.046875,
+        "y": 150,
+        "width": 721.90625,
+        "height": 227.5,
+        "right": 744.953125,
+        "bottom": 377.5
+      },
+      "content": {
+        "x": 23.046875,
+        "y": 409.5,
+        "width": 721.90625,
+        "height": 1225,
+        "right": 744.953125,
+        "bottom": 1634.5
+      },
+      "shellColumns": 1,
+      "tableDisplay": null,
+      "controls": [
+        {
+          "tag": "A",
+          "x": 44.046875,
+          "y": 251.5,
+          "width": 335.953125,
+          "height": 48.5,
+          "right": 380,
+          "bottom": 300,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 388,
+          "y": 251.5,
+          "width": 335.953125,
+          "height": 48.5,
+          "right": 723.953125,
+          "bottom": 300,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 44.046875,
+          "y": 308,
+          "width": 335.953125,
+          "height": 48.5,
+          "right": 380,
+          "bottom": 356.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 388,
+          "y": 308,
+          "width": 335.953125,
+          "height": 48.5,
+          "right": 723.953125,
+          "bottom": 356.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 23.046875,
+          "y": 409.5,
+          "width": 152,
+          "height": 44,
+          "right": 175.046875,
+          "bottom": 453.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 56.046875,
+          "y": 700.5,
+          "width": 655.90625,
+          "height": 48,
+          "right": 711.953125,
+          "bottom": 748.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "SELECT",
+          "x": 56.046875,
+          "y": 801,
+          "width": 317.953125,
+          "height": 48,
+          "right": 374,
+          "bottom": 849,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "SELECT",
+          "x": 394,
+          "y": 801,
+          "width": 317.953125,
+          "height": 48,
+          "right": 711.953125,
+          "bottom": 849,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "TEXTAREA",
+          "x": 56.046875,
+          "y": 901.5,
+          "width": 655.90625,
+          "height": 160,
+          "right": 711.953125,
+          "bottom": 1061.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 56.046875,
+          "y": 1177.5,
+          "width": 655.90625,
+          "height": 48,
+          "right": 711.953125,
+          "bottom": 1225.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 56.046875,
+          "y": 1278,
+          "width": 317.953125,
+          "height": 48,
+          "right": 374,
+          "bottom": 1326,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 394,
+          "y": 1278,
+          "width": 317.953125,
+          "height": 48,
+          "right": 711.953125,
+          "bottom": 1326,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 56.046875,
+          "y": 1419.5,
+          "width": 655.90625,
+          "height": 48,
+          "right": 711.953125,
+          "bottom": 1467.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 56.046875,
+          "y": 1553.5,
+          "width": 136,
+          "height": 48,
+          "right": 192.046875,
+          "bottom": 1601.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 204.046875,
+          "y": 1553.5,
+          "width": 82,
+          "height": 48,
+          "right": 286.046875,
+          "bottom": 1601.5,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin/restaurants/new",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 30.71875,
+        "y": 174,
+        "width": 216,
+        "height": 381.5,
+        "right": 246.71875,
+        "bottom": 555.5
+      },
+      "content": {
+        "x": 278.71875,
+        "y": 174,
+        "width": 714.546875,
+        "height": 1229.078125,
+        "right": 993.265625,
+        "bottom": 1403.078125
+      },
+      "shellColumns": 2,
+      "tableDisplay": null,
+      "controls": [
+        {
+          "tag": "A",
+          "x": 51.71875,
+          "y": 316.5,
+          "width": 174,
+          "height": 48.5,
+          "right": 225.71875,
+          "bottom": 365,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 51.71875,
+          "y": 373,
+          "width": 174,
+          "height": 48.5,
+          "right": 225.71875,
+          "bottom": 421.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 51.71875,
+          "y": 429.5,
+          "width": 174,
+          "height": 48.5,
+          "right": 225.71875,
+          "bottom": 478,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 51.71875,
+          "y": 486,
+          "width": 174,
+          "height": 48.5,
+          "right": 225.71875,
+          "bottom": 534.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 278.71875,
+          "y": 174,
+          "width": 152,
+          "height": 44,
+          "right": 430.71875,
+          "bottom": 218,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 311.71875,
+          "y": 469.078125,
+          "width": 648.546875,
+          "height": 48,
+          "right": 960.265625,
+          "bottom": 517.078125,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "SELECT",
+          "x": 311.71875,
+          "y": 569.578125,
+          "width": 314.265625,
+          "height": 48,
+          "right": 625.984375,
+          "bottom": 617.578125,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "SELECT",
+          "x": 645.984375,
+          "y": 569.578125,
+          "width": 314.28125,
+          "height": 48,
+          "right": 960.265625,
+          "bottom": 617.578125,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "TEXTAREA",
+          "x": 311.71875,
+          "y": 670.078125,
+          "width": 648.546875,
+          "height": 160,
+          "right": 960.265625,
+          "bottom": 830.078125,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 311.71875,
+          "y": 946.078125,
+          "width": 648.546875,
+          "height": 48,
+          "right": 960.265625,
+          "bottom": 994.078125,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 311.71875,
+          "y": 1046.578125,
+          "width": 314.265625,
+          "height": 48,
+          "right": 625.984375,
+          "bottom": 1094.578125,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 645.984375,
+          "y": 1046.578125,
+          "width": 314.28125,
+          "height": 48,
+          "right": 960.265625,
+          "bottom": 1094.578125,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 311.71875,
+          "y": 1188.078125,
+          "width": 648.546875,
+          "height": 48,
+          "right": 960.265625,
+          "bottom": 1236.078125,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 311.71875,
+          "y": 1322.078125,
+          "width": 136,
+          "height": 48,
+          "right": 447.71875,
+          "bottom": 1370.078125,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 459.71875,
+          "y": 1322.078125,
+          "width": 82,
+          "height": 48,
+          "right": 541.71875,
+          "bottom": 1370.078125,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin/restaurants/new",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 100,
+        "y": 174,
+        "width": 216,
+        "height": 381.5,
+        "right": 316,
+        "bottom": 555.5
+      },
+      "content": {
+        "x": 348,
+        "y": 174,
+        "width": 992,
+        "height": 1237,
+        "right": 1340,
+        "bottom": 1411
+      },
+      "shellColumns": 2,
+      "tableDisplay": null,
+      "controls": [
+        {
+          "tag": "A",
+          "x": 121,
+          "y": 316.5,
+          "width": 174,
+          "height": 48.5,
+          "right": 295,
+          "bottom": 365,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 121,
+          "y": 373,
+          "width": 174,
+          "height": 48.5,
+          "right": 295,
+          "bottom": 421.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 121,
+          "y": 429.5,
+          "width": 174,
+          "height": 48.5,
+          "right": 295,
+          "bottom": 478,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 121,
+          "y": 486,
+          "width": 174,
+          "height": 48.5,
+          "right": 295,
+          "bottom": 534.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 348,
+          "y": 174,
+          "width": 152,
+          "height": 44,
+          "right": 500,
+          "bottom": 218,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 381,
+          "y": 477,
+          "width": 926,
+          "height": 48,
+          "right": 1307,
+          "bottom": 525,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "SELECT",
+          "x": 381,
+          "y": 577.5,
+          "width": 453,
+          "height": 48,
+          "right": 834,
+          "bottom": 625.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "SELECT",
+          "x": 854,
+          "y": 577.5,
+          "width": 453,
+          "height": 48,
+          "right": 1307,
+          "bottom": 625.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "TEXTAREA",
+          "x": 381,
+          "y": 678,
+          "width": 926,
+          "height": 160,
+          "right": 1307,
+          "bottom": 838,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 381,
+          "y": 954,
+          "width": 926,
+          "height": 48,
+          "right": 1307,
+          "bottom": 1002,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 381,
+          "y": 1054.5,
+          "width": 453,
+          "height": 48,
+          "right": 834,
+          "bottom": 1102.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 854,
+          "y": 1054.5,
+          "width": 453,
+          "height": 48,
+          "right": 1307,
+          "bottom": 1102.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 381,
+          "y": 1196,
+          "width": 926,
+          "height": 48,
+          "right": 1307,
+          "bottom": 1244,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 381,
+          "y": 1330,
+          "width": 136,
+          "height": 48,
+          "right": 517,
+          "bottom": 1378,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 529,
+          "y": 1330,
+          "width": 82,
+          "height": 48,
+          "right": 611,
+          "bottom": 1378,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin/restaurants/501/edit",
+      "width": 320,
+      "scrollWidth": 320,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 20,
+        "y": 150,
+        "width": 280,
+        "height": 219.5,
+        "right": 300,
+        "bottom": 369.5
+      },
+      "content": {
+        "x": 20,
+        "y": 401.5,
+        "width": 280,
+        "height": 1511,
+        "right": 300,
+        "bottom": 1912.5
+      },
+      "shellColumns": 1,
+      "tableDisplay": null,
+      "controls": [
+        {
+          "tag": "A",
+          "x": 37,
+          "y": 247.5,
+          "width": 119,
+          "height": 48.5,
+          "right": 156,
+          "bottom": 296,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 164,
+          "y": 247.5,
+          "width": 119,
+          "height": 48.5,
+          "right": 283,
+          "bottom": 296,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 37,
+          "y": 304,
+          "width": 119,
+          "height": 48.5,
+          "right": 156,
+          "bottom": 352.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 164,
+          "y": 304,
+          "width": 119,
+          "height": 48.5,
+          "right": 283,
+          "bottom": 352.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 20,
+          "y": 401.5,
+          "width": 152,
+          "height": 44,
+          "right": 172,
+          "bottom": 445.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 41,
+          "y": 708.5,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 756.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "SELECT",
+          "x": 41,
+          "y": 809,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 857,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "SELECT",
+          "x": 41,
+          "y": 909.5,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 957.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "TEXTAREA",
+          "x": 41,
+          "y": 1010,
+          "width": 238,
+          "height": 160,
+          "right": 279,
+          "bottom": 1170,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 41,
+          "y": 1286,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 1334,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 41,
+          "y": 1386.5,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 1434.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 41,
+          "y": 1487,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 1535,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 41,
+          "y": 1628.5,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 1676.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 41,
+          "y": 1783.5,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 1831.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 41,
+          "y": 1843.5,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 1891.5,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin/restaurants/501/edit",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 20,
+        "y": 150,
+        "width": 335,
+        "height": 219.5,
+        "right": 355,
+        "bottom": 369.5
+      },
+      "content": {
+        "x": 20,
+        "y": 401.5,
+        "width": 335,
+        "height": 1511,
+        "right": 355,
+        "bottom": 1912.5
+      },
+      "shellColumns": 1,
+      "tableDisplay": null,
+      "controls": [
+        {
+          "tag": "A",
+          "x": 37,
+          "y": 247.5,
+          "width": 146.5,
+          "height": 48.5,
+          "right": 183.5,
+          "bottom": 296,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 191.5,
+          "y": 247.5,
+          "width": 146.5,
+          "height": 48.5,
+          "right": 338,
+          "bottom": 296,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 37,
+          "y": 304,
+          "width": 146.5,
+          "height": 48.5,
+          "right": 183.5,
+          "bottom": 352.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 191.5,
+          "y": 304,
+          "width": 146.5,
+          "height": 48.5,
+          "right": 338,
+          "bottom": 352.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 20,
+          "y": 401.5,
+          "width": 152,
+          "height": 44,
+          "right": 172,
+          "bottom": 445.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 41,
+          "y": 708.5,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 756.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "SELECT",
+          "x": 41,
+          "y": 809,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 857,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "SELECT",
+          "x": 41,
+          "y": 909.5,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 957.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "TEXTAREA",
+          "x": 41,
+          "y": 1010,
+          "width": 293,
+          "height": 160,
+          "right": 334,
+          "bottom": 1170,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 41,
+          "y": 1286,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 1334,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 41,
+          "y": 1386.5,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 1434.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 41,
+          "y": 1487,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 1535,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 41,
+          "y": 1628.5,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 1676.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 41,
+          "y": 1783.5,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 1831.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 41,
+          "y": 1843.5,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 1891.5,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin/restaurants/501/edit",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 23.046875,
+        "y": 150,
+        "width": 721.90625,
+        "height": 227.5,
+        "right": 744.953125,
+        "bottom": 377.5
+      },
+      "content": {
+        "x": 23.046875,
+        "y": 409.5,
+        "width": 721.90625,
+        "height": 1225,
+        "right": 744.953125,
+        "bottom": 1634.5
+      },
+      "shellColumns": 1,
+      "tableDisplay": null,
+      "controls": [
+        {
+          "tag": "A",
+          "x": 44.046875,
+          "y": 251.5,
+          "width": 335.953125,
+          "height": 48.5,
+          "right": 380,
+          "bottom": 300,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 388,
+          "y": 251.5,
+          "width": 335.953125,
+          "height": 48.5,
+          "right": 723.953125,
+          "bottom": 300,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 44.046875,
+          "y": 308,
+          "width": 335.953125,
+          "height": 48.5,
+          "right": 380,
+          "bottom": 356.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 388,
+          "y": 308,
+          "width": 335.953125,
+          "height": 48.5,
+          "right": 723.953125,
+          "bottom": 356.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 23.046875,
+          "y": 409.5,
+          "width": 152,
+          "height": 44,
+          "right": 175.046875,
+          "bottom": 453.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 56.046875,
+          "y": 700.5,
+          "width": 655.90625,
+          "height": 48,
+          "right": 711.953125,
+          "bottom": 748.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "SELECT",
+          "x": 56.046875,
+          "y": 801,
+          "width": 317.953125,
+          "height": 48,
+          "right": 374,
+          "bottom": 849,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "SELECT",
+          "x": 394,
+          "y": 801,
+          "width": 317.953125,
+          "height": 48,
+          "right": 711.953125,
+          "bottom": 849,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "TEXTAREA",
+          "x": 56.046875,
+          "y": 901.5,
+          "width": 655.90625,
+          "height": 160,
+          "right": 711.953125,
+          "bottom": 1061.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 56.046875,
+          "y": 1177.5,
+          "width": 655.90625,
+          "height": 48,
+          "right": 711.953125,
+          "bottom": 1225.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 56.046875,
+          "y": 1278,
+          "width": 317.953125,
+          "height": 48,
+          "right": 374,
+          "bottom": 1326,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 394,
+          "y": 1278,
+          "width": 317.953125,
+          "height": 48,
+          "right": 711.953125,
+          "bottom": 1326,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 56.046875,
+          "y": 1419.5,
+          "width": 655.90625,
+          "height": 48,
+          "right": 711.953125,
+          "bottom": 1467.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 56.046875,
+          "y": 1553.5,
+          "width": 136,
+          "height": 48,
+          "right": 192.046875,
+          "bottom": 1601.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 204.046875,
+          "y": 1553.5,
+          "width": 82,
+          "height": 48,
+          "right": 286.046875,
+          "bottom": 1601.5,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin/restaurants/501/edit",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 30.71875,
+        "y": 174,
+        "width": 216,
+        "height": 381.5,
+        "right": 246.71875,
+        "bottom": 555.5
+      },
+      "content": {
+        "x": 278.71875,
+        "y": 174,
+        "width": 714.546875,
+        "height": 1229.078125,
+        "right": 993.265625,
+        "bottom": 1403.078125
+      },
+      "shellColumns": 2,
+      "tableDisplay": null,
+      "controls": [
+        {
+          "tag": "A",
+          "x": 51.71875,
+          "y": 316.5,
+          "width": 174,
+          "height": 48.5,
+          "right": 225.71875,
+          "bottom": 365,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 51.71875,
+          "y": 373,
+          "width": 174,
+          "height": 48.5,
+          "right": 225.71875,
+          "bottom": 421.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 51.71875,
+          "y": 429.5,
+          "width": 174,
+          "height": 48.5,
+          "right": 225.71875,
+          "bottom": 478,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 51.71875,
+          "y": 486,
+          "width": 174,
+          "height": 48.5,
+          "right": 225.71875,
+          "bottom": 534.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 278.71875,
+          "y": 174,
+          "width": 152,
+          "height": 44,
+          "right": 430.71875,
+          "bottom": 218,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 311.71875,
+          "y": 469.078125,
+          "width": 648.546875,
+          "height": 48,
+          "right": 960.265625,
+          "bottom": 517.078125,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "SELECT",
+          "x": 311.71875,
+          "y": 569.578125,
+          "width": 314.265625,
+          "height": 48,
+          "right": 625.984375,
+          "bottom": 617.578125,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "SELECT",
+          "x": 645.984375,
+          "y": 569.578125,
+          "width": 314.28125,
+          "height": 48,
+          "right": 960.265625,
+          "bottom": 617.578125,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "TEXTAREA",
+          "x": 311.71875,
+          "y": 670.078125,
+          "width": 648.546875,
+          "height": 160,
+          "right": 960.265625,
+          "bottom": 830.078125,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 311.71875,
+          "y": 946.078125,
+          "width": 648.546875,
+          "height": 48,
+          "right": 960.265625,
+          "bottom": 994.078125,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 311.71875,
+          "y": 1046.578125,
+          "width": 314.265625,
+          "height": 48,
+          "right": 625.984375,
+          "bottom": 1094.578125,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 645.984375,
+          "y": 1046.578125,
+          "width": 314.28125,
+          "height": 48,
+          "right": 960.265625,
+          "bottom": 1094.578125,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 311.71875,
+          "y": 1188.078125,
+          "width": 648.546875,
+          "height": 48,
+          "right": 960.265625,
+          "bottom": 1236.078125,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 311.71875,
+          "y": 1322.078125,
+          "width": 136,
+          "height": 48,
+          "right": 447.71875,
+          "bottom": 1370.078125,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 459.71875,
+          "y": 1322.078125,
+          "width": 82,
+          "height": 48,
+          "right": 541.71875,
+          "bottom": 1370.078125,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin/restaurants/501/edit",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 100,
+        "y": 174,
+        "width": 216,
+        "height": 381.5,
+        "right": 316,
+        "bottom": 555.5
+      },
+      "content": {
+        "x": 348,
+        "y": 174,
+        "width": 992,
+        "height": 1237,
+        "right": 1340,
+        "bottom": 1411
+      },
+      "shellColumns": 2,
+      "tableDisplay": null,
+      "controls": [
+        {
+          "tag": "A",
+          "x": 121,
+          "y": 316.5,
+          "width": 174,
+          "height": 48.5,
+          "right": 295,
+          "bottom": 365,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 121,
+          "y": 373,
+          "width": 174,
+          "height": 48.5,
+          "right": 295,
+          "bottom": 421.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 121,
+          "y": 429.5,
+          "width": 174,
+          "height": 48.5,
+          "right": 295,
+          "bottom": 478,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 121,
+          "y": 486,
+          "width": 174,
+          "height": 48.5,
+          "right": 295,
+          "bottom": 534.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 348,
+          "y": 174,
+          "width": 152,
+          "height": 44,
+          "right": 500,
+          "bottom": 218,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 381,
+          "y": 477,
+          "width": 926,
+          "height": 48,
+          "right": 1307,
+          "bottom": 525,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "SELECT",
+          "x": 381,
+          "y": 577.5,
+          "width": 453,
+          "height": 48,
+          "right": 834,
+          "bottom": 625.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "SELECT",
+          "x": 854,
+          "y": 577.5,
+          "width": 453,
+          "height": 48,
+          "right": 1307,
+          "bottom": 625.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "TEXTAREA",
+          "x": 381,
+          "y": 678,
+          "width": 926,
+          "height": 160,
+          "right": 1307,
+          "bottom": 838,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 381,
+          "y": 954,
+          "width": 926,
+          "height": 48,
+          "right": 1307,
+          "bottom": 1002,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 381,
+          "y": 1054.5,
+          "width": 453,
+          "height": 48,
+          "right": 834,
+          "bottom": 1102.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 854,
+          "y": 1054.5,
+          "width": 453,
+          "height": 48,
+          "right": 1307,
+          "bottom": 1102.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "x": 381,
+          "y": 1196,
+          "width": 926,
+          "height": 48,
+          "right": 1307,
+          "bottom": 1244,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 381,
+          "y": 1330,
+          "width": 136,
+          "height": 48,
+          "right": 517,
+          "bottom": 1378,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 529,
+          "y": 1330,
+          "width": 82,
+          "height": 48,
+          "right": 611,
+          "bottom": 1378,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin/reviews?restaurant=501",
+      "width": 320,
+      "scrollWidth": 320,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 20,
+        "y": 150,
+        "width": 280,
+        "height": 219.5,
+        "right": 300,
+        "bottom": 369.5
+      },
+      "content": {
+        "x": 20,
+        "y": 401.5,
+        "width": 280,
+        "height": 832,
+        "right": 300,
+        "bottom": 1233.5
+      },
+      "shellColumns": 1,
+      "tableDisplay": "block",
+      "controls": [
+        {
+          "tag": "A",
+          "x": 37,
+          "y": 247.5,
+          "width": 119,
+          "height": 48.5,
+          "right": 156,
+          "bottom": 296,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 164,
+          "y": 247.5,
+          "width": 119,
+          "height": 48.5,
+          "right": 283,
+          "bottom": 296,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 37,
+          "y": 304,
+          "width": 119,
+          "height": 48.5,
+          "right": 156,
+          "bottom": 352.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 164,
+          "y": 304,
+          "width": 119,
+          "height": 48.5,
+          "right": 283,
+          "bottom": 352.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "SELECT",
+          "x": 20,
+          "y": 544,
+          "width": 280,
+          "height": 48,
+          "right": 300,
+          "bottom": 592,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 129,
+          "y": 883.5,
+          "width": 46,
+          "height": 44,
+          "right": 175,
+          "bottom": 927.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 129,
+          "y": 1172.5,
+          "width": 46,
+          "height": 44,
+          "right": 175,
+          "bottom": 1216.5,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin/reviews?restaurant=501",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 20,
+        "y": 150,
+        "width": 335,
+        "height": 219.5,
+        "right": 355,
+        "bottom": 369.5
+      },
+      "content": {
+        "x": 20,
+        "y": 401.5,
+        "width": 335,
+        "height": 832,
+        "right": 355,
+        "bottom": 1233.5
+      },
+      "shellColumns": 1,
+      "tableDisplay": "block",
+      "controls": [
+        {
+          "tag": "A",
+          "x": 37,
+          "y": 247.5,
+          "width": 146.5,
+          "height": 48.5,
+          "right": 183.5,
+          "bottom": 296,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 191.5,
+          "y": 247.5,
+          "width": 146.5,
+          "height": 48.5,
+          "right": 338,
+          "bottom": 296,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 37,
+          "y": 304,
+          "width": 146.5,
+          "height": 48.5,
+          "right": 183.5,
+          "bottom": 352.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 191.5,
+          "y": 304,
+          "width": 146.5,
+          "height": 48.5,
+          "right": 338,
+          "bottom": 352.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "SELECT",
+          "x": 20,
+          "y": 544,
+          "width": 335,
+          "height": 48,
+          "right": 355,
+          "bottom": 592,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 129,
+          "y": 883.5,
+          "width": 46,
+          "height": 44,
+          "right": 175,
+          "bottom": 927.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 129,
+          "y": 1172.5,
+          "width": 46,
+          "height": 44,
+          "right": 175,
+          "bottom": 1216.5,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin/reviews?restaurant=501",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 23.046875,
+        "y": 150,
+        "width": 721.90625,
+        "height": 227.5,
+        "right": 744.953125,
+        "bottom": 377.5
+      },
+      "content": {
+        "x": 23.046875,
+        "y": 409.5,
+        "width": 721.90625,
+        "height": 587,
+        "right": 744.953125,
+        "bottom": 996.5
+      },
+      "shellColumns": 1,
+      "tableDisplay": "table",
+      "controls": [
+        {
+          "tag": "A",
+          "x": 44.046875,
+          "y": 251.5,
+          "width": 335.953125,
+          "height": 48.5,
+          "right": 380,
+          "bottom": 300,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 388,
+          "y": 251.5,
+          "width": 335.953125,
+          "height": 48.5,
+          "right": 723.953125,
+          "bottom": 300,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 44.046875,
+          "y": 308,
+          "width": 335.953125,
+          "height": 48.5,
+          "right": 380,
+          "bottom": 356.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 388,
+          "y": 308,
+          "width": 335.953125,
+          "height": 48.5,
+          "right": 723.953125,
+          "bottom": 356.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "SELECT",
+          "x": 23.046875,
+          "y": 552,
+          "width": 576,
+          "height": 48,
+          "right": 599.046875,
+          "bottom": 600,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 619.984375,
+          "y": 762.5,
+          "width": 46,
+          "height": 44,
+          "right": 665.984375,
+          "bottom": 806.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 619.984375,
+          "y": 889.5,
+          "width": 46,
+          "height": 44,
+          "right": 665.984375,
+          "bottom": 933.5,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin/reviews?restaurant=501",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 30.71875,
+        "y": 174,
+        "width": 216,
+        "height": 381.5,
+        "right": 246.71875,
+        "bottom": 555.5
+      },
+      "content": {
+        "x": 278.71875,
+        "y": 174,
+        "width": 714.546875,
+        "height": 591.234375,
+        "right": 993.265625,
+        "bottom": 765.234375
+      },
+      "shellColumns": 2,
+      "tableDisplay": "table",
+      "controls": [
+        {
+          "tag": "A",
+          "x": 51.71875,
+          "y": 316.5,
+          "width": 174,
+          "height": 48.5,
+          "right": 225.71875,
+          "bottom": 365,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 51.71875,
+          "y": 373,
+          "width": 174,
+          "height": 48.5,
+          "right": 225.71875,
+          "bottom": 421.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 51.71875,
+          "y": 429.5,
+          "width": 174,
+          "height": 48.5,
+          "right": 225.71875,
+          "bottom": 478,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 51.71875,
+          "y": 486,
+          "width": 174,
+          "height": 48.5,
+          "right": 225.71875,
+          "bottom": 534.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "SELECT",
+          "x": 278.71875,
+          "y": 320.578125,
+          "width": 576,
+          "height": 48,
+          "right": 854.71875,
+          "bottom": 368.578125,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 869.765625,
+          "y": 531.234375,
+          "width": 46,
+          "height": 44,
+          "right": 915.765625,
+          "bottom": 575.234375,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 869.765625,
+          "y": 658.234375,
+          "width": 46,
+          "height": 44,
+          "right": 915.765625,
+          "bottom": 702.234375,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin/reviews?restaurant=501",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 100,
+        "y": 174,
+        "width": 216,
+        "height": 381.5,
+        "right": 316,
+        "bottom": 555.5
+      },
+      "content": {
+        "x": 348,
+        "y": 174,
+        "width": 992,
+        "height": 607.5,
+        "right": 1340,
+        "bottom": 781.5
+      },
+      "shellColumns": 2,
+      "tableDisplay": "table",
+      "controls": [
+        {
+          "tag": "A",
+          "x": 121,
+          "y": 316.5,
+          "width": 174,
+          "height": 48.5,
+          "right": 295,
+          "bottom": 365,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 121,
+          "y": 373,
+          "width": 174,
+          "height": 48.5,
+          "right": 295,
+          "bottom": 421.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 121,
+          "y": 429.5,
+          "width": 174,
+          "height": 48.5,
+          "right": 295,
+          "bottom": 478,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 121,
+          "y": 486,
+          "width": 174,
+          "height": 48.5,
+          "right": 295,
+          "bottom": 534.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "SELECT",
+          "x": 348,
+          "y": 328.5,
+          "width": 576,
+          "height": 48,
+          "right": 924,
+          "bottom": 376.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 1161,
+          "y": 547.5,
+          "width": 46,
+          "height": 44,
+          "right": 1207,
+          "bottom": 591.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "x": 1161,
+          "y": 674.5,
+          "width": 46,
+          "height": 44,
+          "right": 1207,
+          "bottom": 718.5,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin/members",
+      "width": 320,
+      "scrollWidth": 320,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 20,
+        "y": 150,
+        "width": 280,
+        "height": 219.5,
+        "right": 300,
+        "bottom": 369.5
+      },
+      "content": {
+        "x": 20,
+        "y": 401.5,
+        "width": 280,
+        "height": 566.5,
+        "right": 300,
+        "bottom": 968
+      },
+      "shellColumns": 1,
+      "tableDisplay": "block",
+      "controls": [
+        {
+          "tag": "A",
+          "x": 37,
+          "y": 247.5,
+          "width": 119,
+          "height": 48.5,
+          "right": 156,
+          "bottom": 296,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 164,
+          "y": 247.5,
+          "width": 119,
+          "height": 48.5,
+          "right": 283,
+          "bottom": 296,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 37,
+          "y": 304,
+          "width": 119,
+          "height": 48.5,
+          "right": 156,
+          "bottom": 352.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 164,
+          "y": 304,
+          "width": 119,
+          "height": 48.5,
+          "right": 283,
+          "bottom": 352.5,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin/members",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 20,
+        "y": 150,
+        "width": 335,
+        "height": 219.5,
+        "right": 355,
+        "bottom": 369.5
+      },
+      "content": {
+        "x": 20,
+        "y": 401.5,
+        "width": 335,
+        "height": 517.5,
+        "right": 355,
+        "bottom": 919
+      },
+      "shellColumns": 1,
+      "tableDisplay": "block",
+      "controls": [
+        {
+          "tag": "A",
+          "x": 37,
+          "y": 247.5,
+          "width": 146.5,
+          "height": 48.5,
+          "right": 183.5,
+          "bottom": 296,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 191.5,
+          "y": 247.5,
+          "width": 146.5,
+          "height": 48.5,
+          "right": 338,
+          "bottom": 296,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 37,
+          "y": 304,
+          "width": 146.5,
+          "height": 48.5,
+          "right": 183.5,
+          "bottom": 352.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 191.5,
+          "y": 304,
+          "width": 146.5,
+          "height": 48.5,
+          "right": 338,
+          "bottom": 352.5,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin/members",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 23.046875,
+        "y": 150,
+        "width": 721.90625,
+        "height": 227.5,
+        "right": 744.953125,
+        "bottom": 377.5
+      },
+      "content": {
+        "x": 23.046875,
+        "y": 409.5,
+        "width": 721.90625,
+        "height": 360.5,
+        "right": 744.953125,
+        "bottom": 770
+      },
+      "shellColumns": 1,
+      "tableDisplay": "table",
+      "controls": [
+        {
+          "tag": "A",
+          "x": 44.046875,
+          "y": 251.5,
+          "width": 335.953125,
+          "height": 48.5,
+          "right": 380,
+          "bottom": 300,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 388,
+          "y": 251.5,
+          "width": 335.953125,
+          "height": 48.5,
+          "right": 723.953125,
+          "bottom": 300,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 44.046875,
+          "y": 308,
+          "width": 335.953125,
+          "height": 48.5,
+          "right": 380,
+          "bottom": 356.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 388,
+          "y": 308,
+          "width": 335.953125,
+          "height": 48.5,
+          "right": 723.953125,
+          "bottom": 356.5,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin/members",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 30.71875,
+        "y": 174,
+        "width": 216,
+        "height": 381.5,
+        "right": 246.71875,
+        "bottom": 555.5
+      },
+      "content": {
+        "x": 278.71875,
+        "y": 174,
+        "width": 714.546875,
+        "height": 364.734375,
+        "right": 993.265625,
+        "bottom": 538.734375
+      },
+      "shellColumns": 2,
+      "tableDisplay": "table",
+      "controls": [
+        {
+          "tag": "A",
+          "x": 51.71875,
+          "y": 316.5,
+          "width": 174,
+          "height": 48.5,
+          "right": 225.71875,
+          "bottom": 365,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 51.71875,
+          "y": 373,
+          "width": 174,
+          "height": 48.5,
+          "right": 225.71875,
+          "bottom": 421.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 51.71875,
+          "y": 429.5,
+          "width": 174,
+          "height": 48.5,
+          "right": 225.71875,
+          "bottom": 478,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 51.71875,
+          "y": 486,
+          "width": 174,
+          "height": 48.5,
+          "right": 225.71875,
+          "bottom": 534.5,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin/members",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 100,
+        "y": 174,
+        "width": 216,
+        "height": 381.5,
+        "right": 316,
+        "bottom": 555.5
+      },
+      "content": {
+        "x": 348,
+        "y": 174,
+        "width": 992,
+        "height": 381,
+        "right": 1340,
+        "bottom": 555
+      },
+      "shellColumns": 2,
+      "tableDisplay": "table",
+      "controls": [
+        {
+          "tag": "A",
+          "x": 121,
+          "y": 316.5,
+          "width": 174,
+          "height": 48.5,
+          "right": 295,
+          "bottom": 365,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 121,
+          "y": 373,
+          "width": 174,
+          "height": 48.5,
+          "right": 295,
+          "bottom": 421.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 121,
+          "y": 429.5,
+          "width": 174,
+          "height": 48.5,
+          "right": 295,
+          "bottom": 478,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 121,
+          "y": 486,
+          "width": 174,
+          "height": 48.5,
+          "right": 295,
+          "bottom": 534.5,
+          "fontSize": "14px"
+        }
+      ]
+    }
+  ],
+  "checks": [
+    "Six routes × five widths: responsive sidebar/navigation/tables/forms, accessible table headers,44px targets,16px inputs, one h1, no overflow",
+    "Guest → Login with return path; Member403; no unauthorized Admin data requests",
+    "Loading preserves context, no fake0; overview/list/members/form/reviews errors and retry; missing total has unavailable count",
+    "Native confirmation cancel/failure/success, repeated validation focus, pending/draft, POST/PUT numeric keys andzero coordinates/nullimage, search/pagination/q preservation, last-page deletion",
+    "All53 review options from paginated service, review delete cancel/error/success/last-row focus,15 long-content width checks, all empty states and realzero KPI, keyboard/reduced motion/account scope isolation"
+  ],
+  "errors": [],
+  "fixtureMutations": [
+    {
+      "method": "POST",
+      "path": "/api/admin/restaurants",
+      "fields": [
+        "name",
+        "provinceId",
+        "categoryId",
+        "address",
+        "description",
+        "imageUrl",
+        "latitude",
+        "longitude"
+      ],
+      "intercepted": true
+    },
+    {
+      "method": "POST",
+      "path": "/api/admin/restaurants",
+      "fields": [
+        "name",
+        "provinceId",
+        "categoryId",
+        "address",
+        "description",
+        "imageUrl",
+        "latitude",
+        "longitude"
+      ],
+      "intercepted": true
+    },
+    {
+      "method": "PUT",
+      "path": "/api/admin/restaurants/9001",
+      "fields": [
+        "name",
+        "provinceId",
+        "categoryId",
+        "address",
+        "description",
+        "imageUrl",
+        "latitude",
+        "longitude"
+      ],
+      "intercepted": true
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/admin/restaurants/9001",
+      "fields": [],
+      "intercepted": true
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/admin/restaurants/9001",
+      "fields": [],
+      "intercepted": true
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/admin/restaurants/513",
+      "fields": [],
+      "intercepted": true
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/admin/reviews/71",
+      "fields": [],
+      "intercepted": true
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/admin/reviews/71",
+      "fields": [],
+      "intercepted": true
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/admin/reviews/72",
+      "fields": [],
+      "intercepted": true
+    }
+  ],
+  "dialogs": [
+    {
+      "message": "ลบร้าน “ร้านทดสอบแก้ไข” พร้อมรีวิวและรายการโปรดที่เกี่ยวข้อง?",
+      "accepted": false
+    },
+    {
+      "message": "ลบร้าน “ร้านทดสอบแก้ไข” พร้อมรีวิวและรายการโปรดที่เกี่ยวข้อง?",
+      "accepted": true
+    },
+    {
+      "message": "ลบร้าน “ร้านทดสอบแก้ไข” พร้อมรีวิวและรายการโปรดที่เกี่ยวข้อง?",
+      "accepted": true
+    },
+    {
+      "message": "ลบร้าน “ร้านเลื่อนหน้า 13” พร้อมรีวิวและรายการโปรดที่เกี่ยวข้อง?",
+      "accepted": true
+    },
+    {
+      "message": "ลบรีวิวนี้ออกจากระบบ?",
+      "accepted": false
+    },
+    {
+      "message": "ลบรีวิวนี้ออกจากระบบ?",
+      "accepted": true
+    },
+    {
+      "message": "ลบรีวิวนี้ออกจากระบบ?",
+      "accepted": true
+    },
+    {
+      "message": "ลบรีวิวนี้ออกจากระบบ?",
+      "accepted": true
+    }
+  ]
+}

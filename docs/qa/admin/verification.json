@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "section": "G.Admin",
+  "tests": {
+    "command": "CI=true npm test -- --watchAll=false --runInBand",
+    "passed": 206,
+    "suitesPassed": 21,
+    "newCases": 16,
+    "elapsedSeconds": 14.498
+  },
+  "build": {
+    "command": "npm run build",
+    "status": "Compiled successfully",
+    "jsGzipKB": 104.83,
+    "cssGzipKB": 14.78,
+    "existingWarning": "Node fs.F_OK deprecation"
+  },
+  "browser": {
+    "viewportCases": 30,
+    "additionalLongContentChecks": 15,
+    "interceptedMutations": 9,
+    "dialogs": 8,
+    "pageErrors": 0,
+    "productionWrites": 0,
+    "targets": "Both dimensions at least44px across all recorded controls"
+  },
+  "review": {
+    "freshReadOnly": true,
+    "finding": "Action target widths37px/25px were below44px",
+    "resolution": "Real browser geometry RED\u2192GREEN; min-width control token; full browser,206 tests and build pass after fix"
+  },
+  "scope": {
+    "baselineFiles": 75,
+    "protectedFilesUnchanged": 69,
+    "changedExistingPages": [
+      "thaifood/src/pages/admin/AdminDashboard.jsx",
+      "thaifood/src/pages/admin/AdminLayout.jsx",
+      "thaifood/src/pages/admin/AdminMembers.jsx",
+      "thaifood/src/pages/admin/AdminRestaurantForm.jsx",
+      "thaifood/src/pages/admin/AdminRestaurants.jsx",
+      "thaifood/src/pages/admin/AdminReviews.jsx"
+    ],
+    "newSource": [
+      "thaifood/src/pages/admin/Admin.css",
+      "thaifood/src/pages/admin/AdminUI.jsx",
+      "thaifood/src/pages/admin/AdminUI.test.jsx"
+    ]
+  },
+  "preview": {
+    "pid": 35544,
+    "port": 3100,
+    "stopped": true,
+    "verifiedBy": "Validated command/PORT then SIGTERM; curl exit7 connection refused"
+  },
+  "deployment": "not requested; local changes only",
+  "diffWhitespaceCheck": "passed"
+}

@@ -84,7 +84,7 @@ export default function Home() {
     <section className="home-container home-destinations" aria-labelledby="home-destinations-title">
       <div className="home-section-heading"><h2 id="home-destinations-title">อยากไปอร่อยที่ไหน?</h2><p>เลือกจุดหมาย แล้วให้รสชาติพาออกเดินทาง</p></div>
       <div className="home-destination-grid">
-        {destinations.map(item => <Link to={'/restaurants?province=' + encodeURIComponent(item.name)} className={'home-destination home-destination-' + item.tone} key={item.name} aria-label={'ค้นหาร้านอาหารใน' + item.name}>
+        {destinations.map(item => <Link to={'/restaurants?province=' + encodeURIComponent(item.name)} className={'home-destination home-destination-' + item.tone} key={item.name}>
           <div className="home-destination-top"><span>{item.region}</span><span className="home-destination-arrow" aria-hidden="true">↗</span></div>
           <img src={'/images/' + item.image} alt="" width="240" height="160" loading="lazy" className="home-destination-image" />
           <h3>{item.title}</h3><p>{item.caption}</p>

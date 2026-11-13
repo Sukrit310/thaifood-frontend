@@ -1,0 +1,113 @@
+{
+  "status": "passed_with_manual_platform_limits",
+  "sourceCommit": "58376d80e3d13a88f8005f52d97b0669c70cf199",
+  "workspaceFixesUnreleased": true,
+  "tests": {
+    "passed": 209,
+    "suites": 21,
+    "newLogoutRegressions": 3
+  },
+  "build": {
+    "status": "Compiled successfully",
+    "jsGzipKB": 104.83,
+    "cssGzipKB": 14.79
+  },
+  "liveMember": {
+    "checks": 6,
+    "browserAPIRequests": 40,
+    "target": "local3100\u2192CRAproxy\u2192realGo; direct persistence reads",
+    "cleanup": {
+      "noTestFavorite": true,
+      "noTestReview": true
+    },
+    "retainedQAAccountIds": [
+      15,
+      16
+    ]
+  },
+  "liveAdmin": {
+    "checks": 5,
+    "browserAPIRequests": 42,
+    "target": "production\u2192realGo",
+    "testRestaurantId": 147,
+    "cleanup": {
+      "restaurantGone": true,
+      "existingFavoritesPreserved": true
+    }
+  },
+  "readOnlyAPI": {
+    "checks": 6,
+    "requests": 13,
+    "passed": true
+  },
+  "crossBrowser": {
+    "versions": [
+      {
+        "engine": "chromium",
+        "version": "141.0.7390.37"
+      },
+      {
+        "engine": "firefox",
+        "version": "142.0.1"
+      },
+      {
+        "engine": "webkit",
+        "version": "26.0"
+      }
+    ],
+    "viewportChecks": 168,
+    "axeScans": 42,
+    "wcagViolations": 0,
+    "pageErrors": 0,
+    "corsErrors": 0
+  },
+  "review": {
+    "freshReadOnly": true,
+    "applicationApproved": true,
+    "qaFindingsFixed": 3
+  },
+  "scope": {
+    "baselineFiles": 78,
+    "changedSourceAndTests": [
+      "thaifood/src/Journey.test.jsx",
+      "thaifood/src/components/Layout.jsx",
+      "thaifood/src/components/RestaurantCard.jsx",
+      "thaifood/src/components/RestaurantCard.test.jsx",
+      "thaifood/src/pages/Home.css",
+      "thaifood/src/pages/Home.jsx",
+      "thaifood/src/pages/Home.test.jsx",
+      "thaifood/src/pages/admin/Admin.css",
+      "thaifood/src/pages/admin/AdminInteractions.test.jsx",
+      "thaifood/src/pages/admin/AdminRestaurants.jsx",
+      "thaifood/src/pages/admin/AdminReviews.jsx",
+      "thaifood/src/pages/admin/AdminUI.test.jsx"
+    ],
+    "protectedUnchanged": 66,
+    "newAppFiles": 0,
+    "appDependenciesChanged": false,
+    "backendChanged": false,
+    "envChanged": false
+  },
+  "privacy": {
+    "credentialsIgnored": true,
+    "tokensOrPasswordsSaved": false,
+    "authenticatedAriaSnapshotsSanitized": 6
+  },
+  "git": {
+    "commitCreated": false,
+    "pushPerformed": false,
+    "stagedFiles": 0,
+    "headStill": "58376d8"
+  },
+  "deploymentPerformed": false,
+  "preview": {
+    "pid": 16383,
+    "port": 3100,
+    "stopped": true,
+    "verified": "curl connection refused"
+  },
+  "manualLimits": [
+    "WebKit26.0 on Linux is not native Safari on macOS/iOS",
+    "ARIA/axe/keyboard checked; no real NVDA/VoiceOver session"
+  ]
+}

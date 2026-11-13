@@ -1,0 +1,37 @@
+{
+  "projectId": "prj_n9pAOBot6SIqFJgykOaAH4Qciva2",
+  "projectName": "thaifood-frontend",
+  "teamId": "team_WWvYi0H1B9NmVYioQMo6yKq8",
+  "deploymentId": "dpl_696T24bruZnpGiC1LARUCWr9sGai",
+  "canonicalUrl": "https://thaifood-frontend.vercel.app",
+  "deploymentUrl": "https://thaifood-frontend-hd1r5gzhv-670710721.vercel.app",
+  "target": "production",
+  "status": "READY",
+  "commit": "58376d80e3d13a88f8005f52d97b0669c70cf199",
+  "framework": "create-react-app",
+  "buildDurationSeconds": 36.088,
+  "readyAt": "2026-11-13T14:08:53.496Z",
+  "tests": {
+    "passed": 206,
+    "suitesPassed": 21,
+    "command": "CI=true npm test -- --watchAll=false --runInBand"
+  },
+  "cloudBuild": "Compiled successfully; existing dependency deprecation/audit notices",
+  "productionVerification": {
+    "results": "results.json",
+    "realPublicAPIReads": 4,
+    "pageErrors": 0,
+    "corsErrors": 0,
+    "writes": 0,
+    "adminUI": "Isolated read-only auth fixtures; no real Admin operations"
+  },
+  "runtimeErrorScan": {
+    "window": "15m",
+    "levels": [
+      "error",
+      "fatal"
+    ],
+    "result": "No matching logs found; browser errors checked separately"
+  },
+  "scope": "Frontend deployment from exact Git SHA; no Render/backend/environment changes"
+}

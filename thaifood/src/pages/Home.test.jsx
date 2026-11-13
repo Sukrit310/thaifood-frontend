@@ -1,4 +1,4 @@
-import { fireEvent, render, screen, waitFor } from '@testing-library/react';
+import { fireEvent, render, screen, waitFor, within } from '@testing-library/react';
 import { MemoryRouter, useLocation } from 'react-router-dom';
 import Home from './Home';
 import { restaurantService } from '../api/services';
@@ -59,8 +59,8 @@ test('allows an unfiltered search without adding empty query parameters', async 
 test('links every destination to its actual Thai province filter', async () => {
   mount();
   await screen.findByRole('heading', { name: restaurant.name });
-  for (const province of ['เชียงใหม่', 'กรุงเทพมหานคร', 'ภูเก็ต', 'ขอนแก่น']) {
-    const link = screen.getByRole('link', { name: `ค้นหาร้านอาหารใน${province}` });
+  for (const [province, title] of [['เชียงใหม่', 'เชียงใหม่'], ['กรุงเทพมหานคร', 'กรุงเทพฯ'], ['ภูเก็ต', 'ภูเก็ต'], ['ขอนแก่น', 'ขอนแก่น']]) {
+    const link = within(screen.getByRole('region', { name: 'อยากไปอร่อยที่ไหน?' })).getByRole('link', { name: new RegExp(title) });
     const destination = new URL(link.getAttribute('href'), 'https://example.com');
     expect(destination.pathname).toBe('/restaurants');
     expect(destination.searchParams.get('province')).toBe(province);

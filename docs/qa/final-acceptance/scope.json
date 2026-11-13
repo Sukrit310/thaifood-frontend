@@ -1,0 +1,22 @@
+{
+  "baselineFiles": 78,
+  "changedSourceAndTests": [
+    "thaifood/src/Journey.test.jsx",
+    "thaifood/src/components/Layout.jsx",
+    "thaifood/src/components/RestaurantCard.jsx",
+    "thaifood/src/components/RestaurantCard.test.jsx",
+    "thaifood/src/pages/Home.css",
+    "thaifood/src/pages/Home.jsx",
+    "thaifood/src/pages/Home.test.jsx",
+    "thaifood/src/pages/admin/Admin.css",
+    "thaifood/src/pages/admin/AdminInteractions.test.jsx",
+    "thaifood/src/pages/admin/AdminRestaurants.jsx",
+    "thaifood/src/pages/admin/AdminReviews.jsx",
+    "thaifood/src/pages/admin/AdminUI.test.jsx"
+  ],
+  "protectedUnchanged": 66,
+  "newAppFiles": 0,
+  "appDependenciesChanged": false,
+  "backendChanged": false,
+  "envChanged": false
+}

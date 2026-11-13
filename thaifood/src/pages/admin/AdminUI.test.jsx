@@ -108,7 +108,7 @@ test('canceling restaurant confirmation preserves the row and makes no write', a
 test('pending restaurant deletion locks actions; failure keeps the row and focuses feedback', async () => {
   const request = deferred(); adminService.deleteRestaurant.mockReturnValue(request.promise); mount('/admin/restaurants');
   fireEvent.click(await screen.findByRole('button', { name: 'ลบร้าน ครัวริมน้ำ' }));
-  expect(screen.getByRole('button', { name: 'ลบร้าน ครัวริมน้ำ' })).toBeDisabled();
+  expect(screen.getByRole('button', { name: 'กำลังลบ… ร้าน ครัวริมน้ำ' })).toBeDisabled();
   await act(async () => { request.reject(new Error('ลบร้านไม่ได้')); });
   expect(screen.getByRole('alert')).toHaveFocus(); expect(screen.getByRole('alert')).toHaveTextContent('ลบร้านไม่ได้');
   expect(screen.getByRole('link', { name: 'ครัวริมน้ำ' })).toBeInTheDocument();
@@ -141,18 +141,18 @@ test('review load keeps the selected restaurant context and exposes native moder
 
 test('canceling review deletion preserves the review without a write', async () => {
   window.confirm.mockReturnValue(false); mount('/admin/reviews?restaurant=29');
-  fireEvent.click(await screen.findByRole('button', { name: 'ลบรีวิวของ นักชิม' }));
+  fireEvent.click(await screen.findByRole('button', { name: 'ลบรีวิว ของ นักชิม' }));
   expect(screen.getByText(review.text)).toBeInTheDocument(); expect(adminService.deleteReview).not.toHaveBeenCalled();
 });
 
 test('review deletion failure retains the review and focuses feedback; successful retry returns focus to its heading', async () => {
   const request = deferred(); adminService.deleteReview.mockReturnValueOnce(request.promise).mockResolvedValue(null);
   reviewService.list.mockResolvedValueOnce({ items: [review] }).mockResolvedValue({ items: [] }); mount('/admin/reviews?restaurant=29');
-  fireEvent.click(await screen.findByRole('button', { name: 'ลบรีวิวของ นักชิม' }));
-  expect(screen.getByRole('button', { name: 'ลบรีวิวของ นักชิม' })).toBeDisabled();
+  fireEvent.click(await screen.findByRole('button', { name: 'ลบรีวิว ของ นักชิม' }));
+  expect(screen.getByRole('button', { name: 'กำลังลบ… รีวิวของ นักชิม' })).toBeDisabled();
   await act(async () => { request.reject(new Error('ลบรีวิวไม่ได้')); });
   expect(screen.getByRole('alert')).toHaveFocus(); expect(screen.getByText(review.text)).toBeInTheDocument();
-  fireEvent.click(screen.getByRole('button', { name: 'ลบรีวิวของ นักชิม' }));
+  fireEvent.click(screen.getByRole('button', { name: 'ลบรีวิว ของ นักชิม' }));
   expect(await screen.findByRole('heading', { name: 'ร้านนี้ยังไม่มีรีวิว' })).toBeInTheDocument();
   expect(screen.getByRole('status')).toHaveTextContent('ลบรีวิวแล้ว');
   expect(screen.getByRole('heading', { name: 'รีวิวที่เผยแพร่', exact: true })).toHaveFocus();

@@ -3,7 +3,7 @@
 .admin-page .admin-sidebar { padding: var(--space-5); border: 1px solid var(--color-border); border-radius: var(--radius-panel); background: var(--color-surface); }
 .admin-page .admin-sidebar-heading { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); }
 .admin-page .admin-sidebar-title { font-weight: var(--font-weight-heading); font-size: var(--font-size-lg); }
-.admin-page .admin-role { color: var(--color-primary); background: var(--color-sand); border-radius: var(--radius-control); padding: var(--space-1) var(--space-2); font-size: var(--font-size-xs); font-weight: var(--font-weight-heading); }
+.admin-page .admin-role { color: var(--color-primary-hover); background: var(--color-sand); border-radius: var(--radius-control); padding: var(--space-1) var(--space-2); font-size: var(--font-size-xs); font-weight: var(--font-weight-heading); }
 .admin-page .admin-sidebar-note { margin-top: var(--space-2); color: var(--color-muted); font-size: var(--font-size-xs); }
 .admin-page .admin-nav { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-2); margin-top: var(--space-5); }
 .admin-page .admin-nav a { display: flex; align-items: center; gap: var(--space-3); min-height: var(--control-height); padding: var(--space-3); color: var(--color-muted); border-radius: var(--radius-control); font-weight: var(--font-weight-medium); font-size: var(--font-size-sm); transition: color var(--duration-fast) var(--ease-standard), background-color var(--duration-fast) var(--ease-standard); }
@@ -48,7 +48,7 @@
 .admin-page .admin-action:disabled { opacity: .6; cursor: not-allowed; }
 .admin-page .admin-pagination { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-4); margin-top: var(--space-6); font-size: var(--font-size-sm); }
 .admin-page .admin-member-role { display: inline-block; border-radius: var(--radius-control); padding: var(--space-1) var(--space-2); color: var(--color-muted); background: var(--color-bg); font-size: var(--font-size-xs); font-weight: var(--font-weight-medium); }
-.admin-page .admin-member-role-admin { color: var(--color-primary); background: var(--color-sand); }
+.admin-page .admin-member-role-admin { color: var(--color-primary-hover); background: var(--color-sand); }
 .admin-page .admin-review-selector { max-width: 36rem; margin-bottom: var(--space-8); }
 .admin-page .admin-review-rating { color: var(--color-primary); margin-top: var(--space-2); font-size: var(--font-size-sm); font-weight: var(--font-weight-medium); }
 .admin-page .admin-review-date { display: block; margin-top: var(--space-2); color: var(--color-muted); font-size: var(--font-size-xs); font-weight: var(--font-weight-body); }

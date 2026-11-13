@@ -1,5 +1,8 @@
 # Frontend verification
 
+> ผลตรวจรับล่าสุด13พฤศจิกายน2026: ดู [FINAL_ACCEPTANCE.md](FINAL_ACCEPTANCE.md) — 209tests/21suites,168cross-browser checks,42Axe scansและAPIจริง รายงานเดิมด้านล่างเป็นประวัติของรอบก่อนหน้า
+
+
 ตรวจวันที่ 12 พฤศจิกายน 2569 (Asia/Bangkok)
 
 ## Live backend

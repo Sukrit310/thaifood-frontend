@@ -1,0 +1,10 @@
+{
+  "before": "/profile",
+  "after": {
+    "path": "/login",
+    "tokenPresent": false,
+    "readyState": "complete",
+    "heading": "กลับมาอร่อยกันต่อ",
+    "from": "/profile"
+  }
+}

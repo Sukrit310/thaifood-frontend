@@ -1,0 +1,440 @@
+{
+  "status": "failed",
+  "viewports": [
+    {
+      "route": "/admin",
+      "width": 320,
+      "scrollWidth": 320,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 20,
+        "y": 150,
+        "width": 280,
+        "height": 219.5,
+        "right": 300,
+        "bottom": 369.5
+      },
+      "content": {
+        "x": 20,
+        "y": 401.5,
+        "width": 280,
+        "height": 790.59375,
+        "right": 300,
+        "bottom": 1192.09375
+      },
+      "shellColumns": 1,
+      "tableDisplay": null,
+      "controls": [
+        {
+          "tag": "A",
+          "x": 37,
+          "y": 247.5,
+          "width": 119,
+          "height": 48.5,
+          "right": 156,
+          "bottom": 296,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 164,
+          "y": 247.5,
+          "width": 119,
+          "height": 48.5,
+          "right": 283,
+          "bottom": 296,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 37,
+          "y": 304,
+          "width": 119,
+          "height": 48.5,
+          "right": 156,
+          "bottom": 352.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 164,
+          "y": 304,
+          "width": 119,
+          "height": 48.5,
+          "right": 283,
+          "bottom": 352.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 45,
+          "y": 1059.09375,
+          "width": 124,
+          "height": 48,
+          "right": 169,
+          "bottom": 1107.09375,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 45,
+          "y": 1119.09375,
+          "width": 102,
+          "height": 48,
+          "right": 147,
+          "bottom": 1167.09375,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 20,
+        "y": 150,
+        "width": 335,
+        "height": 219.5,
+        "right": 355,
+        "bottom": 369.5
+      },
+      "content": {
+        "x": 20,
+        "y": 401.5,
+        "width": 335,
+        "height": 730.59375,
+        "right": 355,
+        "bottom": 1132.09375
+      },
+      "shellColumns": 1,
+      "tableDisplay": null,
+      "controls": [
+        {
+          "tag": "A",
+          "x": 37,
+          "y": 247.5,
+          "width": 146.5,
+          "height": 48.5,
+          "right": 183.5,
+          "bottom": 296,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 191.5,
+          "y": 247.5,
+          "width": 146.5,
+          "height": 48.5,
+          "right": 338,
+          "bottom": 296,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 37,
+          "y": 304,
+          "width": 146.5,
+          "height": 48.5,
+          "right": 183.5,
+          "bottom": 352.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 191.5,
+          "y": 304,
+          "width": 146.5,
+          "height": 48.5,
+          "right": 338,
+          "bottom": 352.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 45,
+          "y": 1059.09375,
+          "width": 124,
+          "height": 48,
+          "right": 169,
+          "bottom": 1107.09375,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 181,
+          "y": 1059.09375,
+          "width": 102,
+          "height": 48,
+          "right": 283,
+          "bottom": 1107.09375,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 23.046875,
+        "y": 150,
+        "width": 721.90625,
+        "height": 227.5,
+        "right": 744.953125,
+        "bottom": 377.5
+      },
+      "content": {
+        "x": 23.046875,
+        "y": 409.5,
+        "width": 721.90625,
+        "height": 502.796875,
+        "right": 744.953125,
+        "bottom": 912.296875
+      },
+      "shellColumns": 1,
+      "tableDisplay": null,
+      "controls": [
+        {
+          "tag": "A",
+          "x": 44.046875,
+          "y": 251.5,
+          "width": 335.953125,
+          "height": 48.5,
+          "right": 380,
+          "bottom": 300,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 388,
+          "y": 251.5,
+          "width": 335.953125,
+          "height": 48.5,
+          "right": 723.953125,
+          "bottom": 300,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 44.046875,
+          "y": 308,
+          "width": 335.953125,
+          "height": 48.5,
+          "right": 380,
+          "bottom": 356.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 388,
+          "y": 308,
+          "width": 335.953125,
+          "height": 48.5,
+          "right": 723.953125,
+          "bottom": 356.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 48.046875,
+          "y": 839.296875,
+          "width": 124,
+          "height": 48,
+          "right": 172.046875,
+          "bottom": 887.296875,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 184.046875,
+          "y": 839.296875,
+          "width": 102,
+          "height": 48,
+          "right": 286.046875,
+          "bottom": 887.296875,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 30.71875,
+        "y": 174,
+        "width": 216,
+        "height": 381.5,
+        "right": 246.71875,
+        "bottom": 555.5
+      },
+      "content": {
+        "x": 278.71875,
+        "y": 174,
+        "width": 714.546875,
+        "height": 520.0625,
+        "right": 993.265625,
+        "bottom": 694.0625
+      },
+      "shellColumns": 2,
+      "tableDisplay": null,
+      "controls": [
+        {
+          "tag": "A",
+          "x": 51.71875,
+          "y": 316.5,
+          "width": 174,
+          "height": 48.5,
+          "right": 225.71875,
+          "bottom": 365,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 51.71875,
+          "y": 373,
+          "width": 174,
+          "height": 48.5,
+          "right": 225.71875,
+          "bottom": 421.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 51.71875,
+          "y": 429.5,
+          "width": 174,
+          "height": 48.5,
+          "right": 225.71875,
+          "bottom": 478,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 51.71875,
+          "y": 486,
+          "width": 174,
+          "height": 48.5,
+          "right": 225.71875,
+          "bottom": 534.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 303.71875,
+          "y": 621.0625,
+          "width": 124,
+          "height": 48,
+          "right": 427.71875,
+          "bottom": 669.0625,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 439.71875,
+          "y": 621.0625,
+          "width": 102,
+          "height": 48,
+          "right": 541.71875,
+          "bottom": 669.0625,
+          "fontSize": "14px"
+        }
+      ]
+    },
+    {
+      "route": "/admin",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "sidebar": {
+        "x": 100,
+        "y": 174,
+        "width": 216,
+        "height": 381.5,
+        "right": 316,
+        "bottom": 555.5
+      },
+      "content": {
+        "x": 348,
+        "y": 174,
+        "width": 992,
+        "height": 546.1875,
+        "right": 1340,
+        "bottom": 720.1875
+      },
+      "shellColumns": 2,
+      "tableDisplay": null,
+      "controls": [
+        {
+          "tag": "A",
+          "x": 121,
+          "y": 316.5,
+          "width": 174,
+          "height": 48.5,
+          "right": 295,
+          "bottom": 365,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 121,
+          "y": 373,
+          "width": 174,
+          "height": 48.5,
+          "right": 295,
+          "bottom": 421.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 121,
+          "y": 429.5,
+          "width": 174,
+          "height": 48.5,
+          "right": 295,
+          "bottom": 478,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 121,
+          "y": 486,
+          "width": 174,
+          "height": 48.5,
+          "right": 295,
+          "bottom": 534.5,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 373,
+          "y": 647.1875,
+          "width": 124,
+          "height": 48,
+          "right": 497,
+          "bottom": 695.1875,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "x": 509,
+          "y": 647.1875,
+          "width": 102,
+          "height": 48,
+          "right": 611,
+          "bottom": 695.1875,
+          "fontSize": "14px"
+        }
+      ]
+    }
+  ],
+  "checks": [],
+  "errors": [],
+  "fixtureMutations": [],
+  "dialogs": [],
+  "failure": "AssertionError [ERR_ASSERTION]: /admin/restaurants target smaller than44×44: 37×44\n    at checkWidths (/workspaces/thaifood-frontend/docs/qa/admin/check.cjs:85:14)\n    at async /workspaces/thaifood-frontend/docs/qa/admin/check.cjs:104:193"
+}

@@ -1,0 +1,57 @@
+{
+  "status": "failed",
+  "target": "https://thaifood-frontend.vercel.app",
+  "checks": [
+    "UI Register201 → Login200 → original Favorites destination; authenticated GET Me200 matches created member",
+    "UI Profile PATCH persists the new displayName; email remains read-only",
+    "UI wrong-current-password401 retains session/draft; corrected password PUT204 clears fields on success"
+  ],
+  "requests": [
+    {
+      "method": "POST",
+      "path": "/api/auth/register",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/api/me/password",
+      "status": 401
+    },
+    {
+      "method": "PUT",
+      "path": "/api/me/password",
+      "status": 204
+    }
+  ],
+  "pageErrors": [],
+  "corsErrors": [],
+  "cleanup": {
+    "noTestFavorite": true,
+    "noTestReview": true
+  },
+  "retainedData": {
+    "memberId": 15,
+    "reason": "One clearly labelled disposable QA member remains; the API has no member-delete endpoint. Random credentials are discarded and never saved."
+  },
+  "failure": "page.waitForURL: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"https://thaifood-frontend.vercel.app/\" until \"load\"\n============================================================\n    at /workspaces/thaifood-frontend/docs/qa/final-acceptance/live-member.cjs:38:107"
+}

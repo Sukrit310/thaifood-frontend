@@ -2,7 +2,7 @@ import { render, screen, fireEvent, waitFor, within } from '@testing-library/rea
 import App from './App';
 import { resetMockData } from './mock/server';
 import { authService, reviewService, restaurantService, adminService } from './api/services';
-import { setToken } from './api/backend';
+import { getToken, setToken } from './api/backend';
 
 beforeEach(() => { resetMockData(); setToken(null); window.scrollTo = jest.fn(); });
 async function loginAs(email) { const result = await authService.login({ email, password: 'ExamplePassword123' }); setToken(result.token); }
@@ -19,6 +19,21 @@ test('guest is sent to login and returns to favorites after signing in', async (
   const card = screen.getByRole('heading', { name: 'ข้าวซอยริมสวน' }).closest('article');
   fireEvent.click(within(card).getByRole('button', { name: 'นำออกจากร้านโปรด' }));
   await waitFor(() => expect(screen.queryByRole('heading', { name: 'ข้าวซอยริมสวน' })).not.toBeInTheDocument());
+});
+
+test.each([
+  ['demo@example.com', '/profile', 'โปรไฟล์ของฉัน'],
+  ['demo@example.com', '/favorites', 'ร้านโปรดของคุณ'],
+  ['admin@example.com', '/admin/restaurants', 'จัดการร้านอาหาร'],
+])('explicit logout from protected route %s %s returns Home instead of the login guard', async (email, path, title) => {
+  await loginAs(email); open(path);
+  await screen.findByRole('heading', { name: title, level: 1 });
+  const header = document.querySelector('.layout-header');
+  fireEvent.click(within(header).getByRole('button', { name: 'ออกจากระบบ', exact: true }));
+  await waitFor(() => expect(window.location.pathname).toBe('/'));
+  expect(getToken()).toBeNull();
+  expect(within(header).getByRole('link', { name: 'เข้าสู่ระบบ', exact: true })).toBeInTheDocument();
+  expect(screen.queryByRole('heading', { name: 'กลับมาอร่อยกันต่อ', exact: true })).not.toBeInTheDocument();
 });
 
 test('member writes a review on an unrated restaurant and rating updates from it', async () => {

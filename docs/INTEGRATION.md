@@ -32,12 +32,14 @@ Probe สร้างบัญชี disposable member 1 บัญชีซึ�
 
 หลังแก้ `.env.local`/`setupProxy.js` ให้ restart server เดิม หากต้องการ direct CORS test ตั้ง `REACT_APP_DEV_PROXY=false`. Production build ไม่ใช้ development proxy
 
-## งานที่ยังไม่ยืนยัน
+## สถานะตรวจรับล่าสุด
 
-- [ ] Admin restaurant CRUD/moderation บน Go จริงด้วยบัญชี Admin (มี Mock integration tests แล้ว; ไม่มี admin credentials ใน session)
-- [ ] Browser visual/keyboard/responsive QA
-- [x] Deploy Vercel และตรวจ HTTP direct deep links; browser refresh/guards ยังไม่ได้ตรวจด้วย browser
+- [x] Admin restaurant CRUD/moderation บน Go จริงด้วยบัญชีAdminทดสอบ:5checks/42browserAPIrequests;ลบร้านQAและข้อมูลที่เกี่ยวข้องแล้ว
+- [x] Browser visual/keyboard/responsive QA:Chromium/Firefox/WebKit,168viewportchecksและ42Axe scansไม่มีviolations
+- [x] Deploy Vercelและตรวจdirect deep links/refresh/guardsด้วยbrowser;ผลตรวจlogout/accessibilityก่อนปล่อยเวอร์ชันอยู่ใน [FINAL_ACCEPTANCE.md](FINAL_ACCEPTANCE.md)
 - [x] ตรวจ CORS ของ production origin หลัก: จังหวัด/ร้านอาหาร 200 และ login/auth preflight 204; ดู [ผลตรวจล่าสุด](CORS_CHECK.md)
+
+รายละเอียดรอบ13พฤศจิกายน2026,APIจริง/cleanupและข้อจำกัดSafari/assistive technologyจริงอยู่ใน [FINAL_ACCEPTANCE.md](FINAL_ACCEPTANCE.md) ใช้รายงานนี้สำหรับสถานะปัจจุบัน ส่วนตัวเลขและผลด้านบนเป็นintegrationรอบ12พฤศจิกายน
 
 ขณะตรวจ integration รอบแรก Backend อนุญาต `http://localhost:3000` เท่านั้น ผลตรวจล่าสุดอนุญาต `https://thaifood-frontend.vercel.app` แล้ว แต่ยังปฏิเสธโดเมนสำรอง `https://thaifood-frontend-670710721.vercel.app` ไม่ได้แก้ environment หรือ deploy Backend ใน session นี้ หากต้องเพิ่ม origin ให้ append ค่าที่ไม่มี path หรือ slashท้าย โดยคง origins เดิม ไม่ใช้ wildcard ไม่ใส่ DATABASE_URL/JWT_SECRET ใน Frontend
 

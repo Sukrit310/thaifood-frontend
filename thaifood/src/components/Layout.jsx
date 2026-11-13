@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { startTransition, useState, useEffect, useRef } from 'react';
 import { Link, NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '../auth/AuthContext';
 import { isMockMode } from '../api/backend';
@@ -68,7 +68,11 @@ export default function Layout() {
     return () => viewport.removeEventListener('change', onViewportChange);
   }, []);
 
-  function signOut() { logout(); navigate('/'); }
+  function signOut() {
+    // Keep the session update and navigation together so the old route guard
+    // cannot redirect to Login before the explicit Home navigation commits.
+    startTransition(() => { logout(); navigate('/'); });
+  }
   function onHeaderBlur(event) {
     const next = event.relatedTarget instanceof Element ? event.relatedTarget : null;
     if (!headerRef.current?.contains(next) && (next || event.target.getClientRects().length)) headerFocus.current = null;
@@ -91,7 +95,7 @@ export default function Layout() {
           </nav>
           <div className="layout-account">
             {member ? <>
-              <NavLink className="layout-profile-link" to="/profile" aria-label={'โปรไฟล์ของ ' + member.displayName} title={member.displayName}>
+              <NavLink className="layout-profile-link" to="/profile" title={member.displayName}>
                 <span className="layout-avatar" aria-hidden="true">{member.displayName.slice(0, 1)}</span>
                 <span className="layout-profile-copy"><span>โปรไฟล์</span><strong>{member.displayName}</strong></span>
               </NavLink>

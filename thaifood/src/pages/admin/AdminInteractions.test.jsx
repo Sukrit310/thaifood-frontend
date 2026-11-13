@@ -62,7 +62,7 @@ test('admin can select a restaurant and moderate a review with aggregate refresh
   fireEvent.change(selector, { target: { value: '102' } });
   await screen.findByText('นักชิมเดินทาง');
   expect((await restaurantService.get(102)).rating).toBe(4.5);
-  fireEvent.click(screen.getByRole('button', { name: 'ลบรีวิวของ นักชิมเดินทาง' }));
+  fireEvent.click(screen.getByRole('button', { name: 'ลบรีวิว ของ นักชิมเดินทาง' }));
   await waitFor(() => expect(screen.queryByText('นักชิมเดินทาง')).not.toBeInTheDocument());
   expect(await screen.findByText('คนชอบอาหารไทย')).toBeInTheDocument();
   expect((await reviewService.list(102)).items).toHaveLength(1);

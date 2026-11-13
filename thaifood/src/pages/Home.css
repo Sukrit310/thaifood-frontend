@@ -67,6 +67,7 @@
 .home-page .home-skeleton-short { width: 45%; height: 12px; margin-top: 12px; }
 .home-page .home-visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
 .home-page .home-community { display: grid; grid-template-columns: 1.4fr 1fr; gap: 64px; align-items: center; background: var(--color-sand); border: 1px solid var(--color-border); border-radius: var(--radius-xl); padding: 44px 48px; margin-top: 72px; }
+.home-page .home-community .home-kicker { color: var(--color-primary-hover); }
 .home-page .home-community h2 { font-size: clamp(27px, 2.8vw, 36px); line-height: 1.6; font-weight: 600; letter-spacing: -.02em; margin-block: 12px; }
 .home-page .home-community-copy > p:last-child { color: var(--color-muted); max-width: 460px; line-height: 1.85; font-size: 15px; }
 .home-page .home-community-action { justify-self: end; }

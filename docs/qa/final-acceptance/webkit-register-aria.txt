@@ -1,0 +1,58 @@
+- link "ข้ามไปยังเนื้อหา":
+  - /url: "#main-content"
+- banner:
+  - link "ThaiFood หน้าแรก":
+    - /url: /
+    - text: ThaiFood.
+  - navigation "เมนูหลัก":
+    - link "หน้าแรก":
+      - /url: /
+    - link "ค้นหาร้านอาหาร":
+      - /url: /restaurants
+  - link "เข้าสู่ระบบ":
+    - /url: /login
+  - link "สมัครสมาชิก":
+    - /url: /register
+- main:
+  - paragraph: JOIN THE TABLE
+  - heading "มื้อดี ๆ เริ่มที่นี่" [level=1]
+  - paragraph: สร้างบัญชีเพื่อเก็บร้านที่อยากไปและเล่ามื้อที่ประทับใจ
+  - text: ชื่อที่แสดง
+  - textbox "ชื่อที่แสดง"
+  - text: อีเมล
+  - textbox "อีเมล"
+  - text: รหัสผ่าน
+  - textbox "รหัสผ่าน"
+  - paragraph: 0 / 72 ไบต์ · ขั้นต่ำ 8 ไบต์ (ตัวอักษรไทยใช้หลายไบต์)
+  - text: ยืนยันรหัสผ่าน
+  - textbox "ยืนยันรหัสผ่าน"
+  - button "สร้างบัญชี"
+  - paragraph:
+    - text: มีบัญชีแล้ว?
+    - link "เข้าสู่ระบบ":
+      - /url: /login
+  - complementary "มื้ออร่อยในแบบของคุณ":
+    - paragraph: A TABLE OF YOUR OWN
+    - paragraph: ร้านที่ถูกใจ เก็บไว้ใกล้ตัว
+    - paragraph: เก็บร้านที่อยากลอง แบ่งปันมื้อที่ประทับใจ แล้วค่อย ๆ เติมเรื่องราวอร่อยในแบบของคุณ
+    - paragraph: มื้อถัดไป อาจกลายเป็นร้านโปรดร้านใหม่
+- contentinfo:
+  - link "ThaiFood หน้าแรก":
+    - /url: /
+    - text: ThaiFood.
+  - paragraph: ทุกจังหวัด มีเรื่องอร่อยให้ค้นพบ
+  - paragraph: ค้นพบรสชาติท้องถิ่น เก็บร้านที่อยากไป และแบ่งปันมื้อที่ประทับใจ
+  - navigation "เมนูท้ายเว็บ":
+    - heading "ออกไปอร่อยด้วยกัน" [level=2]
+    - link "หน้าแรก":
+      - /url: /
+    - link "ค้นหาร้านอาหาร":
+      - /url: /restaurants
+  - navigation "บัญชีผู้ใช้ในท้ายเว็บ":
+    - heading "มุมของคุณ" [level=2]
+    - link "เข้าสู่ระบบ":
+      - /url: /login
+    - link "สมัครสมาชิก":
+      - /url: /register
+  - paragraph: © 2026 ThaiFood. โครงการแนะนำร้านอาหารทั่วประเทศไทย
+  - paragraph: ภาพประกอบสร้างสำหรับโครงการ · คะแนนจากรีวิวบนเว็บ

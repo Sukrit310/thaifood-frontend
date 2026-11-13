@@ -18,7 +18,8 @@ function mount(ui) {
 
 test('one named restaurant link contains the decorative image, heading and accessible metadata', () => {
   mount(<RestaurantCard restaurant={restaurant} />);
-  const link = screen.getByRole('link', { name: 'ครัวสายลม', exact: true });
+  const link = screen.getByRole('link', { name: /ครัวสายลม/ });
+  expect(link).toHaveAccessibleName(/อาหารเหนือ.*ครัวสายลม.*เชียงใหม่.*4\.5.*12 รีวิว.*ถนนนิมมาน/);
   expect(screen.getAllByRole('link')).toHaveLength(1);
   expect(link).toHaveAttribute('href', '/restaurants/501');
   expect(link).toContainElement(screen.getByRole('heading', { name: 'ครัวสายลม', level: 3 }));
@@ -98,7 +99,7 @@ test('the grid is a native list with each action paired to its own restaurant', 
   expect(list.tagName).toBe('UL');
   const items = within(list).getAllByRole('listitem');
   expect(items).toHaveLength(2);
-  expect(within(items[0]).getByRole('link', { name: 'ครัวสายลม', exact: true })).toHaveAttribute('href', '/restaurants/501');
+  expect(within(items[0]).getByRole('link', { name: /ครัวสายลม/ })).toHaveAttribute('href', '/restaurants/501');
   expect(within(items[0]).getByRole('button', { name: 'นำออก ครัวสายลม' })).toBeInTheDocument();
   expect(within(items[1]).getByRole('button', { name: 'นำออก ครัวริมสวน' })).toBeInTheDocument();
 });

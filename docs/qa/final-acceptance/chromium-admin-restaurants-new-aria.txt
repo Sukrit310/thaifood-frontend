@@ -1,0 +1,170 @@
+- link "ข้ามไปยังเนื้อหา":
+  - /url: "#main-content"
+- banner:
+  - link "ThaiFood หน้าแรก":
+    - /url: /
+    - text: ThaiFood.
+  - navigation "เมนูหลัก":
+    - link "หน้าแรก":
+      - /url: /
+    - link "ค้นหาร้านอาหาร":
+      - /url: /restaurants
+    - link "ร้านโปรด":
+      - /url: /favorites
+    - link "จัดการระบบ":
+      - /url: /[REDACTED_NAME]
+  - link "โปรไฟล์ [REDACTED_NAME]":
+    - /url: /profile
+    - text: โปรไฟล์
+    - strong: [REDACTED_NAME]
+  - button "ออกจากระบบ"
+- main:
+  - complementary "พื้นที่ผู้ดูแลระบบ":
+    - paragraph: พื้นที่ผู้ดูแลระบบ
+    - text: ADMIN
+    - paragraph: ดูแลร้านอาหารและชุมชนนักชิม
+    - navigation "เมนูผู้ดูแลระบบ":
+      - link "ภาพรวม":
+        - /url: /[REDACTED_NAME]
+      - link "ร้านอาหาร":
+        - /url: /[REDACTED_NAME]/restaurants
+      - link "รีวิว":
+        - /url: /[REDACTED_NAME]/reviews
+      - link "สมาชิก":
+        - /url: /[REDACTED_NAME]/members
+  - link "← กลับรายการร้านอาหาร":
+    - /url: /[REDACTED_NAME]/restaurants
+  - heading "เพิ่มร้านอาหาร" [level=1]
+  - paragraph: ช่องที่มี * จำเป็นต้องกรอก ส่วนพิกัดและรูปภาพระบุภายหลังได้
+  - group "ข้อมูลร้านอาหาร":
+    - text: ข้อมูลร้านอาหาร ชื่อร้าน *
+    - textbox "ชื่อร้าน *"
+    - text: จังหวัด *
+    - combobox "จังหวัด *":
+      - option "เลือกจังหวัด" [selected]
+      - option "กระบี่"
+      - option "กรุงเทพมหานคร"
+      - option "กาญจนบุรี"
+      - option "กาฬสินธุ์"
+      - option "กำแพงเพชร"
+      - option "ขอนแก่น"
+      - option "จันทบุรี"
+      - option "ฉะเชิงเทรา"
+      - option "ชลบุรี"
+      - option "ชัยนาท"
+      - option "ชัยภูมิ"
+      - option "ชุมพร"
+      - option "เชียงราย"
+      - option "เชียงใหม่"
+      - option "ตรัง"
+      - option "ตราด"
+      - option "ตาก"
+      - option "นครนายก"
+      - option "นครปฐม"
+      - option "นครพนม"
+      - option "นครราชสีมา"
+      - option "นครศรีธรรมราช"
+      - option "นครสวรรค์"
+      - option "นนทบุรี"
+      - option "นราธิวาส"
+      - option "น่าน"
+      - option "บึงกาฬ"
+      - option "บุรีรัมย์"
+      - option "ปทุมธานี"
+      - option "ประจวบคีรีขันธ์"
+      - option "ปราจีนบุรี"
+      - option "ปัตตานี"
+      - option "พระนครศรีอยุธยา"
+      - option "พะเยา"
+      - option "พังงา"
+      - option "พัทลุง"
+      - option "พิจิตร"
+      - option "พิษณุโลก"
+      - option "เพชรบุรี"
+      - option "เพชรบูรณ์"
+      - option "แพร่"
+      - option "ภูเก็ต"
+      - option "มหาสารคาม"
+      - option "มุกดาหาร"
+      - option "แม่ฮ่องสอน"
+      - option "ยโสธร"
+      - option "ยะลา"
+      - option "ร้อยเอ็ด"
+      - option "ระนอง"
+      - option "ระยอง"
+      - option "ราชบุรี"
+      - option "ลพบุรี"
+      - option "ลำปาง"
+      - option "ลำพูน"
+      - option "เลย"
+      - option "ศรีสะเกษ"
+      - option "สกลนคร"
+      - option "สงขลา"
+      - option "สตูล"
+      - option "สมุทรปราการ"
+      - option "สมุทรสงคราม"
+      - option "สมุทรสาคร"
+      - option "สระแก้ว"
+      - option "สระบุรี"
+      - option "สิงห์บุรี"
+      - option "สุโขทัย"
+      - option "สุพรรณบุรี"
+      - option "สุราษฎร์ธานี"
+      - option "สุรินทร์"
+      - option "หนองคาย"
+      - option "หนองบัวลำภู"
+      - option "อ่างทอง"
+      - option "อำนาจเจริญ"
+      - option "อุดรธานี"
+      - option "อุตรดิตถ์"
+      - option "อุทัยธานี"
+      - option "อุบลราชธานี"
+    - text: ประเภทอาหาร *
+    - combobox "ประเภทอาหาร *":
+      - option "เลือกประเภท" [selected]
+      - option "อาหารเหนือ"
+      - option "อาหารอีสาน"
+      - option "อาหารใต้"
+      - option "อาหารไทย"
+      - option "คาเฟ่"
+      - option "อาหารทะเล"
+      - option "อาหารมังสวิรัติ"
+    - text: รายละเอียด *
+    - textbox "รายละเอียด *"
+  - group "ที่ตั้งและรูปภาพ":
+    - text: ที่ตั้งและรูปภาพ ที่อยู่ *
+    - textbox "ที่อยู่ *"
+    - text: ละติจูด
+    - spinbutton "ละติจูด"
+    - text: ลองจิจูด
+    - spinbutton "ลองจิจูด"
+    - paragraph: กรอกพิกัดทั้งคู่ หรือเว้นว่างทั้งคู่หากยังไม่ระบุพิกัด
+    - text: ลิงก์รูปภาพ
+    - textbox "ลิงก์รูปภาพ":
+      - /placeholder: https://example.com/food.jpg
+    - paragraph: ใช้ลิงก์ http หรือ https แบบเต็มของภาพที่ได้รับอนุญาต เว้นว่างเพื่อใช้ภาพเริ่มต้น
+  - button "บันทึกร้านอาหาร"
+  - link "ยกเลิก":
+    - /url: /[REDACTED_NAME]/restaurants
+- contentinfo:
+  - link "ThaiFood หน้าแรก":
+    - /url: /
+    - text: ThaiFood.
+  - paragraph: ทุกจังหวัด มีเรื่องอร่อยให้ค้นพบ
+  - paragraph: ค้นพบรสชาติท้องถิ่น เก็บร้านที่อยากไป และแบ่งปันมื้อที่ประทับใจ
+  - navigation "เมนูท้ายเว็บ":
+    - heading "ออกไปอร่อยด้วยกัน" [level=2]
+    - link "หน้าแรก":
+      - /url: /
+    - link "ค้นหาร้านอาหาร":
+      - /url: /restaurants
+    - link "ร้านโปรด":
+      - /url: /favorites
+  - navigation "บัญชีผู้ใช้ในท้ายเว็บ":
+    - heading "มุมของคุณ" [level=2]
+    - link "โปรไฟล์ของฉัน":
+      - /url: /profile
+    - link "จัดการระบบ":
+      - /url: /[REDACTED_NAME]
+  - paragraph: © 2026 ThaiFood. โครงการแนะนำร้านอาหารทั่วประเทศไทย
+  - paragraph: ภาพประกอบสร้างสำหรับโครงการ · คะแนนจากรีวิวบนเว็บ

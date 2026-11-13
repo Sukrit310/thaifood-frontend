@@ -1,0 +1,82 @@
+- link "ข้ามไปยังเนื้อหา":
+  - /url: "#main-content"
+- banner:
+  - link "ThaiFood หน้าแรก":
+    - /url: /
+    - text: ThaiFood.
+  - navigation "เมนูหลัก":
+    - link "หน้าแรก":
+      - /url: /
+    - link "ค้นหาร้านอาหาร":
+      - /url: /restaurants
+  - link "เข้าสู่ระบบ":
+    - /url: /login
+  - link "สมัครสมาชิก":
+    - /url: /register
+- main:
+  - navigation "เส้นทาง":
+    - list:
+      - listitem:
+        - link "ร้านอาหาร":
+          - /url: /restaurants
+      - listitem:
+        - link "กรุงเทพมหานคร":
+          - /url: /restaurants?province=%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3
+      - listitem: ภัตตาคารจันทร์เพ็ญ
+  - paragraph: กรุงเทพมหานคร
+  - heading "ภัตตาคารจันทร์เพ็ญ" [level=1]
+  - text: อาหารไทย
+  - paragraph:
+    - strong: 5.0 / 5
+    - link "จาก 1 รีวิวของสมาชิก":
+      - /url: "#reviews-heading"
+  - figure:
+    - img "ภาพประกอบ ภัตตาคารจันทร์เพ็ญ"
+  - region "เรื่องราวของร้าน":
+    - heading "เรื่องราวของร้าน" [level=2]
+    - paragraph: "ภัตตาคารอาหารไทยสาขาพระราม 4 กรุงเทพมหานคร ที่มาข้อมูล: การท่องเที่ยวแห่งประเทศไทย (https://data.go.th/th/dataset/restaurant1), PLACE_ID 201202281311003650 ภาพ: Chandrphen Restaurant Rama 4 ภัตตาคารจันทร์เพ็ญ สาขาพระราม 4 (2026) - IMG 01.jpg — Chainwit. / CC BY 4.0 (https://creativecommons.org/licenses/by/4.0) ที่มาภาพ: https://commons.wikimedia.org/?curid=199292210 (แสดงเป็นภาพย่อ)"
+  - complementary "แวะไปอร่อยที่นี่":
+    - paragraph: PLAN YOUR VISIT
+    - heading "แวะไปอร่อยที่นี่" [level=2]
+    - term: จังหวัด
+    - definition: กรุงเทพมหานคร
+    - term: ที่อยู่
+    - definition: 1020/1 เขตสาทร กรุงเทพมหานคร 10120
+    - term: ประเภทอาหาร
+    - definition: อาหารไทย
+    - paragraph: ยังไม่มีตำแหน่งแผนที่ที่พร้อมใช้งาน
+    - link "เข้าสู่ระบบเพื่อบันทึกร้าน":
+      - /url: /login
+  - region "เสียงจากคนที่ได้ลอง (1)":
+    - paragraph: AT THE TABLE
+    - heading "เสียงจากคนที่ได้ลอง (1)" [level=2]
+    - paragraph: ประสบการณ์จากสมาชิกที่แบ่งปันไว้บน ThaiFood
+    - article:
+      - heading "ดกดกก" [level=3]
+      - time: 13 พ.ย. 2569
+      - img "5 จาก 5 ดาว": ★★★★★
+      - paragraph: adsdsadsdsdsa
+    - heading "มื้อนี้เป็นอย่างไรบ้าง?" [level=3]
+    - paragraph: เข้าสู่ระบบเพื่อให้คะแนนและแบ่งปันประสบการณ์
+    - link "เข้าสู่ระบบเพื่อรีวิว":
+      - /url: /login
+- contentinfo:
+  - link "ThaiFood หน้าแรก":
+    - /url: /
+    - text: ThaiFood.
+  - paragraph: ทุกจังหวัด มีเรื่องอร่อยให้ค้นพบ
+  - paragraph: ค้นพบรสชาติท้องถิ่น เก็บร้านที่อยากไป และแบ่งปันมื้อที่ประทับใจ
+  - navigation "เมนูท้ายเว็บ":
+    - heading "ออกไปอร่อยด้วยกัน" [level=2]
+    - link "หน้าแรก":
+      - /url: /
+    - link "ค้นหาร้านอาหาร":
+      - /url: /restaurants
+  - navigation "บัญชีผู้ใช้ในท้ายเว็บ":
+    - heading "มุมของคุณ" [level=2]
+    - link "เข้าสู่ระบบ":
+      - /url: /login
+    - link "สมัครสมาชิก":
+      - /url: /register
+  - paragraph: © 2026 ThaiFood. โครงการแนะนำร้านอาหารทั่วประเทศไทย
+  - paragraph: ภาพประกอบสร้างสำหรับโครงการ · คะแนนจากรีวิวบนเว็บ

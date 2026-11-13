@@ -16,7 +16,7 @@ export default function RestaurantCard({ restaurant, action }) {
   const address = restaurant.address || 'ค้นพบรสชาติประจำถิ่น';
 
   return <article className="restaurant-card" aria-labelledby={titleId}>
-    <Link to={`/restaurants/${restaurant.id}`} className="restaurant-card-link" aria-labelledby={titleId}>
+    <Link to={`/restaurants/${restaurant.id}`} className="restaurant-card-link">
       <div className="card-media"><img src={restaurant.imageUrl || FALLBACK_IMAGE} onError={handleImageError} alt="" className="card-image" width="640" height="480" loading="lazy" decoding="async" /></div>
       <div className="card-content">
         {restaurant.category && <span className="category-tag">{restaurant.category}</span>}

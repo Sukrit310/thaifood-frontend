@@ -1,0 +1,226 @@
+{
+  "status": "passed",
+  "target": "http://127.0.0.1:3100",
+  "checks": [
+    "UI Register201 → Login200 → original Favorites destination; authenticated GET Me200 matches created member",
+    "UI Profile PATCH persists the new displayName; email remains read-only",
+    "UI wrong-current-password401 retains session/draft; corrected password PUT204 clears fields on success",
+    "Logout/new-password login works; real Go403 and UI role gate prevent Member access to Admin",
+    "UI Favorite POST201 → persisted collection → DELETE204 → verified empty collection",
+    "UI Review POST201 persists member/rating/text and aggregate; native-confirm DELETE204 removes own review and restores count"
+  ],
+  "requests": [
+    {
+      "method": "POST",
+      "path": "/api/auth/register",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/api/me/password",
+      "status": 401
+    },
+    {
+      "method": "PUT",
+      "path": "/api/me/password",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/29",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/29",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/favorites",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/29/reviews",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/29/reviews",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/favorites",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/api/favorites",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/favorites",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/favorites",
+      "status": 200
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/favorites/29",
+      "status": 204
+    },
+    {
+      "method": "GET",
+      "path": "/api/favorites",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/29",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/29",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/29/reviews",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/29/reviews",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/favorites",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/restaurants/29/reviews",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/29",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/29/reviews",
+      "status": 200
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/reviews/23",
+      "status": 204
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/29",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/29/reviews",
+      "status": 200
+    }
+  ],
+  "pageErrors": [],
+  "corsErrors": [],
+  "cleanup": {
+    "noTestFavorite": true,
+    "noTestReview": true
+  },
+  "retainedData": {
+    "memberId": 16,
+    "reason": "One clearly labelled disposable QA member remains; the API has no member-delete endpoint. Random credentials are discarded and never saved."
+  },
+  "reviewCountBefore": 1,
+  "reviewCountAfterCleanup": 1
+}

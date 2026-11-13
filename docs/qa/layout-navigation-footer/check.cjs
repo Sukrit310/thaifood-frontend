@@ -172,7 +172,7 @@ function metrics(p, role) {
     assert.equal(response.status(), 200);
     await lp.locator('.restaurant-card').first().waitFor({ timeout: 90000 });
     assert.equal(await lp.locator('.restaurant-card').count(), data.items.length);
-    assert.equal(await lp.getByRole('note', { name: 'ข้อมูลสาธิต' }).innerText(), 'ร้านอาหารเริ่มต้นเป็นข้อมูลสมมติสำหรับโครงการสาธิต');
+    assert.equal(await lp.getByRole('note', { name: 'ข้อมูลสาธิต' }).count(), 0);
     output.live = { status: response.status(), total: data.total, cards: data.items.length, source: 'unchanged local proxy -> Render; no API fixtures in this context' };
     await live.close();
     assert.equal(output.errors.length, 0); assert.equal(output.writes.length, 0);

@@ -1,0 +1,232 @@
+{
+  "status": "passed",
+  "target": "https://thaifood-frontend.vercel.app",
+  "checks": [
+    "Real Admin login/role and protected member directory GET200 match the rendered count; no member records modified",
+    "UI Admin create POST201 with real foreign-key IDs/zero coordinates persists and appears in restaurant search",
+    "UI Admin edit PUT200 updates persisted fields and preserves coordinates when omitted",
+    "UI Admin review selection, confirmation cancel and real moderation DELETE204 refresh empty state and aggregate",
+    "UI restaurant confirmation cancel/delete204 and database cascade remove only QA restaurant/review/favorite; existing favorites unchanged"
+  ],
+  "requests": [
+    {
+      "method": "POST",
+      "path": "/api/auth/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/provinces",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/[REDACTED]/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/provinces",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/categories",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/[REDACTED]/restaurants",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/categories",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/provinces",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/147",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/api/[REDACTED]/restaurants/147",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/147",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/147/reviews",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/favorites",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/restaurants/147/reviews",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/147",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/147/reviews",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/147/reviews",
+      "status": 200
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/[REDACTED]/reviews/24",
+      "status": 204
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/147/reviews",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/147",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/147/reviews",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/favorites",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/restaurants/147/reviews",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/147",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/147/reviews",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/favorites",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants",
+      "status": 200
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/[REDACTED]/restaurants/147",
+      "status": 204
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants",
+      "status": 200
+    }
+  ],
+  "pageErrors": [],
+  "corsErrors": [],
+  "cleanup": {
+    "restaurantGone": true,
+    "existingFavoritesPreserved": true
+  },
+  "[REDACTED]RoleVerified": true,
+  "memberDirectoryCount": 6,
+  "createdTestRestaurantId": 147
+}

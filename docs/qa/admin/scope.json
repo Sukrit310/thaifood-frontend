@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "baselineFiles": 75,
+  "protectedFilesUnchanged": 69,
+  "changedExistingSource": [
+    "thaifood/src/pages/admin/AdminDashboard.jsx",
+    "thaifood/src/pages/admin/AdminLayout.jsx",
+    "thaifood/src/pages/admin/AdminMembers.jsx",
+    "thaifood/src/pages/admin/AdminRestaurantForm.jsx",
+    "thaifood/src/pages/admin/AdminRestaurants.jsx",
+    "thaifood/src/pages/admin/AdminReviews.jsx"
+  ],
+  "newSource": [
+    "thaifood/src/pages/admin/Admin.css",
+    "thaifood/src/pages/admin/AdminUI.jsx",
+    "thaifood/src/pages/admin/AdminUI.test.jsx"
+  ]
+}

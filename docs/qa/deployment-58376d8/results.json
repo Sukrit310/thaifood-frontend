@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "base": "https://thaifood-frontend.vercel.app",
+  "commit": "58376d80e3d13a88f8005f52d97b0669c70cf199",
+  "checks": [
+    "Canonical URL serves expected latest bundle; Home at375/1440 has no banner/overflow and loads real Render data",
+    "SPA list/search/detail return200 and render matching real API data; CORS allows canonical origin",
+    "New account composition/deep links, guest return-path guards and mobile disclosure navigation work on production",
+    "Shipped Admin sidebar/table/mobile44px actions/grouped form render with isolated read-only auth fixtures; no real Admin operations"
+  ],
+  "apiReads": [
+    {
+      "url": "https://thaifood-guide-api-a7c7.onrender.com/api/restaurants?page=1&limit=6",
+      "status": 200,
+      "allowedOrigin": "https://thaifood-frontend.vercel.app"
+    },
+    {
+      "url": "https://thaifood-guide-api-a7c7.onrender.com/api/restaurants?page=1&limit=12",
+      "status": 200,
+      "allowedOrigin": "https://thaifood-frontend.vercel.app"
+    },
+    {
+      "url": "https://thaifood-guide-api-a7c7.onrender.com/api/restaurants?q=%E0%B8%A0%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%9E%E0%B9%87%E0%B8%8D&page=1&limit=12",
+      "status": 200,
+      "allowedOrigin": "https://thaifood-frontend.vercel.app"
+    },
+    {
+      "url": "https://thaifood-guide-api-a7c7.onrender.com/api/restaurants/29",
+      "status": 200,
+      "allowedOrigin": "https://thaifood-frontend.vercel.app"
+    }
+  ],
+  "pageErrors": [],
+  "corsErrors": [],
+  "blockedWrites": [],
+  "liveRestaurantTotal": 59
+}

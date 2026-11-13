@@ -1,0 +1,88 @@
+{
+  "checkedAt": "2026-11-13T16:21:55.855Z",
+  "apiUrl": "https://thaifood-guide-api-a7c7.onrender.com",
+  "frontendOrigin": "https://thaifood-frontend.vercel.app",
+  "transport": "actual src/api/services.js → backend.js → native fetch → Go",
+  "checks": [
+    "GET /health reaches healthy Go/database",
+    "CORS preflight permits frontend Origin, Authorization and write methods",
+    "CORS rejects an unapproved Origin",
+    "Public FE services receive provinces/categories/paginated restaurants",
+    "Thai filters, detail/reviews, empty result and 404 match Contract v2",
+    "Unauthenticated/invalid-token 401 clears client session"
+  ],
+  "requests": [
+    {
+      "method": "GET",
+      "path": "/health",
+      "status": 200
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/me",
+      "status": 204
+    },
+    {
+      "method": "GET",
+      "path": "/api/provinces",
+      "status": 403
+    },
+    {
+      "method": "GET",
+      "path": "/api/provinces",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/categories",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/29",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/29/reviews",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/2147483647",
+      "status": 404
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 401
+    }
+  ],
+  "memberFlow": false,
+  "data": {
+    "provinces": 77,
+    "categories": 7,
+    "restaurants": 59
+  },
+  "passed": true
+}
