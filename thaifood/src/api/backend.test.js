@@ -84,7 +84,9 @@ test('favorites preserve contract shape and reject duplicates', async () => {
 });
 
 test('registration cannot assign admin; profile and password changes work', async () => {
-  const member = await authService.register({ email: 'NEW@example.com', password: 'LongPassword123', displayName: 'คนใหม่', role: 'admin' });
+  const registration = { email: 'NEW@example.com', password: 'LongPassword123', displayName: 'คนใหม่' };
+  await expect(authService.register({ ...registration, role: 'admin' })).rejects.toMatchObject({ status: 400, code: 'VALIDATION_ERROR' });
+  const member = await authService.register(registration);
   expect(member).toMatchObject({ email: 'new@example.com', displayName: 'คนใหม่', role: 'member' });
   expect(Object.keys(member).sort()).toEqual(['displayName', 'email', 'id', 'role']);
   await expect(authService.register({ email: 'new@example.com', password: 'LongPassword123', displayName: 'อีกคน' })).rejects.toMatchObject({ status: 409 });

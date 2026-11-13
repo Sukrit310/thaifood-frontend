@@ -15,6 +15,7 @@ jest.mock('../../api/services', () => ({
   reviewService: { list: jest.fn() },
 }));
 jest.mock('../../api/backend', () => ({ isMockMode: false }));
+jest.mock('../../auth/AuthContext', () => ({ useAuth: () => ({ member: { id: 8, role: 'admin' } }) }));
 const restaurant = { id: 29, name: 'ครัวริมน้ำ', province: 'เชียงใหม่', category: 'อาหารเหนือ', address: 'อำเภอเมือง', description: 'อาหารไทยท้องถิ่น', imageUrl: null, latitude: 0, longitude: 0, rating: 4, reviewCount: 1 };
 const members = [{ id: 7, displayName: 'นักชิม', email: 'member@example.com', role: 'member' }, { id: 8, displayName: 'ผู้ดูแล', email: 'admin@example.com', role: 'admin' }];
 const review = { id: 41, member: members[0], rating: 4, text: 'อาหารอร่อยและบริการดีมาก', createdAt: '2026-11-13T09:00:00Z' };
@@ -78,14 +79,16 @@ test('overview load failure retains page context and recovers via retry', async 
   expect(await screen.findByText('2')).toBeInTheDocument();
 });
 
-test('member directory shows a truthful count, native row headers and roles without unsupported actions', async () => {
+test('member directory shows a truthful count, native row headers and role actions for other accounts', async () => {
   mount('/admin/members');
   expect(await screen.findByText('2 คน')).toBeInTheDocument();
   const table = screen.getByRole('table', { name: /สมาชิกทั้งหมด/ });
   expect(within(table).getByRole('rowheader', { name: 'นักชิม' })).toBeInTheDocument();
   expect(within(table).getByText('member@example.com')).toBeInTheDocument();
   expect(within(table).getByText('ผู้ดูแลระบบ')).toBeInTheDocument();
-  expect(within(table).queryByRole('button')).not.toBeInTheDocument();
+  expect(within(table).getByRole('button', { name: 'เปลี่ยนสิทธิ์ นักชิม' })).toBeInTheDocument();
+  expect(within(table).getByText('บัญชีของคุณ')).toBeInTheDocument();
+  expect(within(table).queryByRole('button', { name: 'เปลี่ยนสิทธิ์ ผู้ดูแล', exact: true })).not.toBeInTheDocument();
   expect(screen.getByRole('navigation', { name: 'เมนูผู้ดูแลระบบ' }).querySelector('[aria-current="page"]')).toHaveAttribute('href', '/admin/members');
 });
 
