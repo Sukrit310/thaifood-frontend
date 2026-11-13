@@ -145,6 +145,7 @@ function route(url, options, data) {
     }
   }
   if (method === 'POST' && path === '/api/auth/register') {
+    if (Object.keys(body).some(key => !['email', 'password', 'displayName'].includes(key))) validation('ข้อมูลสมัครสมาชิกมีฟิลด์ที่ไม่รองรับ');
     const email = requiredString(body.email, 'อีเมล', 3, 254).toLowerCase();
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) validation('รูปแบบอีเมลไม่ถูกต้อง');
     const memberDisplayName = displayName(body.displayName);
@@ -165,7 +166,10 @@ function route(url, options, data) {
   if (path === '/api/me') {
     const member = getMember(options, data);
     if (method === 'GET') return response(200, memberPublic(member));
-    if (method === 'PATCH') { member.displayName = displayName(body.displayName); save(data); return response(200, memberPublic(member)); }
+    if (method === 'PATCH') {
+      if (Object.keys(body).some(key => key !== 'displayName')) validation('โปรไฟล์แก้ไขได้เฉพาะชื่อที่แสดง');
+      member.displayName = displayName(body.displayName); save(data); return response(200, memberPublic(member));
+    }
   }
   if (method === 'PUT' && path === '/api/me/password') {
     const member = getMember(options, data);
@@ -200,8 +204,22 @@ function route(url, options, data) {
     return response(204);
   }
   if (path.startsWith('/api/admin/')) {
-    getMember(options, data, true);
+    const actor = getMember(options, data, true);
     if (method === 'GET' && path === '/api/admin/members') return response(200, { items: data.members.map(memberPublic) });
+    if (method === 'PATCH' && (match = path.match(/^\/api\/admin\/members\/([^/]+)\/role$/))) {
+      let rawId;
+      try { rawId = decodeURIComponent(match[1]); } catch { validation('ID ต้องเป็นจำนวนเต็มบวก'); }
+      const targetId = rawId.replace(/^\+?0*/, '');
+      if (!/^\+?\d+$/.test(rawId) || !targetId || targetId.length > 19 || (targetId.length === 19 && targetId > '9223372036854775807')) validation('ID ต้องเป็นจำนวนเต็มบวกในช่วง int64');
+      if (Object.keys(body).join() !== 'role' || !['member', 'admin'].includes(body.role)) validation('กรุณาระบุ role เป็น member หรือ admin เพียงฟิลด์เดียว');
+      const target = data.members.find(item => String(item.id) === targetId);
+      if (!target) notFound();
+      if (target.id === actor.id) fail(403, 'FORBIDDEN', 'ไม่สามารถเปลี่ยนสิทธิ์บัญชีของตัวเองได้');
+      if (target.role === body.role) return response(200, memberPublic(target));
+      if (target.role === 'admin' && body.role === 'member' && data.members.filter(item => item.role === 'admin').length <= 1) fail(409, 'LAST_ADMIN', 'ต้องมีผู้ดูแลระบบเหลืออย่างน้อย 1 คน');
+      target.role = body.role; save(data);
+      return response(200, memberPublic(target));
+    }
     if (method === 'POST' && path === '/api/admin/restaurants') {
       const restaurant = { id: data.nextRestaurantId, ...restaurantBody(body) };
       data.nextRestaurantId++; data.restaurants.push(restaurant); save(data);

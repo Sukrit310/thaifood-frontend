@@ -32,6 +32,7 @@ export const favoriteService = {
 };
 export const adminService = {
   members: () => request('/api/admin/members'),
+  updateMemberRole: (id, role) => request(`/api/admin/members/${encodeURIComponent(id)}/role`, { method: 'PATCH', body: { role } }),
   createRestaurant: body => request('/api/admin/restaurants', { method: 'POST', body }),
   updateRestaurant: (id, body) => request(`/api/admin/restaurants/${encodeURIComponent(id)}`, { method: 'PUT', body }),
   deleteRestaurant: id => request(`/api/admin/restaurants/${encodeURIComponent(id)}`, { method: 'DELETE' }),

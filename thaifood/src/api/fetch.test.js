@@ -6,6 +6,18 @@ let api;
 let services;
 const jsonResponse = (status, payload) => ({ status, ok: status >= 200 && status < 300, json: async () => payload });
 
+test('member role PATCH uses the contract path, encoded ID, Bearer token and unwrapped Member', async () => {
+  const member = { id: 7, email: 'member@example.invalid', displayName: 'นักชิม', role: 'admin' };
+  api.setToken('test-admin-token');
+  global.fetch.mockResolvedValue(jsonResponse(200, member));
+  expect(await services.adminService.updateMemberRole('7/role?other=8', 'admin')).toEqual(member);
+  expect(global.fetch).toHaveBeenCalledTimes(1);
+  expect(global.fetch).toHaveBeenCalledWith('https://api.example.test/api/admin/members/7%2Frole%3Fother%3D8/role', expect.objectContaining({
+    method: 'PATCH', body: JSON.stringify({ role: 'admin' }),
+    headers: { Accept: 'application/json', Authorization: 'Bearer test-admin-token', 'Content-Type': 'application/json' },
+  }));
+});
+
 beforeEach(() => {
   jest.resetModules();
   process.env.REACT_APP_USE_MOCK = 'false';
