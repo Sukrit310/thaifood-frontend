@@ -1,0 +1,194 @@
+{
+  "checkedAt": "2026-11-11T18:45:09.841Z",
+  "apiUrl": "https://thaifood-guide-api-a7c7.onrender.com",
+  "frontendOrigin": "http://localhost:3000",
+  "transport": "actual src/api/services.js → backend.js → native fetch → Go",
+  "checks": [
+    "GET /health reaches healthy Go/database",
+    "CORS preflight permits frontend Origin, Authorization and write methods",
+    "CORS rejects an unapproved Origin",
+    "Public FE services receive provinces/categories/paginated restaurants",
+    "Thai filters, detail/reviews, empty result and 404 match Contract v2",
+    "Unauthenticated/invalid-token 401 clears client session",
+    "Actual Register/Login/Me/Profile services reach Go and persist changes",
+    "ChangePassword204 works; wrong current password401 preserves session; new login works",
+    "Member receives403 from Go admin endpoint without losing session",
+    "Favorites POST/GET/DELETE204 use actual Go persistence",
+    "Review POST/GET/duplicate409/DELETE204 refreshes aggregate and cleans up"
+  ],
+  "requests": [
+    {
+      "method": "GET",
+      "path": "/health",
+      "status": 200
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/api/me",
+      "status": 204
+    },
+    {
+      "method": "GET",
+      "path": "/api/provinces",
+      "status": 403
+    },
+    {
+      "method": "GET",
+      "path": "/api/provinces",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/categories",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/1/reviews",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/2147483647",
+      "status": 404
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/register",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/api/me/password",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/api/me/password",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/login",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 403
+    },
+    {
+      "method": "POST",
+      "path": "/api/favorites",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/api/favorites",
+      "status": 200
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/favorites/1",
+      "status": 204
+    },
+    {
+      "method": "GET",
+      "path": "/api/favorites",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/restaurants/1/reviews",
+      "status": 201
+    },
+    {
+      "method": "POST",
+      "path": "/api/restaurants/1/reviews",
+      "status": 409
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/1/reviews",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/1",
+      "status": 200
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/reviews/19",
+      "status": 204
+    },
+    {
+      "method": "GET",
+      "path": "/api/restaurants/1",
+      "status": 200
+    }
+  ],
+  "memberFlow": true,
+  "data": {
+    "provinces": 77,
+    "categories": 7,
+    "restaurants": 25
+  },
+  "retainedData": "One disposable member remains because Contract v2 has no member-delete endpoint; its random credentials are discarded.",
+  "passed": true
+}

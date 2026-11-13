@@ -1,0 +1,24 @@
+{
+  "scope": "C. Restaurant Cards / Grid only",
+  "verdict": "ready to deliver",
+  "critical": 0,
+  "important": 0,
+  "minor": 0,
+  "independentlyCheckedBaselineFiles": 68,
+  "priorLayoutHashesUnchanged": true,
+  "verification": {
+    "targetedTests": 13,
+    "fullTests": 138,
+    "suites": 18,
+    "build": "Compiled successfully",
+    "browserConsumerWidthCases": 15,
+    "browserPageErrors": 0,
+    "liveApiWrites": 0,
+    "favoriteRemoval": "intercepted fixture only"
+  },
+  "declinedToJudge": [
+    "Other brief sections, inherited page behavior and prior Layout changes are out of scope.",
+    "Backend/auth mutations and deployment are unchanged and intentionally unexercised.",
+    "Native screen-reader and non-Chromium behavior were not verified in this browser QA."
+  ]
+}

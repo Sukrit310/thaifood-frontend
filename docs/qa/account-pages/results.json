@@ -1,0 +1,2136 @@
+{
+  "status": "passed",
+  "viewports": [
+    {
+      "route": "/login",
+      "role": "guest",
+      "width": 320,
+      "scrollWidth": 320,
+      "h1Count": 1,
+      "storyDisplay": "none",
+      "story": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "panel": {
+        "x": 20,
+        "y": 150,
+        "width": 280,
+        "height": 542,
+        "right": 300,
+        "bottom": 692
+      },
+      "controls": [
+        {
+          "tag": "INPUT",
+          "id": "login-email",
+          "x": 41,
+          "y": 382.5,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 430.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "login-password",
+          "x": 41,
+          "y": 483,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 531,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 41,
+          "y": 551,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 599,
+          "fontSize": "14px"
+        }
+      ],
+      "gridColumns": null,
+      "gridGap": null
+    },
+    {
+      "route": "/login",
+      "role": "guest",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1Count": 1,
+      "storyDisplay": "none",
+      "story": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "panel": {
+        "x": 20,
+        "y": 150,
+        "width": 335,
+        "height": 514,
+        "right": 355,
+        "bottom": 664
+      },
+      "controls": [
+        {
+          "tag": "INPUT",
+          "id": "login-email",
+          "x": 41,
+          "y": 354.5,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 402.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "login-password",
+          "x": 41,
+          "y": 455,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 503,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 41,
+          "y": 523,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 571,
+          "fontSize": "14px"
+        }
+      ],
+      "gridColumns": null,
+      "gridGap": null
+    },
+    {
+      "route": "/login",
+      "role": "guest",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1Count": 1,
+      "storyDisplay": "none",
+      "story": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "panel": {
+        "x": 124,
+        "y": 158,
+        "width": 520,
+        "height": 530,
+        "right": 644,
+        "bottom": 688
+      },
+      "controls": [
+        {
+          "tag": "INPUT",
+          "id": "login-email",
+          "x": 157,
+          "y": 370.5,
+          "width": 454,
+          "height": 48,
+          "right": 611,
+          "bottom": 418.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "login-password",
+          "x": 157,
+          "y": 471,
+          "width": 454,
+          "height": 48,
+          "right": 611,
+          "bottom": 519,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 157,
+          "y": 539,
+          "width": 454,
+          "height": 48,
+          "right": 611,
+          "bottom": 587,
+          "fontSize": "14px"
+        }
+      ],
+      "gridColumns": null,
+      "gridGap": null
+    },
+    {
+      "route": "/login",
+      "role": "guest",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1Count": 1,
+      "storyDisplay": "block",
+      "story": {
+        "x": 30.71875,
+        "y": 190,
+        "width": 438.3125,
+        "height": 610.78125,
+        "right": 469.03125,
+        "bottom": 800.78125
+      },
+      "panel": {
+        "x": 533.03125,
+        "y": 220.34375,
+        "width": 460.234375,
+        "height": 550.078125,
+        "right": 993.265625,
+        "bottom": 770.421875
+      },
+      "controls": [
+        {
+          "tag": "INPUT",
+          "id": "login-email",
+          "x": 574.03125,
+          "y": 444.921875,
+          "width": 378.234375,
+          "height": 48,
+          "right": 952.265625,
+          "bottom": 492.921875,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "login-password",
+          "x": 574.03125,
+          "y": 545.421875,
+          "width": 378.234375,
+          "height": 48,
+          "right": 952.265625,
+          "bottom": 593.421875,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 574.03125,
+          "y": 613.421875,
+          "width": 378.234375,
+          "height": 48,
+          "right": 952.265625,
+          "bottom": 661.421875,
+          "fontSize": "14px"
+        }
+      ],
+      "gridColumns": null,
+      "gridGap": null
+    },
+    {
+      "route": "/login",
+      "role": "guest",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "storyDisplay": "block",
+      "story": {
+        "x": 160,
+        "y": 190,
+        "width": 515.109375,
+        "height": 644.375,
+        "right": 675.109375,
+        "bottom": 834.375
+      },
+      "panel": {
+        "x": 749.546875,
+        "y": 233.1875,
+        "width": 520,
+        "height": 558,
+        "right": 1269.546875,
+        "bottom": 791.1875
+      },
+      "controls": [
+        {
+          "tag": "INPUT",
+          "id": "login-email",
+          "x": 790.546875,
+          "y": 465.6875,
+          "width": 438,
+          "height": 48,
+          "right": 1228.546875,
+          "bottom": 513.6875,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "login-password",
+          "x": 790.546875,
+          "y": 566.1875,
+          "width": 438,
+          "height": 48,
+          "right": 1228.546875,
+          "bottom": 614.1875,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 790.546875,
+          "y": 634.1875,
+          "width": 438,
+          "height": 48,
+          "right": 1228.546875,
+          "bottom": 682.1875,
+          "fontSize": "14px"
+        }
+      ],
+      "gridColumns": null,
+      "gridGap": null
+    },
+    {
+      "route": "/register",
+      "role": "guest",
+      "width": 320,
+      "scrollWidth": 320,
+      "h1Count": 1,
+      "storyDisplay": "none",
+      "story": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "panel": {
+        "x": 20,
+        "y": 150,
+        "width": 280,
+        "height": 793,
+        "right": 300,
+        "bottom": 943
+      },
+      "controls": [
+        {
+          "tag": "INPUT",
+          "id": "register-name",
+          "x": 41,
+          "y": 382.5,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 430.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "register-email",
+          "x": 41,
+          "y": 483,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 531,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "register-password",
+          "x": 41,
+          "y": 583.5,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 631.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "register-confirm",
+          "x": 41,
+          "y": 734,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 782,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 41,
+          "y": 802,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 850,
+          "fontSize": "14px"
+        }
+      ],
+      "gridColumns": null,
+      "gridGap": null
+    },
+    {
+      "route": "/register",
+      "role": "guest",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1Count": 1,
+      "storyDisplay": "none",
+      "story": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "panel": {
+        "x": 20,
+        "y": 150,
+        "width": 335,
+        "height": 772,
+        "right": 355,
+        "bottom": 922
+      },
+      "controls": [
+        {
+          "tag": "INPUT",
+          "id": "register-name",
+          "x": 41,
+          "y": 382.5,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 430.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "register-email",
+          "x": 41,
+          "y": 483,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 531,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "register-password",
+          "x": 41,
+          "y": 583.5,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 631.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "register-confirm",
+          "x": 41,
+          "y": 713,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 761,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 41,
+          "y": 781,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 829,
+          "fontSize": "14px"
+        }
+      ],
+      "gridColumns": null,
+      "gridGap": null
+    },
+    {
+      "route": "/register",
+      "role": "guest",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1Count": 1,
+      "storyDisplay": "none",
+      "story": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "panel": {
+        "x": 124,
+        "y": 158,
+        "width": 520,
+        "height": 760,
+        "right": 644,
+        "bottom": 918
+      },
+      "controls": [
+        {
+          "tag": "INPUT",
+          "id": "register-name",
+          "x": 157,
+          "y": 370.5,
+          "width": 454,
+          "height": 48,
+          "right": 611,
+          "bottom": 418.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "register-email",
+          "x": 157,
+          "y": 471,
+          "width": 454,
+          "height": 48,
+          "right": 611,
+          "bottom": 519,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "register-password",
+          "x": 157,
+          "y": 571.5,
+          "width": 454,
+          "height": 48,
+          "right": 611,
+          "bottom": 619.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "register-confirm",
+          "x": 157,
+          "y": 701,
+          "width": 454,
+          "height": 48,
+          "right": 611,
+          "bottom": 749,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 157,
+          "y": 769,
+          "width": 454,
+          "height": 48,
+          "right": 611,
+          "bottom": 817,
+          "fontSize": "14px"
+        }
+      ],
+      "gridColumns": null,
+      "gridGap": null
+    },
+    {
+      "route": "/register",
+      "role": "guest",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1Count": 1,
+      "storyDisplay": "block",
+      "story": {
+        "x": 30.71875,
+        "y": 274.640625,
+        "width": 438.3125,
+        "height": 610.78125,
+        "right": 469.03125,
+        "bottom": 885.421875
+      },
+      "panel": {
+        "x": 533.03125,
+        "y": 190,
+        "width": 460.234375,
+        "height": 780.078125,
+        "right": 993.265625,
+        "bottom": 970.078125
+      },
+      "controls": [
+        {
+          "tag": "INPUT",
+          "id": "register-name",
+          "x": 574.03125,
+          "y": 414.578125,
+          "width": 378.234375,
+          "height": 48,
+          "right": 952.265625,
+          "bottom": 462.578125,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "register-email",
+          "x": 574.03125,
+          "y": 515.078125,
+          "width": 378.234375,
+          "height": 48,
+          "right": 952.265625,
+          "bottom": 563.078125,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "register-password",
+          "x": 574.03125,
+          "y": 615.578125,
+          "width": 378.234375,
+          "height": 48,
+          "right": 952.265625,
+          "bottom": 663.578125,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "register-confirm",
+          "x": 574.03125,
+          "y": 745.078125,
+          "width": 378.234375,
+          "height": 48,
+          "right": 952.265625,
+          "bottom": 793.078125,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 574.03125,
+          "y": 813.078125,
+          "width": 378.234375,
+          "height": 48,
+          "right": 952.265625,
+          "bottom": 861.078125,
+          "fontSize": "14px"
+        }
+      ],
+      "gridColumns": null,
+      "gridGap": null
+    },
+    {
+      "route": "/register",
+      "role": "guest",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "storyDisplay": "block",
+      "story": {
+        "x": 160,
+        "y": 261.8125,
+        "width": 515.109375,
+        "height": 644.375,
+        "right": 675.109375,
+        "bottom": 906.1875
+      },
+      "panel": {
+        "x": 749.546875,
+        "y": 190,
+        "width": 520,
+        "height": 788,
+        "right": 1269.546875,
+        "bottom": 978
+      },
+      "controls": [
+        {
+          "tag": "INPUT",
+          "id": "register-name",
+          "x": 790.546875,
+          "y": 422.5,
+          "width": 438,
+          "height": 48,
+          "right": 1228.546875,
+          "bottom": 470.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "register-email",
+          "x": 790.546875,
+          "y": 523,
+          "width": 438,
+          "height": 48,
+          "right": 1228.546875,
+          "bottom": 571,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "register-password",
+          "x": 790.546875,
+          "y": 623.5,
+          "width": 438,
+          "height": 48,
+          "right": 1228.546875,
+          "bottom": 671.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "register-confirm",
+          "x": 790.546875,
+          "y": 753,
+          "width": 438,
+          "height": 48,
+          "right": 1228.546875,
+          "bottom": 801,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 790.546875,
+          "y": 821,
+          "width": 438,
+          "height": 48,
+          "right": 1228.546875,
+          "bottom": 869,
+          "fontSize": "14px"
+        }
+      ],
+      "gridColumns": null,
+      "gridGap": null
+    },
+    {
+      "route": "/profile",
+      "role": "member",
+      "width": 320,
+      "scrollWidth": 320,
+      "h1Count": 1,
+      "storyDisplay": null,
+      "story": null,
+      "panel": null,
+      "controls": [
+        {
+          "tag": "A",
+          "id": "",
+          "x": 20,
+          "y": 289,
+          "width": 70,
+          "height": 44,
+          "right": 90,
+          "bottom": 333,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "x": 98,
+          "y": 289,
+          "width": 111,
+          "height": 44,
+          "right": 209,
+          "bottom": 333,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "x": 217,
+          "y": 289,
+          "width": 77,
+          "height": 44,
+          "right": 294,
+          "bottom": 333,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "profile-email",
+          "x": 41,
+          "y": 540.5,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 588.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "profile-name",
+          "x": 41,
+          "y": 670,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 718,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 41,
+          "y": 738,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 786,
+          "fontSize": "14px"
+        }
+      ],
+      "gridColumns": null,
+      "gridGap": null
+    },
+    {
+      "route": "/profile",
+      "role": "member",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1Count": 1,
+      "storyDisplay": null,
+      "story": null,
+      "panel": null,
+      "controls": [
+        {
+          "tag": "A",
+          "id": "",
+          "x": 20,
+          "y": 289,
+          "width": 70,
+          "height": 44,
+          "right": 90,
+          "bottom": 333,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "x": 98,
+          "y": 289,
+          "width": 111,
+          "height": 44,
+          "right": 209,
+          "bottom": 333,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "x": 217,
+          "y": 289,
+          "width": 77,
+          "height": 44,
+          "right": 294,
+          "bottom": 333,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "profile-email",
+          "x": 41,
+          "y": 540.5,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 588.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "profile-name",
+          "x": 41,
+          "y": 670,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 718,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 41,
+          "y": 738,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 786,
+          "fontSize": "14px"
+        }
+      ],
+      "gridColumns": null,
+      "gridGap": null
+    },
+    {
+      "route": "/profile",
+      "role": "member",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1Count": 1,
+      "storyDisplay": null,
+      "story": null,
+      "panel": null,
+      "controls": [
+        {
+          "tag": "A",
+          "id": "",
+          "x": 23.046875,
+          "y": 297,
+          "width": 70,
+          "height": 44,
+          "right": 93.046875,
+          "bottom": 341,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "x": 101.046875,
+          "y": 297,
+          "width": 111,
+          "height": 44,
+          "right": 212.046875,
+          "bottom": 341,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "x": 220.046875,
+          "y": 297,
+          "width": 77,
+          "height": 44,
+          "right": 297.046875,
+          "bottom": 341,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "profile-email",
+          "x": 56.046875,
+          "y": 556.5,
+          "width": 655.90625,
+          "height": 48,
+          "right": 711.953125,
+          "bottom": 604.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "profile-name",
+          "x": 56.046875,
+          "y": 686,
+          "width": 655.90625,
+          "height": 48,
+          "right": 711.953125,
+          "bottom": 734,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 56.046875,
+          "y": 754,
+          "width": 174,
+          "height": 48,
+          "right": 230.046875,
+          "bottom": 802,
+          "fontSize": "14px"
+        }
+      ],
+      "gridColumns": null,
+      "gridGap": null
+    },
+    {
+      "route": "/profile",
+      "role": "member",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1Count": 1,
+      "storyDisplay": null,
+      "story": null,
+      "panel": null,
+      "controls": [
+        {
+          "tag": "A",
+          "id": "",
+          "x": 128,
+          "y": 333.078125,
+          "width": 70,
+          "height": 44,
+          "right": 198,
+          "bottom": 377.078125,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "x": 206,
+          "y": 333.078125,
+          "width": 111,
+          "height": 44,
+          "right": 317,
+          "bottom": 377.078125,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "x": 325,
+          "y": 333.078125,
+          "width": 77,
+          "height": 44,
+          "right": 402,
+          "bottom": 377.078125,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "profile-email",
+          "x": 161,
+          "y": 592.578125,
+          "width": 702,
+          "height": 48,
+          "right": 863,
+          "bottom": 640.578125,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "profile-name",
+          "x": 161,
+          "y": 722.078125,
+          "width": 702,
+          "height": 48,
+          "right": 863,
+          "bottom": 770.078125,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 161,
+          "y": 790.078125,
+          "width": 174,
+          "height": 48,
+          "right": 335,
+          "bottom": 838.078125,
+          "fontSize": "14px"
+        }
+      ],
+      "gridColumns": null,
+      "gridGap": null
+    },
+    {
+      "route": "/profile",
+      "role": "member",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "storyDisplay": null,
+      "story": null,
+      "panel": null,
+      "controls": [
+        {
+          "tag": "A",
+          "id": "",
+          "x": 336,
+          "y": 341,
+          "width": 70,
+          "height": 44,
+          "right": 406,
+          "bottom": 385,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "x": 414,
+          "y": 341,
+          "width": 111,
+          "height": 44,
+          "right": 525,
+          "bottom": 385,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "x": 533,
+          "y": 341,
+          "width": 77,
+          "height": 44,
+          "right": 610,
+          "bottom": 385,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "profile-email",
+          "x": 369,
+          "y": 600.5,
+          "width": 702,
+          "height": 48,
+          "right": 1071,
+          "bottom": 648.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "profile-name",
+          "x": 369,
+          "y": 730,
+          "width": 702,
+          "height": 48,
+          "right": 1071,
+          "bottom": 778,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 369,
+          "y": 798,
+          "width": 174,
+          "height": 48,
+          "right": 543,
+          "bottom": 846,
+          "fontSize": "14px"
+        }
+      ],
+      "gridColumns": null,
+      "gridGap": null
+    },
+    {
+      "route": "/change-password",
+      "role": "member",
+      "width": 320,
+      "scrollWidth": 320,
+      "h1Count": 1,
+      "storyDisplay": null,
+      "story": null,
+      "panel": null,
+      "controls": [
+        {
+          "tag": "A",
+          "id": "",
+          "x": 20,
+          "y": 317,
+          "width": 68,
+          "height": 44,
+          "right": 88,
+          "bottom": 361,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "x": 96,
+          "y": 317,
+          "width": 114,
+          "height": 44,
+          "right": 210,
+          "bottom": 361,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "x": 218,
+          "y": 317,
+          "width": 77,
+          "height": 44,
+          "right": 295,
+          "bottom": 361,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "current-password",
+          "x": 41,
+          "y": 463.5,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 511.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "new-password",
+          "x": 41,
+          "y": 564,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 612,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "confirm-password",
+          "x": 41,
+          "y": 714.5,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 762.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 41,
+          "y": 782.5,
+          "width": 238,
+          "height": 48,
+          "right": 279,
+          "bottom": 830.5,
+          "fontSize": "14px"
+        }
+      ],
+      "gridColumns": null,
+      "gridGap": null
+    },
+    {
+      "route": "/change-password",
+      "role": "member",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1Count": 1,
+      "storyDisplay": null,
+      "story": null,
+      "panel": null,
+      "controls": [
+        {
+          "tag": "A",
+          "id": "",
+          "x": 20,
+          "y": 317,
+          "width": 68,
+          "height": 44,
+          "right": 88,
+          "bottom": 361,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "x": 96,
+          "y": 317,
+          "width": 114,
+          "height": 44,
+          "right": 210,
+          "bottom": 361,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "x": 218,
+          "y": 317,
+          "width": 77,
+          "height": 44,
+          "right": 295,
+          "bottom": 361,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "current-password",
+          "x": 41,
+          "y": 463.5,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 511.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "new-password",
+          "x": 41,
+          "y": 564,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 612,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "confirm-password",
+          "x": 41,
+          "y": 693.5,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 741.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 41,
+          "y": 761.5,
+          "width": 293,
+          "height": 48,
+          "right": 334,
+          "bottom": 809.5,
+          "fontSize": "14px"
+        }
+      ],
+      "gridColumns": null,
+      "gridGap": null
+    },
+    {
+      "route": "/change-password",
+      "role": "member",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1Count": 1,
+      "storyDisplay": null,
+      "story": null,
+      "panel": null,
+      "controls": [
+        {
+          "tag": "A",
+          "id": "",
+          "x": 23.046875,
+          "y": 297,
+          "width": 68,
+          "height": 44,
+          "right": 91.046875,
+          "bottom": 341,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "x": 99.046875,
+          "y": 297,
+          "width": 114,
+          "height": 44,
+          "right": 213.046875,
+          "bottom": 341,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "x": 221.046875,
+          "y": 297,
+          "width": 77,
+          "height": 44,
+          "right": 298.046875,
+          "bottom": 341,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "current-password",
+          "x": 56.046875,
+          "y": 451.5,
+          "width": 655.90625,
+          "height": 48,
+          "right": 711.953125,
+          "bottom": 499.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "new-password",
+          "x": 56.046875,
+          "y": 552,
+          "width": 655.90625,
+          "height": 48,
+          "right": 711.953125,
+          "bottom": 600,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "confirm-password",
+          "x": 56.046875,
+          "y": 681.5,
+          "width": 655.90625,
+          "height": 48,
+          "right": 711.953125,
+          "bottom": 729.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 56.046875,
+          "y": 749.5,
+          "width": 130,
+          "height": 48,
+          "right": 186.046875,
+          "bottom": 797.5,
+          "fontSize": "14px"
+        }
+      ],
+      "gridColumns": null,
+      "gridGap": null
+    },
+    {
+      "route": "/change-password",
+      "role": "member",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1Count": 1,
+      "storyDisplay": null,
+      "story": null,
+      "panel": null,
+      "controls": [
+        {
+          "tag": "A",
+          "id": "",
+          "x": 128,
+          "y": 333.078125,
+          "width": 68,
+          "height": 44,
+          "right": 196,
+          "bottom": 377.078125,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "x": 204,
+          "y": 333.078125,
+          "width": 114,
+          "height": 44,
+          "right": 318,
+          "bottom": 377.078125,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "x": 326,
+          "y": 333.078125,
+          "width": 77,
+          "height": 44,
+          "right": 403,
+          "bottom": 377.078125,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "current-password",
+          "x": 161,
+          "y": 487.578125,
+          "width": 702,
+          "height": 48,
+          "right": 863,
+          "bottom": 535.578125,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "new-password",
+          "x": 161,
+          "y": 588.078125,
+          "width": 702,
+          "height": 48,
+          "right": 863,
+          "bottom": 636.078125,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "confirm-password",
+          "x": 161,
+          "y": 717.578125,
+          "width": 702,
+          "height": 48,
+          "right": 863,
+          "bottom": 765.578125,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 161,
+          "y": 785.578125,
+          "width": 130,
+          "height": 48,
+          "right": 291,
+          "bottom": 833.578125,
+          "fontSize": "14px"
+        }
+      ],
+      "gridColumns": null,
+      "gridGap": null
+    },
+    {
+      "route": "/change-password",
+      "role": "member",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "storyDisplay": null,
+      "story": null,
+      "panel": null,
+      "controls": [
+        {
+          "tag": "A",
+          "id": "",
+          "x": 336,
+          "y": 341,
+          "width": 68,
+          "height": 44,
+          "right": 404,
+          "bottom": 385,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "x": 412,
+          "y": 341,
+          "width": 114,
+          "height": 44,
+          "right": 526,
+          "bottom": 385,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "x": 534,
+          "y": 341,
+          "width": 77,
+          "height": 44,
+          "right": 611,
+          "bottom": 385,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "current-password",
+          "x": 369,
+          "y": 495.5,
+          "width": 702,
+          "height": 48,
+          "right": 1071,
+          "bottom": 543.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "new-password",
+          "x": 369,
+          "y": 596,
+          "width": 702,
+          "height": 48,
+          "right": 1071,
+          "bottom": 644,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "INPUT",
+          "id": "confirm-password",
+          "x": 369,
+          "y": 725.5,
+          "width": 702,
+          "height": 48,
+          "right": 1071,
+          "bottom": 773.5,
+          "fontSize": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 369,
+          "y": 793.5,
+          "width": 130,
+          "height": 48,
+          "right": 499,
+          "bottom": 841.5,
+          "fontSize": "14px"
+        }
+      ],
+      "gridColumns": null,
+      "gridGap": null
+    },
+    {
+      "route": "/favorites",
+      "role": "member",
+      "width": 320,
+      "scrollWidth": 320,
+      "h1Count": 1,
+      "storyDisplay": null,
+      "story": null,
+      "panel": null,
+      "controls": [
+        {
+          "tag": "A",
+          "id": "",
+          "x": 20,
+          "y": 317,
+          "width": 68,
+          "height": 44,
+          "right": 88,
+          "bottom": 361,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "x": 96,
+          "y": 317,
+          "width": 111,
+          "height": 44,
+          "right": 207,
+          "bottom": 361,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "x": 215,
+          "y": 317,
+          "width": 78,
+          "height": 44,
+          "right": 293,
+          "bottom": 361,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 41,
+          "y": 900.1875,
+          "width": 114,
+          "height": 44,
+          "right": 155,
+          "bottom": 944.1875,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 41,
+          "y": 1423.875,
+          "width": 114,
+          "height": 44,
+          "right": 155,
+          "bottom": 1467.875,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 41,
+          "y": 1947.5625,
+          "width": 114,
+          "height": 44,
+          "right": 155,
+          "bottom": 1991.5625,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 41,
+          "y": 2471.25,
+          "width": 114,
+          "height": 44,
+          "right": 155,
+          "bottom": 2515.25,
+          "fontSize": "14px"
+        }
+      ],
+      "gridColumns": 1,
+      "gridGap": "24px"
+    },
+    {
+      "route": "/favorites",
+      "role": "member",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1Count": 1,
+      "storyDisplay": null,
+      "story": null,
+      "panel": null,
+      "controls": [
+        {
+          "tag": "A",
+          "id": "",
+          "x": 20,
+          "y": 317,
+          "width": 68,
+          "height": 44,
+          "right": 88,
+          "bottom": 361,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "x": 96,
+          "y": 317,
+          "width": 111,
+          "height": 44,
+          "right": 207,
+          "bottom": 361,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "x": 215,
+          "y": 317,
+          "width": 78,
+          "height": 44,
+          "right": 293,
+          "bottom": 361,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 41,
+          "y": 941.4375,
+          "width": 114,
+          "height": 44,
+          "right": 155,
+          "bottom": 985.4375,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 41,
+          "y": 1506.375,
+          "width": 114,
+          "height": 44,
+          "right": 155,
+          "bottom": 1550.375,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 41,
+          "y": 2071.3125,
+          "width": 114,
+          "height": 44,
+          "right": 155,
+          "bottom": 2115.3125,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 41,
+          "y": 2636.25,
+          "width": 114,
+          "height": 44,
+          "right": 155,
+          "bottom": 2680.25,
+          "fontSize": "14px"
+        }
+      ],
+      "gridColumns": 1,
+      "gridGap": "24px"
+    },
+    {
+      "route": "/favorites",
+      "role": "member",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1Count": 1,
+      "storyDisplay": null,
+      "story": null,
+      "panel": null,
+      "controls": [
+        {
+          "tag": "A",
+          "id": "",
+          "x": 23.046875,
+          "y": 297,
+          "width": 68,
+          "height": 44,
+          "right": 91.046875,
+          "bottom": 341,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "x": 99.046875,
+          "y": 297,
+          "width": 111,
+          "height": 44,
+          "right": 210.046875,
+          "bottom": 341,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "x": 218.046875,
+          "y": 297,
+          "width": 78,
+          "height": 44,
+          "right": 296.046875,
+          "bottom": 341,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 44.046875,
+          "y": 931.890625,
+          "width": 114,
+          "height": 44,
+          "right": 158.046875,
+          "bottom": 975.890625,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 417,
+          "y": 931.890625,
+          "width": 114,
+          "height": 44,
+          "right": 531,
+          "bottom": 975.890625,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 44.046875,
+          "y": 1507.28125,
+          "width": 114,
+          "height": 44,
+          "right": 158.046875,
+          "bottom": 1551.28125,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 417,
+          "y": 1507.28125,
+          "width": 114,
+          "height": 44,
+          "right": 531,
+          "bottom": 1551.28125,
+          "fontSize": "14px"
+        }
+      ],
+      "gridColumns": 2,
+      "gridGap": "24px"
+    },
+    {
+      "route": "/favorites",
+      "role": "member",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1Count": 1,
+      "storyDisplay": null,
+      "story": null,
+      "panel": null,
+      "controls": [
+        {
+          "tag": "A",
+          "id": "",
+          "x": 30.71875,
+          "y": 333.078125,
+          "width": 68,
+          "height": 44,
+          "right": 98.71875,
+          "bottom": 377.078125,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "x": 106.71875,
+          "y": 333.078125,
+          "width": 111,
+          "height": 44,
+          "right": 217.71875,
+          "bottom": 377.078125,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "x": 225.71875,
+          "y": 333.078125,
+          "width": 78,
+          "height": 44,
+          "right": 303.71875,
+          "bottom": 377.078125,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 51.71875,
+          "y": 935.0625,
+          "width": 114,
+          "height": 44,
+          "right": 165.71875,
+          "bottom": 979.0625,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 380.5625,
+          "y": 935.0625,
+          "width": 114,
+          "height": 44,
+          "right": 494.5625,
+          "bottom": 979.0625,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 709.40625,
+          "y": 935.0625,
+          "width": 114,
+          "height": 44,
+          "right": 823.40625,
+          "bottom": 979.0625,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 51.71875,
+          "y": 1477.375,
+          "width": 114,
+          "height": 44,
+          "right": 165.71875,
+          "bottom": 1521.375,
+          "fontSize": "14px"
+        }
+      ],
+      "gridColumns": 3,
+      "gridGap": "24px"
+    },
+    {
+      "route": "/favorites",
+      "role": "member",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "storyDisplay": null,
+      "story": null,
+      "panel": null,
+      "controls": [
+        {
+          "tag": "A",
+          "id": "",
+          "x": 100,
+          "y": 341,
+          "width": 68,
+          "height": 44,
+          "right": 168,
+          "bottom": 385,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "x": 176,
+          "y": 341,
+          "width": 111,
+          "height": 44,
+          "right": 287,
+          "bottom": 385,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "x": 295,
+          "y": 341,
+          "width": 78,
+          "height": 44,
+          "right": 373,
+          "bottom": 385,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 121,
+          "y": 1020.6875,
+          "width": 114,
+          "height": 44,
+          "right": 235,
+          "bottom": 1064.6875,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 542.328125,
+          "y": 1020.6875,
+          "width": 114,
+          "height": 44,
+          "right": 656.328125,
+          "bottom": 1064.6875,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 963.65625,
+          "y": 1020.6875,
+          "width": 114,
+          "height": 44,
+          "right": 1077.65625,
+          "bottom": 1064.6875,
+          "fontSize": "14px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "x": 121,
+          "y": 1632.359375,
+          "width": 114,
+          "height": 44,
+          "right": 235,
+          "bottom": 1676.359375,
+          "fontSize": "14px"
+        }
+      ],
+      "gridColumns": 3,
+      "gridGap": "24px"
+    }
+  ],
+  "checks": [
+    "Five account routes × five widths: no overflow, single h1, input labels/sizing, desktop split/mobile form, shared1/2/3-column grid",
+    "Guest protection → Register → Login → complete pathname/search/hash; API error/pending drafts, focused validation, UTF8 bytes, exact payloads",
+    "Profile PATCH displayName only, read-only email, role/100-Unicode-name wrapping; Password PUT exact untrimmed fields, failure retains session/draft, success clears, reduced motion",
+    "Admin profile retains actual role presentation",
+    "Favorites skeleton/real counts/list retry; pending removal locks actions, failure keeps cards, success refreshes count and heading focus, last removal → search CTA; search scope isolation",
+    "Auth food image bounded fallback and decorative alt; keyboard email → password → submit"
+  ],
+  "fixtureMutations": [
+    {
+      "method": "POST",
+      "path": "/api/auth/login",
+      "fields": [
+        "email",
+        "password"
+      ],
+      "intercepted": true
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/register",
+      "fields": [
+        "displayName",
+        "email",
+        "password"
+      ],
+      "intercepted": true
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/register",
+      "fields": [
+        "displayName",
+        "email",
+        "password"
+      ],
+      "intercepted": true
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/login",
+      "fields": [
+        "email",
+        "password"
+      ],
+      "intercepted": true
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/me",
+      "fields": [
+        "displayName"
+      ],
+      "intercepted": true
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/me",
+      "fields": [
+        "displayName"
+      ],
+      "intercepted": true
+    },
+    {
+      "method": "PUT",
+      "path": "/api/me/password",
+      "fields": [
+        "currentPassword",
+        "newPassword"
+      ],
+      "intercepted": true
+    },
+    {
+      "method": "PUT",
+      "path": "/api/me/password",
+      "fields": [
+        "currentPassword",
+        "newPassword"
+      ],
+      "intercepted": true
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/favorites/501",
+      "fields": [],
+      "intercepted": true
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/favorites/501",
+      "fields": [],
+      "intercepted": true
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/favorites/501",
+      "fields": [],
+      "intercepted": true
+    }
+  ],
+  "errors": []
+}

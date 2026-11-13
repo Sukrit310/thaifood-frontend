@@ -1,0 +1,100 @@
+[
+  {
+    "direction": "mobile to desktop",
+    "active": "",
+    "events": [
+      {
+        "type": "focusin",
+        "target": {
+          "tag": "BUTTON",
+          "className": "btn btn-secondary layout-menu-toggle",
+          "hidden": false
+        },
+        "related": {
+          "hidden": false
+        },
+        "active": {
+          "tag": "BUTTON",
+          "className": "btn btn-secondary layout-menu-toggle",
+          "hidden": false
+        }
+      },
+      {
+        "type": "focusout",
+        "target": {
+          "tag": "BUTTON",
+          "className": "btn btn-secondary layout-menu-toggle",
+          "hidden": true
+        },
+        "related": {
+          "tag": "A",
+          "className": "",
+          "hidden": false
+        },
+        "active": {
+          "tag": "BODY",
+          "className": "",
+          "hidden": false
+        }
+      },
+      {
+        "type": "focusin",
+        "target": {
+          "tag": "A",
+          "className": "",
+          "hidden": false
+        },
+        "related": {
+          "tag": "BUTTON",
+          "className": "btn btn-secondary layout-menu-toggle",
+          "hidden": true
+        },
+        "active": {
+          "tag": "A",
+          "className": "",
+          "hidden": false
+        }
+      },
+      {
+        "type": "media",
+        "desktop": true,
+        "active": {
+          "tag": "A",
+          "className": "",
+          "hidden": false
+        }
+      }
+    ]
+  },
+  {
+    "direction": "desktop to mobile",
+    "active": "",
+    "events": [
+      {
+        "type": "focusout",
+        "target": {
+          "tag": "A",
+          "className": "",
+          "hidden": true
+        },
+        "related": {
+          "hidden": false
+        },
+        "active": {
+          "tag": "BODY",
+          "className": "",
+          "hidden": false
+        }
+      },
+      {
+        "type": "media",
+        "desktop": false,
+        "active": {
+          "tag": "BODY",
+          "className": "",
+          "hidden": false
+        }
+      }
+    ]
+  }
+]

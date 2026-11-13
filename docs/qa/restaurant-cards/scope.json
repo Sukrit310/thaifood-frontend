@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "baselineFiles": 68,
+  "changedExistingFiles": [
+    "thaifood/src/components/RestaurantCard.jsx",
+    "thaifood/src/components/RestaurantGrid.jsx",
+    "thaifood/src/index.css",
+    "thaifood/src/pages/Home.css",
+    "thaifood/src/pages/Restaurants.css"
+  ],
+  "extractedCssChecked": [
+    "thaifood/src/index.css",
+    "thaifood/src/pages/Home.css",
+    "thaifood/src/pages/Restaurants.css"
+  ],
+  "allowedRelatedAdjustment": "Home loading-grid gap28px -> shared24px",
+  "priorLayoutAndAllOtherSourceUnchanged": true
+}

@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "section": "F. Auth / Profile / Favorites",
+  "tests": {
+    "command": "CI=true npm test -- --watchAll=false --runInBand",
+    "passed": 190,
+    "suitesPassed": 20,
+    "newCases": 26,
+    "elapsedSeconds": 13.502
+  },
+  "build": {
+    "command": "npm run build",
+    "status": "Compiled successfully",
+    "jsGzipKB": 104.04,
+    "cssGzipKB": 14.52,
+    "existingWarning": "Node fs.F_OK deprecation"
+  },
+  "browser": {
+    "status": "passed",
+    "viewportCases": 25,
+    "interceptedMutations": 11,
+    "pageErrors": 0,
+    "productionAccountWrites": 0
+  },
+  "review": {
+    "freshReadOnlyReviewer": true,
+    "finding": "P3 repeated validation submit did not refocus unchanged error",
+    "resolution": "Presentation-only attempt counter;4 red-to-green regression cases; full suite/browser/build pass after fix"
+  },
+  "scope": {
+    "changedExistingPages": 5,
+    "newSourceFiles": 3,
+    "protectedFilesUnchanged": 67
+  },
+  "preview": {
+    "port": 3100,
+    "pid": 8304,
+    "stopped": true,
+    "verifiedBy": "Validated command/PORT then SIGTERM; curl exit7 connection refused"
+  },
+  "deployment": "not requested; local changes only",
+  "diffWhitespaceCheck": "passed"
+}

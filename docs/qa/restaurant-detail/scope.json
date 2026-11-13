@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "baselineFiles": 70,
+  "changedExistingFiles": [
+    "thaifood/src/Journey.test.jsx",
+    "thaifood/src/components/ReviewForm.jsx",
+    "thaifood/src/components/ReviewList.jsx",
+    "thaifood/src/pages/RestaurantDetail.jsx"
+  ],
+  "relatedTestAdjustment": "Journey assertion waits for actual saved review article paragraph, not detached textarea",
+  "priorLayoutCardHomeSearchAndAllOtherSourceUnchanged": true
+}

@@ -1,0 +1,29 @@
+{
+  "scope": "E. Restaurant Detail only",
+  "sourceReview": {
+    "verdict": "approved",
+    "critical": 0,
+    "important": 0,
+    "minor": 0,
+    "independentlyCheckedBaselineFiles": 70,
+    "declined": [
+      "Other brief sections and prior Layout/Card/Home/Search changes are excluded and unchanged.",
+      "Malformed review DTO/date/member/rating rendering remains an inherited API contract assumption.",
+      "Real backend writes were not performed.",
+      "Browser rendering/keyboard behavior is verified separately by the executor."
+    ]
+  },
+  "verification": {
+    "detailTests": 26,
+    "fullTests": 164,
+    "suites": 19,
+    "build": "Compiled successfully",
+    "browserRoleWidthCases": 15,
+    "additionalLongContentWidths": 5,
+    "browserStatus": "passed",
+    "browserPageErrors": 0,
+    "liveApiWrites": 0,
+    "reviewFavoriteWrites": "intercepted browser fixtures only"
+  },
+  "deployment": "not requested; no deployment performed"
+}

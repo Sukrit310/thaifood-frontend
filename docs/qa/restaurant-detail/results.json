@@ -1,0 +1,956 @@
+{
+  "status": "passed",
+  "viewports": [
+    {
+      "role": "guest",
+      "width": 320,
+      "scrollWidth": 320,
+      "columns": 1,
+      "story": {
+        "x": 20,
+        "y": 202,
+        "width": 280,
+        "height": 590.78125,
+        "right": 300,
+        "bottom": 792.78125
+      },
+      "visit": {
+        "x": 20,
+        "y": 824.78125,
+        "width": 280,
+        "height": 468,
+        "right": 300,
+        "bottom": 1292.78125
+      },
+      "reviews": {
+        "x": 20,
+        "y": 1324.78125,
+        "width": 280,
+        "height": 748.875,
+        "right": 300,
+        "bottom": 2073.65625
+      },
+      "hero": {
+        "x": 20,
+        "y": 410,
+        "width": 280,
+        "height": 210,
+        "right": 300,
+        "bottom": 620
+      },
+      "heroFit": "cover",
+      "sidebarPosition": "static",
+      "radioLabels": []
+    },
+    {
+      "role": "guest",
+      "width": 375,
+      "scrollWidth": 375,
+      "columns": 1,
+      "story": {
+        "x": 20,
+        "y": 202,
+        "width": 335,
+        "height": 559.9375,
+        "right": 355,
+        "bottom": 761.9375
+      },
+      "visit": {
+        "x": 20,
+        "y": 793.9375,
+        "width": 335,
+        "height": 443.5,
+        "right": 355,
+        "bottom": 1237.4375
+      },
+      "reviews": {
+        "x": 20,
+        "y": 1269.4375,
+        "width": 335,
+        "height": 724.375,
+        "right": 355,
+        "bottom": 1993.8125
+      },
+      "hero": {
+        "x": 20,
+        "y": 367.5,
+        "width": 335,
+        "height": 251.25,
+        "right": 355,
+        "bottom": 618.75
+      },
+      "heroFit": "cover",
+      "sidebarPosition": "static",
+      "radioLabels": []
+    },
+    {
+      "role": "guest",
+      "width": 768,
+      "scrollWidth": 768,
+      "columns": 1,
+      "story": {
+        "x": 23.046875,
+        "y": 226,
+        "width": 721.90625,
+        "height": 760.953125,
+        "right": 744.953125,
+        "bottom": 986.953125
+      },
+      "visit": {
+        "x": 23.046875,
+        "y": 1018.953125,
+        "width": 721.90625,
+        "height": 451.5,
+        "right": 744.953125,
+        "bottom": 1470.453125
+      },
+      "reviews": {
+        "x": 23.046875,
+        "y": 1502.453125,
+        "width": 721.90625,
+        "height": 705.1875,
+        "right": 744.953125,
+        "bottom": 2207.640625
+      },
+      "hero": {
+        "x": 23.046875,
+        "y": 392.578125,
+        "width": 721.90625,
+        "height": 451.1875,
+        "right": 744.953125,
+        "bottom": 843.765625
+      },
+      "heroFit": "cover",
+      "sidebarPosition": "static",
+      "radioLabels": []
+    },
+    {
+      "role": "guest",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "columns": 2,
+      "story": {
+        "x": 30.71875,
+        "y": 234,
+        "width": 602.546875,
+        "height": 704.078125,
+        "right": 633.265625,
+        "bottom": 938.078125
+      },
+      "visit": {
+        "x": 673.265625,
+        "y": 234,
+        "width": 320,
+        "height": 451.5,
+        "right": 993.265625,
+        "bottom": 685.5
+      },
+      "reviews": {
+        "x": 30.71875,
+        "y": 978.078125,
+        "width": 602.546875,
+        "height": 707.578125,
+        "right": 633.265625,
+        "bottom": 1685.65625
+      },
+      "hero": {
+        "x": 30.71875,
+        "y": 415.921875,
+        "width": 602.546875,
+        "height": 376.578125,
+        "right": 633.265625,
+        "bottom": 792.5
+      },
+      "heroFit": "cover",
+      "sidebarPosition": "static",
+      "radioLabels": []
+    },
+    {
+      "role": "guest",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "columns": 2,
+      "story": {
+        "x": 100,
+        "y": 234,
+        "width": 880,
+        "height": 903.6875,
+        "right": 980,
+        "bottom": 1137.6875
+      },
+      "visit": {
+        "x": 1020,
+        "y": 234,
+        "width": 320,
+        "height": 451.5,
+        "right": 1340,
+        "bottom": 685.5
+      },
+      "reviews": {
+        "x": 100,
+        "y": 1177.6875,
+        "width": 880,
+        "height": 723.1875,
+        "right": 980,
+        "bottom": 1900.875
+      },
+      "hero": {
+        "x": 100,
+        "y": 426.5,
+        "width": 880,
+        "height": 550,
+        "right": 980,
+        "bottom": 976.5
+      },
+      "heroFit": "cover",
+      "sidebarPosition": "static",
+      "radioLabels": []
+    },
+    {
+      "role": "member",
+      "width": 320,
+      "scrollWidth": 320,
+      "columns": 1,
+      "story": {
+        "x": 20,
+        "y": 202,
+        "width": 280,
+        "height": 590.78125,
+        "right": 300,
+        "bottom": 792.78125
+      },
+      "visit": {
+        "x": 20,
+        "y": 824.78125,
+        "width": 280,
+        "height": 468,
+        "right": 300,
+        "bottom": 1292.78125
+      },
+      "reviews": {
+        "x": 20,
+        "y": 1324.78125,
+        "width": 280,
+        "height": 1045.875,
+        "right": 300,
+        "bottom": 2370.65625
+      },
+      "hero": {
+        "x": 20,
+        "y": 410,
+        "width": 280,
+        "height": 210,
+        "right": 300,
+        "bottom": 620
+      },
+      "heroFit": "cover",
+      "sidebarPosition": "static",
+      "radioLabels": [
+        {
+          "width": 44,
+          "height": 60,
+          "y": 1976.15625
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 1976.15625
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 1976.15625
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 1976.15625
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 1976.15625
+        }
+      ]
+    },
+    {
+      "role": "member",
+      "width": 375,
+      "scrollWidth": 375,
+      "columns": 1,
+      "story": {
+        "x": 20,
+        "y": 202,
+        "width": 335,
+        "height": 559.9375,
+        "right": 355,
+        "bottom": 761.9375
+      },
+      "visit": {
+        "x": 20,
+        "y": 793.9375,
+        "width": 335,
+        "height": 443.5,
+        "right": 355,
+        "bottom": 1237.4375
+      },
+      "reviews": {
+        "x": 20,
+        "y": 1269.4375,
+        "width": 335,
+        "height": 1045.875,
+        "right": 355,
+        "bottom": 2315.3125
+      },
+      "hero": {
+        "x": 20,
+        "y": 367.5,
+        "width": 335,
+        "height": 251.25,
+        "right": 355,
+        "bottom": 618.75
+      },
+      "heroFit": "cover",
+      "sidebarPosition": "static",
+      "radioLabels": [
+        {
+          "width": 44,
+          "height": 60,
+          "y": 1920.8125
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 1920.8125
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 1920.8125
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 1920.8125
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 1920.8125
+        }
+      ]
+    },
+    {
+      "role": "member",
+      "width": 768,
+      "scrollWidth": 768,
+      "columns": 1,
+      "story": {
+        "x": 23.046875,
+        "y": 226,
+        "width": 721.90625,
+        "height": 760.953125,
+        "right": 744.953125,
+        "bottom": 986.953125
+      },
+      "visit": {
+        "x": 23.046875,
+        "y": 1018.953125,
+        "width": 721.90625,
+        "height": 451.5,
+        "right": 744.953125,
+        "bottom": 1470.453125
+      },
+      "reviews": {
+        "x": 23.046875,
+        "y": 1502.453125,
+        "width": 721.90625,
+        "height": 1034.6875,
+        "right": 744.953125,
+        "bottom": 2537.140625
+      },
+      "hero": {
+        "x": 23.046875,
+        "y": 392.578125,
+        "width": 721.90625,
+        "height": 451.1875,
+        "right": 744.953125,
+        "bottom": 843.765625
+      },
+      "heroFit": "cover",
+      "sidebarPosition": "static",
+      "radioLabels": [
+        {
+          "width": 44,
+          "height": 60,
+          "y": 2134.640625
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 2134.640625
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 2134.640625
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 2134.640625
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 2134.640625
+        }
+      ]
+    },
+    {
+      "role": "member",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "columns": 2,
+      "story": {
+        "x": 30.71875,
+        "y": 234,
+        "width": 602.546875,
+        "height": 704.078125,
+        "right": 633.265625,
+        "bottom": 938.078125
+      },
+      "visit": {
+        "x": 673.265625,
+        "y": 234,
+        "width": 320,
+        "height": 451.5,
+        "right": 993.265625,
+        "bottom": 685.5
+      },
+      "reviews": {
+        "x": 30.71875,
+        "y": 978.078125,
+        "width": 602.546875,
+        "height": 1037.078125,
+        "right": 633.265625,
+        "bottom": 2015.15625
+      },
+      "hero": {
+        "x": 30.71875,
+        "y": 415.921875,
+        "width": 602.546875,
+        "height": 376.578125,
+        "right": 633.265625,
+        "bottom": 792.5
+      },
+      "heroFit": "cover",
+      "sidebarPosition": "static",
+      "radioLabels": [
+        {
+          "width": 44,
+          "height": 60,
+          "y": 1612.65625
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 1612.65625
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 1612.65625
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 1612.65625
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 1612.65625
+        }
+      ]
+    },
+    {
+      "role": "member",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "columns": 2,
+      "story": {
+        "x": 100,
+        "y": 234,
+        "width": 880,
+        "height": 903.6875,
+        "right": 980,
+        "bottom": 1137.6875
+      },
+      "visit": {
+        "x": 1020,
+        "y": 234,
+        "width": 320,
+        "height": 451.5,
+        "right": 1340,
+        "bottom": 685.5
+      },
+      "reviews": {
+        "x": 100,
+        "y": 1177.6875,
+        "width": 880,
+        "height": 1052.6875,
+        "right": 980,
+        "bottom": 2230.375
+      },
+      "hero": {
+        "x": 100,
+        "y": 426.5,
+        "width": 880,
+        "height": 550,
+        "right": 980,
+        "bottom": 976.5
+      },
+      "heroFit": "cover",
+      "sidebarPosition": "static",
+      "radioLabels": [
+        {
+          "width": 44,
+          "height": 60,
+          "y": 1827.875
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 1827.875
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 1827.875
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 1827.875
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 1827.875
+        }
+      ]
+    },
+    {
+      "role": "admin",
+      "width": 320,
+      "scrollWidth": 320,
+      "columns": 1,
+      "story": {
+        "x": 20,
+        "y": 202,
+        "width": 280,
+        "height": 590.78125,
+        "right": 300,
+        "bottom": 792.78125
+      },
+      "visit": {
+        "x": 20,
+        "y": 824.78125,
+        "width": 280,
+        "height": 468,
+        "right": 300,
+        "bottom": 1292.78125
+      },
+      "reviews": {
+        "x": 20,
+        "y": 1324.78125,
+        "width": 280,
+        "height": 1157.875,
+        "right": 300,
+        "bottom": 2482.65625
+      },
+      "hero": {
+        "x": 20,
+        "y": 410,
+        "width": 280,
+        "height": 210,
+        "right": 300,
+        "bottom": 620
+      },
+      "heroFit": "cover",
+      "sidebarPosition": "static",
+      "radioLabels": [
+        {
+          "width": 44,
+          "height": 60,
+          "y": 2088.15625
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 2088.15625
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 2088.15625
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 2088.15625
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 2088.15625
+        }
+      ]
+    },
+    {
+      "role": "admin",
+      "width": 375,
+      "scrollWidth": 375,
+      "columns": 1,
+      "story": {
+        "x": 20,
+        "y": 202,
+        "width": 335,
+        "height": 559.9375,
+        "right": 355,
+        "bottom": 761.9375
+      },
+      "visit": {
+        "x": 20,
+        "y": 793.9375,
+        "width": 335,
+        "height": 443.5,
+        "right": 355,
+        "bottom": 1237.4375
+      },
+      "reviews": {
+        "x": 20,
+        "y": 1269.4375,
+        "width": 335,
+        "height": 1157.875,
+        "right": 355,
+        "bottom": 2427.3125
+      },
+      "hero": {
+        "x": 20,
+        "y": 367.5,
+        "width": 335,
+        "height": 251.25,
+        "right": 355,
+        "bottom": 618.75
+      },
+      "heroFit": "cover",
+      "sidebarPosition": "static",
+      "radioLabels": [
+        {
+          "width": 44,
+          "height": 60,
+          "y": 2032.8125
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 2032.8125
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 2032.8125
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 2032.8125
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 2032.8125
+        }
+      ]
+    },
+    {
+      "role": "admin",
+      "width": 768,
+      "scrollWidth": 768,
+      "columns": 1,
+      "story": {
+        "x": 23.046875,
+        "y": 226,
+        "width": 721.90625,
+        "height": 760.953125,
+        "right": 744.953125,
+        "bottom": 986.953125
+      },
+      "visit": {
+        "x": 23.046875,
+        "y": 1018.953125,
+        "width": 721.90625,
+        "height": 451.5,
+        "right": 744.953125,
+        "bottom": 1470.453125
+      },
+      "reviews": {
+        "x": 23.046875,
+        "y": 1502.453125,
+        "width": 721.90625,
+        "height": 1146.6875,
+        "right": 744.953125,
+        "bottom": 2649.140625
+      },
+      "hero": {
+        "x": 23.046875,
+        "y": 392.578125,
+        "width": 721.90625,
+        "height": 451.1875,
+        "right": 744.953125,
+        "bottom": 843.765625
+      },
+      "heroFit": "cover",
+      "sidebarPosition": "static",
+      "radioLabels": [
+        {
+          "width": 44,
+          "height": 60,
+          "y": 2246.640625
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 2246.640625
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 2246.640625
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 2246.640625
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 2246.640625
+        }
+      ]
+    },
+    {
+      "role": "admin",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "columns": 2,
+      "story": {
+        "x": 30.71875,
+        "y": 234,
+        "width": 602.546875,
+        "height": 704.078125,
+        "right": 633.265625,
+        "bottom": 938.078125
+      },
+      "visit": {
+        "x": 673.265625,
+        "y": 234,
+        "width": 320,
+        "height": 451.5,
+        "right": 993.265625,
+        "bottom": 685.5
+      },
+      "reviews": {
+        "x": 30.71875,
+        "y": 978.078125,
+        "width": 602.546875,
+        "height": 1149.078125,
+        "right": 633.265625,
+        "bottom": 2127.15625
+      },
+      "hero": {
+        "x": 30.71875,
+        "y": 415.921875,
+        "width": 602.546875,
+        "height": 376.578125,
+        "right": 633.265625,
+        "bottom": 792.5
+      },
+      "heroFit": "cover",
+      "sidebarPosition": "static",
+      "radioLabels": [
+        {
+          "width": 44,
+          "height": 60,
+          "y": 1724.65625
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 1724.65625
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 1724.65625
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 1724.65625
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 1724.65625
+        }
+      ]
+    },
+    {
+      "role": "admin",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "columns": 2,
+      "story": {
+        "x": 100,
+        "y": 234,
+        "width": 880,
+        "height": 903.6875,
+        "right": 980,
+        "bottom": 1137.6875
+      },
+      "visit": {
+        "x": 1020,
+        "y": 234,
+        "width": 320,
+        "height": 451.5,
+        "right": 1340,
+        "bottom": 685.5
+      },
+      "reviews": {
+        "x": 100,
+        "y": 1177.6875,
+        "width": 880,
+        "height": 1164.6875,
+        "right": 980,
+        "bottom": 2342.375
+      },
+      "hero": {
+        "x": 100,
+        "y": 426.5,
+        "width": 880,
+        "height": 550,
+        "right": 980,
+        "bottom": 976.5
+      },
+      "heroFit": "cover",
+      "sidebarPosition": "static",
+      "radioLabels": [
+        {
+          "width": 44,
+          "height": 60,
+          "y": 1939.875
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 1939.875
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 1939.875
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 1939.875
+        },
+        {
+          "width": 44,
+          "height": 60,
+          "y": 1939.875
+        }
+      ]
+    }
+  ],
+  "checks": [
+    "guest5widths/layout/rating/map/permissions/interactions passed",
+    "member5widths/layout/rating/map/permissions/interactions passed",
+    "admin5widths/layout/rating/map/permissions/interactions passed",
+    "loading/detail404/error/retry;independent review/favorite errors;empty/unrated/no-map/broken-image;long text5widths passed",
+    "real detail GET200 and retained image/name;Search/Home/Login style isolation passed"
+  ],
+  "errors": [],
+  "fixtureMutations": [
+    {
+      "role": "member",
+      "method": "POST",
+      "path": "/api/favorites",
+      "body": {
+        "restaurantId": 501
+      },
+      "intercepted": true
+    },
+    {
+      "role": "member",
+      "method": "POST",
+      "path": "/api/favorites",
+      "body": {
+        "restaurantId": 501
+      },
+      "intercepted": true
+    },
+    {
+      "role": "member",
+      "method": "DELETE",
+      "path": "/api/favorites/501",
+      "body": null,
+      "intercepted": true
+    },
+    {
+      "role": "member",
+      "method": "POST",
+      "path": "/api/restaurants/501/reviews",
+      "body": {
+        "rating": 4,
+        "text": "อาหารอร่อย บริการดี และบรรยากาศสบาย อยากกลับมาอีกครั้ง"
+      },
+      "intercepted": true
+    },
+    {
+      "role": "member",
+      "method": "POST",
+      "path": "/api/restaurants/501/reviews",
+      "body": {
+        "rating": 4,
+        "text": "อาหารอร่อย บริการดี และบรรยากาศสบาย อยากกลับมาอีกครั้ง"
+      },
+      "intercepted": true
+    },
+    {
+      "role": "member",
+      "method": "DELETE",
+      "path": "/api/reviews/95",
+      "body": null,
+      "intercepted": true
+    },
+    {
+      "role": "admin",
+      "method": "DELETE",
+      "path": "/api/reviews/91",
+      "body": null,
+      "intercepted": true
+    }
+  ],
+  "live": {
+    "status": 200,
+    "restaurantId": 29,
+    "name": "ภัตตาคารจันทร์เพ็ญ",
+    "writes": [],
+    "source": "local UI -> unchanged proxy -> Render; no API response fixtures"
+  }
+}

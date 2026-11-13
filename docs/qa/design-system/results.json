@@ -1,0 +1,210 @@
+{
+  "states": {
+    "primary": {
+      "color": "rgb(255, 255, 255)",
+      "background": "rgb(182, 78, 46)",
+      "border": "rgba(0, 0, 0, 0)",
+      "radius": "10px",
+      "fontSize": "14px",
+      "minHeight": "48px",
+      "cursor": "pointer"
+    },
+    "secondary": {
+      "color": "rgb(46, 41, 37)",
+      "background": "rgb(255, 255, 255)",
+      "border": "rgb(155, 137, 119)",
+      "radius": "10px",
+      "fontSize": "14px",
+      "minHeight": "48px",
+      "cursor": "pointer"
+    },
+    "input": {
+      "color": "rgb(46, 41, 37)",
+      "background": "rgb(255, 255, 255)",
+      "border": "rgb(155, 137, 119)",
+      "radius": "10px",
+      "fontSize": "16px",
+      "minHeight": "48px",
+      "cursor": "text"
+    },
+    "disabledInput": {
+      "color": "rgb(105, 95, 85)",
+      "background": "rgb(244, 235, 223)",
+      "border": "rgb(233, 220, 203)",
+      "radius": "10px",
+      "fontSize": "16px",
+      "minHeight": "48px",
+      "cursor": "not-allowed"
+    },
+    "readonlyInput": {
+      "color": "rgb(46, 41, 37)",
+      "background": "rgb(255, 248, 238)",
+      "border": "rgb(155, 137, 119)",
+      "radius": "10px",
+      "fontSize": "16px",
+      "minHeight": "48px",
+      "cursor": "text"
+    },
+    "disabledButton": {
+      "color": "rgb(105, 95, 85)",
+      "background": "rgb(244, 235, 223)",
+      "border": "rgb(233, 220, 203)",
+      "radius": "10px",
+      "fontSize": "14px",
+      "minHeight": "48px",
+      "cursor": "not-allowed"
+    },
+    "danger": {
+      "color": "rgb(164, 47, 40)",
+      "background": "rgb(255, 243, 240)",
+      "border": "rgb(220, 170, 163)",
+      "radius": "10px",
+      "fontSize": "14px",
+      "minHeight": "auto",
+      "cursor": "auto"
+    },
+    "success": {
+      "color": "rgb(52, 86, 62)",
+      "background": "rgb(237, 244, 235)",
+      "border": "rgb(182, 203, 179)",
+      "radius": "10px",
+      "fontSize": "14px",
+      "minHeight": "0px",
+      "cursor": "auto"
+    },
+    "warning": {
+      "color": "rgb(128, 86, 0)",
+      "background": "rgb(255, 241, 217)",
+      "border": "rgb(203, 179, 133)",
+      "radius": "10px",
+      "fontSize": "14px",
+      "minHeight": "0px",
+      "cursor": "auto"
+    },
+    "invalidHover": {
+      "color": "rgb(46, 41, 37)",
+      "background": "rgb(255, 255, 255)",
+      "border": "rgb(164, 47, 40)",
+      "radius": "10px",
+      "fontSize": "16px",
+      "minHeight": "48px",
+      "cursor": "text"
+    }
+  },
+  "contrast": {
+    "primary": 5.099285807857997,
+    "secondary": 14.382990292359528,
+    "danger": 6.409847554239767,
+    "success": 7.35889411835022,
+    "warning": 5.797579200242806,
+    "controlBorder": 3.3662701657422507
+  },
+  "viewports": [
+    {
+      "route": "/",
+      "width": 375,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 1024,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/login",
+      "width": 375,
+      "overflow": false
+    },
+    {
+      "route": "/login",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/login",
+      "width": 1024,
+      "overflow": false
+    },
+    {
+      "route": "/login",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/restaurants",
+      "width": 375,
+      "overflow": false
+    },
+    {
+      "route": "/restaurants",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/restaurants",
+      "width": 1024,
+      "overflow": false
+    },
+    {
+      "route": "/restaurants",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/profile",
+      "width": 375,
+      "overflow": false
+    },
+    {
+      "route": "/profile",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/profile",
+      "width": 1024,
+      "overflow": false
+    },
+    {
+      "route": "/profile",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/admin/restaurants/new",
+      "width": 375,
+      "overflow": false
+    },
+    {
+      "route": "/admin/restaurants/new",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/admin/restaurants/new",
+      "width": 1024,
+      "overflow": false
+    },
+    {
+      "route": "/admin/restaurants/new",
+      "width": 1440,
+      "overflow": false
+    }
+  ],
+  "checks": [
+    "shared primary/surfaces/control sizes/disabled/readonly/invalid/focus/AA contrast/Tailwind alpha/runtime token update",
+    "Home and shared buttons use the same root token; existing Thai search routing preserved",
+    "reduced motion; existing profile/admin forms render with shared primitives and fixture auth"
+  ],
+  "errors": []
+}

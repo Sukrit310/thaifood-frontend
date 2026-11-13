@@ -29,7 +29,7 @@ test('member writes a review on an unrated restaurant and rating updates from it
   fireEvent.click(screen.getByRole('radio', { name: '4 ดาว' }));
   fireEvent.change(screen.getByLabelText('รีวิวของคุณ'), { target: { value: 'อาหารอร่อย บริการดี อยากกลับมาอีกครั้ง' } });
   fireEvent.click(screen.getByRole('button', { name: 'ส่งรีวิว' }));
-  expect(await screen.findByText('อาหารอร่อย บริการดี อยากกลับมาอีกครั้ง')).toBeInTheDocument();
+  expect(await within(screen.getByRole('region', { name: /^เสียงจากคนที่ได้ลอง/ })).findByText('อาหารอร่อย บริการดี อยากกลับมาอีกครั้ง', { selector: 'article p' })).toBeInTheDocument();
   expect(await screen.findByText('คุณรีวิวร้านนี้แล้ว สามารถลบรีวิวเดิมก่อนเขียนใหม่ได้')).toBeInTheDocument();
   const restaurant = await restaurantService.get(113);
   expect(restaurant.rating).toBe(4); expect(restaurant.reviewCount).toBe(1);

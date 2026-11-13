@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "baselineFiles": 72,
+  "protectedFilesUnchanged": 67,
+  "changedExistingSource": [
+    "thaifood/src/pages/ChangePassword.jsx",
+    "thaifood/src/pages/Favorites.jsx",
+    "thaifood/src/pages/Login.jsx",
+    "thaifood/src/pages/Profile.jsx",
+    "thaifood/src/pages/Register.jsx"
+  ],
+  "newSource": [
+    "thaifood/src/components/AccountLayout.css",
+    "thaifood/src/components/AccountLayout.jsx",
+    "thaifood/src/pages/AccountPages.test.jsx"
+  ]
+}

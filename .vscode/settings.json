@@ -1,0 +1,10 @@
+{
+  "remote.autoForwardPorts": true,
+  "remote.autoForwardPortsSource": "process",
+  "remote.portsAttributes": {
+    "3000": {
+      "label": "ThaiFood",
+      "onAutoForward": "openBrowser"
+    }
+  }
+}

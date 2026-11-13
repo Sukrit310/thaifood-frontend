@@ -1,0 +1,98 @@
+{
+  "viewports": [
+    {
+      "width": 375,
+      "documentWidth": 375,
+      "gridColumns": 1,
+      "imageRatio": 1.3333333333333333,
+      "inputFontSize": "16px",
+      "inputMinHeight": "48px",
+      "primaryColor": "rgb(182, 78, 46)",
+      "borderColor": "rgb(155, 137, 119)",
+      "filterVisible": false,
+      "labelsPresent": true,
+      "allLazy": true
+    },
+    {
+      "width": 768,
+      "documentWidth": 768,
+      "gridColumns": 2,
+      "imageRatio": 1.3333933825737105,
+      "inputFontSize": "16px",
+      "inputMinHeight": "48px",
+      "primaryColor": "rgb(182, 78, 46)",
+      "borderColor": "rgb(155, 137, 119)",
+      "filterVisible": true,
+      "labelsPresent": true,
+      "allLazy": true
+    },
+    {
+      "width": 1024,
+      "documentWidth": 1024,
+      "gridColumns": 3,
+      "imageRatio": 1.3333791964777104,
+      "inputFontSize": "16px",
+      "inputMinHeight": "48px",
+      "primaryColor": "rgb(182, 78, 46)",
+      "borderColor": "rgb(155, 137, 119)",
+      "filterVisible": true,
+      "labelsPresent": true,
+      "allLazy": true
+    },
+    {
+      "width": 1440,
+      "documentWidth": 1440,
+      "gridColumns": 3,
+      "imageRatio": 1.3333860342555994,
+      "inputFontSize": "16px",
+      "inputMinHeight": "48px",
+      "primaryColor": "rgb(182, 78, 46)",
+      "borderColor": "rgb(155, 137, 119)",
+      "filterVisible": true,
+      "labelsPresent": true,
+      "allLazy": true
+    }
+  ],
+  "checks": [
+    "real API list/total/pagination/keyword query via local proxy; viewport375/768/1024/1440; 4:3 lazy images and shared input/button tokens",
+    "URL restoration, trimmed Thai keyword, API params/limit12, filter changes reset page1, three-page bounds, focus after pagination, browser back, single/all filter clearing",
+    "mobile collapsed/expanded filters, native keyboard disclosure, logical tab order, visible focus and no zoom/overflow",
+    "12 accessible skeletons, honest pending/error counts, filtered empty clear, result retry, filter-option retry and preserved selections, out-of-range recovery",
+    "long query chips do not overflow and retain full accessible names; existing image fallback/unrated behavior; reduced-motion hover",
+    "Search -> detail -> Home -> Login navigation with Search CSS loaded, detail styles unchanged; no shared card/component edits",
+    "keyboard Enter removes each active chip; Tab continues to next filter or first result without returning to header"
+  ],
+  "live": {
+    "status": 200,
+    "total": 59,
+    "firstPageCount": 12,
+    "source": "local development proxy to existing Render API; no API mocks",
+    "secondPageCount": 12,
+    "keyword": "ภัตตาคารจันทร์เพ็ญ"
+  },
+  "consoleErrors": [],
+  "writes": [],
+  "keyboardChipRemoval": [
+    {
+      "removed": "ลบตัวกรองคำค้น ข้าว",
+      "next": {
+        "label": "ลบตัวกรองจังหวัด เชียงใหม่",
+        "tag": "BUTTON"
+      }
+    },
+    {
+      "removed": "ลบตัวกรองจังหวัด เชียงใหม่",
+      "next": {
+        "label": "ลบตัวกรองประเภทอาหาร อาหารเหนือ",
+        "tag": "BUTTON"
+      }
+    },
+    {
+      "removed": "ลบตัวกรองประเภทอาหาร อาหารเหนือ",
+      "next": {
+        "label": "ครัวทดสอบ",
+        "tag": "A"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "scope": "A. Layout / Navigation / Footer only",
+  "baselineCommit": "06c32bd83a85a83ea50b73d42b5ebbf3b9a2543e",
+  "review": {
+    "critical": 0,
+    "important": 1,
+    "minor": 0,
+    "finding": "Breakpoint CSS may blur a focused control before matchMedia dispatches change.",
+    "resolution": "Retain focus ownership during a CSS-triggered blur; clear ownership when focus or a pointer leaves the header; restore to the visible navigation/toggle.",
+    "verification": "Failing unit regression observed before fix; targeted15pass and actual browser focus probe + complete browser QA now pass.",
+    "deferred": []
+  },
+  "sourceScope": {
+    "modified": [
+      "thaifood/src/components/Layout.jsx"
+    ],
+    "added": [
+      "thaifood/src/components/Layout.css",
+      "thaifood/src/components/Layout.test.jsx"
+    ],
+    "protectedTrackedAppFiles": "git diff --exit-code HEAD -- thaifood :!thaifood/src/components/Layout.jsx returned0"
+  },
+  "browserEvidence": "results.json",
+  "deployment": "not requested; no deployment performed",
+  "verification": {
+    "targetedTests": 15,
+    "fullTests": 125,
+    "suites": 17,
+    "build": "Compiled successfully",
+    "browserRoleWidthCases": 15,
+    "deferredReviewFindings": 0
+  }
+}

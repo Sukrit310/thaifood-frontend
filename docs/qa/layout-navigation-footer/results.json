@@ -1,0 +1,357 @@
+{
+  "status": "passed",
+  "viewports": [
+    {
+      "role": "guest",
+      "width": 320,
+      "scrollWidth": 320,
+      "toggleVisible": true,
+      "navVisible": false,
+      "headerPosition": "static",
+      "headerBoxes": [
+        {
+          "left": 20,
+          "right": 172.375
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        }
+      ]
+    },
+    {
+      "role": "guest",
+      "width": 375,
+      "scrollWidth": 375,
+      "toggleVisible": true,
+      "navVisible": false,
+      "headerPosition": "static",
+      "headerBoxes": [
+        {
+          "left": 20,
+          "right": 172.375
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        }
+      ]
+    },
+    {
+      "role": "guest",
+      "width": 768,
+      "scrollWidth": 768,
+      "toggleVisible": true,
+      "navVisible": false,
+      "headerPosition": "static",
+      "headerBoxes": [
+        {
+          "left": 23.046875,
+          "right": 183.421875
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        }
+      ]
+    },
+    {
+      "role": "guest",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "toggleVisible": false,
+      "navVisible": true,
+      "headerPosition": "static",
+      "headerBoxes": [
+        {
+          "left": 30.71875,
+          "right": 191.09375
+        },
+        {
+          "left": 215.09375,
+          "right": 756.265625
+        },
+        {
+          "left": 780.265625,
+          "right": 993.265625
+        }
+      ]
+    },
+    {
+      "role": "guest",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "toggleVisible": false,
+      "navVisible": true,
+      "headerPosition": "static",
+      "headerBoxes": [
+        {
+          "left": 100,
+          "right": 276.9375
+        },
+        {
+          "left": 308.9375,
+          "right": 1095
+        },
+        {
+          "left": 1127,
+          "right": 1340
+        }
+      ]
+    },
+    {
+      "role": "member",
+      "width": 320,
+      "scrollWidth": 320,
+      "toggleVisible": true,
+      "navVisible": false,
+      "headerPosition": "static",
+      "headerBoxes": [
+        {
+          "left": 20,
+          "right": 172.375
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        }
+      ]
+    },
+    {
+      "role": "member",
+      "width": 375,
+      "scrollWidth": 375,
+      "toggleVisible": true,
+      "navVisible": false,
+      "headerPosition": "static",
+      "headerBoxes": [
+        {
+          "left": 20,
+          "right": 172.375
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        }
+      ]
+    },
+    {
+      "role": "member",
+      "width": 768,
+      "scrollWidth": 768,
+      "toggleVisible": true,
+      "navVisible": false,
+      "headerPosition": "static",
+      "headerBoxes": [
+        {
+          "left": 23.046875,
+          "right": 183.421875
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        }
+      ]
+    },
+    {
+      "role": "member",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "toggleVisible": false,
+      "navVisible": true,
+      "headerPosition": "static",
+      "headerBoxes": [
+        {
+          "left": 30.71875,
+          "right": 191.09375
+        },
+        {
+          "left": 215.09375,
+          "right": 691.265625
+        },
+        {
+          "left": 715.265625,
+          "right": 993.265625
+        }
+      ]
+    },
+    {
+      "role": "member",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "toggleVisible": false,
+      "navVisible": true,
+      "headerPosition": "static",
+      "headerBoxes": [
+        {
+          "left": 100,
+          "right": 276.9375
+        },
+        {
+          "left": 308.9375,
+          "right": 1030
+        },
+        {
+          "left": 1062,
+          "right": 1340
+        }
+      ]
+    },
+    {
+      "role": "admin",
+      "width": 320,
+      "scrollWidth": 320,
+      "toggleVisible": true,
+      "navVisible": false,
+      "headerPosition": "static",
+      "headerBoxes": [
+        {
+          "left": 20,
+          "right": 172.375
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        }
+      ]
+    },
+    {
+      "role": "admin",
+      "width": 375,
+      "scrollWidth": 375,
+      "toggleVisible": true,
+      "navVisible": false,
+      "headerPosition": "static",
+      "headerBoxes": [
+        {
+          "left": 20,
+          "right": 172.375
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        }
+      ]
+    },
+    {
+      "role": "admin",
+      "width": 768,
+      "scrollWidth": 768,
+      "toggleVisible": true,
+      "navVisible": false,
+      "headerPosition": "static",
+      "headerBoxes": [
+        {
+          "left": 23.046875,
+          "right": 183.421875
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        }
+      ]
+    },
+    {
+      "role": "admin",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "toggleVisible": false,
+      "navVisible": true,
+      "headerPosition": "static",
+      "headerBoxes": [
+        {
+          "left": 30.71875,
+          "right": 191.09375
+        },
+        {
+          "left": 215.09375,
+          "right": 720.265625
+        },
+        {
+          "left": 744.265625,
+          "right": 993.265625
+        }
+      ]
+    },
+    {
+      "role": "admin",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "toggleVisible": false,
+      "navVisible": true,
+      "headerPosition": "static",
+      "headerBoxes": [
+        {
+          "left": 100,
+          "right": 276.9375
+        },
+        {
+          "left": 308.9375,
+          "right": 1059
+        },
+        {
+          "left": 1091,
+          "right": 1340
+        }
+      ]
+    }
+  ],
+  "checks": [
+    "guest role destinations/5 widths/footer/logout passed",
+    "member role destinations/5 widths/footer/logout passed",
+    "admin role destinations/5 widths/footer/logout passed",
+    "skip link/tab order/visible focus/Escape/outside/path/current-route/query close passed",
+    "responsive focus transfer and reduced motion passed",
+    "Home/Search/Detail page style isolation and existing routing passed"
+  ],
+  "errors": [],
+  "writes": [],
+  "live": {
+    "status": 200,
+    "total": 59,
+    "cards": 12,
+    "source": "unchanged local proxy -> Render; no API fixtures in this context"
+  },
+  "outsidePointerFocus": {
+    "tag": "BODY",
+    "href": null,
+    "id": "",
+    "className": ""
+  }
+}

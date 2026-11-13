@@ -1,0 +1,101 @@
+{
+  "liveApi": [
+    {
+      "url": "http://127.0.0.1:3000/api/provinces",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3000/api/provinces",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3000/api/restaurants?page=1&limit=6",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3000/api/restaurants?page=1&limit=6",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3000/api/provinces",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3000/api/provinces",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3000/api/restaurants?page=1&limit=6",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3000/api/restaurants?page=1&limit=6",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3000/api/provinces",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3000/api/restaurants?province=%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3&page=1&limit=12",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3000/api/provinces",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:3000/api/restaurants?province=%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3&page=1&limit=12",
+      "status": 200
+    }
+  ],
+  "viewports": [
+    {
+      "width": 375,
+      "height": 812,
+      "columns": 1,
+      "overflow": false,
+      "heroSource": "http://127.0.0.1:3000/images/home-editorial/khao-soi-640.webp",
+      "viewport": 375,
+      "document": 375
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "columns": 2,
+      "overflow": false,
+      "heroSource": "http://127.0.0.1:3000/images/home-editorial/khao-soi-640.webp",
+      "viewport": 768,
+      "document": 768
+    },
+    {
+      "width": 1024,
+      "height": 900,
+      "columns": 3,
+      "overflow": false,
+      "heroSource": "http://127.0.0.1:3000/images/home-editorial/khao-soi-640.webp",
+      "viewport": 1024,
+      "document": 1024
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "columns": 3,
+      "overflow": false,
+      "heroSource": "http://127.0.0.1:3000/images/home-editorial/khao-soi-640.webp",
+      "viewport": 1440,
+      "document": 1440
+    }
+  ],
+  "checks": [
+    "keyboard order and visible focus",
+    "search preserves Thai query/province and Home styles do not leak into Restaurants",
+    "destination links preserve actual province values",
+    "controlled loading/error/retry/empty states at 375px",
+    "reduced motion disables hover translation",
+    "local hero fallback and long Thai restaurant names at 375px"
+  ],
+  "consoleErrors": [],
+  "buttonContrast": 5.099285807857997,
+  "bodyContrast": 5.911333074257712
+}
