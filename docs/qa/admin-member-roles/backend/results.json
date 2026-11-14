@@ -1,0 +1,225 @@
+{
+  "status": "passed",
+  "startedAt": "2026-11-14T08:18:06.316813+00:00",
+  "clientTimezone": "Asia/Bangkok",
+  "repository": "Sukrit310/thaifood-backend",
+  "expectedRevision": "a8c0d78f76220f596a1646913685021ccfdc83f8",
+  "commands": [
+    {
+      "command": [
+        "go",
+        "test",
+        "-race",
+        "-count=1",
+        "-timeout=5m",
+        "-json",
+        "./..."
+      ],
+      "exitCode": 0,
+      "elapsedSeconds": 91.76,
+      "log": "race-all.jsonl",
+      "topLevelPassed": 39,
+      "subtestsPassed": 90,
+      "skippedTests": [],
+      "failedTests": [],
+      "packages": [
+        {
+          "Package": "thaifood-backend",
+          "Action": "skip",
+          "Elapsed": 0
+        },
+        {
+          "Package": "thaifood-backend/handler",
+          "Action": "pass",
+          "Elapsed": 4.007
+        },
+        {
+          "Package": "thaifood-backend/auth",
+          "Action": "pass",
+          "Elapsed": 6.263
+        },
+        {
+          "Package": "thaifood-backend/internal/config",
+          "Action": "pass",
+          "Elapsed": 1.022
+        },
+        {
+          "Package": "thaifood-backend/mw",
+          "Action": "pass",
+          "Elapsed": 1.057
+        },
+        {
+          "Package": "thaifood-backend/store",
+          "Action": "pass",
+          "Elapsed": 4.283
+        },
+        {
+          "Package": "thaifood-backend/integration",
+          "Action": "pass",
+          "Elapsed": 26.555
+        }
+      ],
+      "roleTestPasses": {
+        "thaifood-backend/handler/TestUpdateMemberRoleAuthorization/guest": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleAuthorization/invalid_token": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleAuthorization/member": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleAuthorization/self_demotion": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleAuthorization/self_unchanged": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleAuthorization": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleValidation/zero_id": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleValidation/negative_id": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleValidation/text_id": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleValidation/fractional_id": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleValidation/overflow_id": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleValidation/missing_role": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleValidation/null_role": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleValidation/empty_role": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleValidation/unknown_role": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleValidation/uppercase_role": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleValidation/padded_role": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleValidation/numeric_role": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleValidation/boolean_role": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleValidation/object_role": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleValidation/array_role": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleValidation/unknown_field": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleValidation/cased_field": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleValidation/extra_cased_field": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleValidation/malformed": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleValidation/empty_body": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleValidation/null_body": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleValidation/array_body": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleValidation/trailing_JSON": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleValidation/trailing_garbage": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleValidation/wrong_content_type": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleValidation/oversized_body": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleValidation/invalid_UTF8": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleValidation": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleReturnsMember/admin": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleReturnsMember/member": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleReturnsMember": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleStoreErrors/NOT_FOUND": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleStoreErrors/FORBIDDEN": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleStoreErrors/CONFLICT": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleStoreErrors/LAST_ADMIN": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleStoreErrors/INTERNAL_ERROR": 1,
+        "thaifood-backend/handler/TestUpdateMemberRoleStoreErrors": 1,
+        "thaifood-backend/store/TestUpdateMemberRolePersistenceAndIdempotence": 1,
+        "thaifood-backend/store/TestUpdateMemberRoleGuards/self_demotion_of_last_admin": 1,
+        "thaifood-backend/store/TestUpdateMemberRoleGuards/self_unchanged": 1,
+        "thaifood-backend/store/TestUpdateMemberRoleGuards/member_caller": 1,
+        "thaifood-backend/store/TestUpdateMemberRoleGuards/member_no-op": 1,
+        "thaifood-backend/store/TestUpdateMemberRoleGuards/missing_caller": 1,
+        "thaifood-backend/store/TestUpdateMemberRoleGuards/missing_target": 1,
+        "thaifood-backend/store/TestUpdateMemberRoleGuards/invalid_role": 1,
+        "thaifood-backend/store/TestUpdateMemberRoleGuards": 1,
+        "thaifood-backend/store/TestUpdateMemberRoleConcurrentCrossDemotions": 1,
+        "thaifood-backend/store/TestUpdateMemberRoleRechecksActorAfterLockWait": 1,
+        "thaifood-backend/integration/TestAdminMemberRoles": 1,
+        "thaifood-backend/integration/TestAdminMemberRolesConcurrentCrossDemotions": 1
+      }
+    },
+    {
+      "command": [
+        "go",
+        "test",
+        "-race",
+        "-count=20",
+        "-timeout=5m",
+        "-json",
+        "./store",
+        "./integration",
+        "-run",
+        "Test(UpdateMemberRoleConcurrentCrossDemotions|UpdateMemberRoleRechecksActorAfterLockWait|AdminMemberRolesConcurrentCrossDemotions)$"
+      ],
+      "exitCode": 0,
+      "elapsedSeconds": 86.75,
+      "log": "race-concurrency-20.jsonl",
+      "topLevelPassed": 60,
+      "subtestsPassed": 0,
+      "skippedTests": [],
+      "failedTests": [],
+      "packages": [
+        {
+          "Package": "thaifood-backend/store",
+          "Action": "pass",
+          "Elapsed": 13.961
+        },
+        {
+          "Package": "thaifood-backend/integration",
+          "Action": "pass",
+          "Elapsed": 85.353
+        }
+      ],
+      "roleTestPasses": {
+        "thaifood-backend/store/TestUpdateMemberRoleConcurrentCrossDemotions": 20,
+        "thaifood-backend/store/TestUpdateMemberRoleRechecksActorAfterLockWait": 20,
+        "thaifood-backend/integration/TestAdminMemberRolesConcurrentCrossDemotions": 20
+      }
+    },
+    {
+      "command": [
+        "go",
+        "vet",
+        "./..."
+      ],
+      "exitCode": 0,
+      "elapsedSeconds": 46.34,
+      "log": "vet.txt"
+    },
+    {
+      "command": [
+        "go",
+        "build",
+        "./..."
+      ],
+      "exitCode": 0,
+      "elapsedSeconds": 1.03,
+      "log": "build.txt"
+    }
+  ],
+  "cleanup": {
+    "containerStopped": true,
+    "temporaryContainerRemoved": true,
+    "daemonListingSucceeded": true
+  },
+  "productionAccessed": false,
+  "backendSourceEdited": false,
+  "backendDeployed": false,
+  "revision": "a8c0d78f76220f596a1646913685021ccfdc83f8",
+  "database": {
+    "type": "disposable Docker PostgreSQL",
+    "image": "postgres:17-alpine",
+    "imageId": "sha256:d3244e8ce3f165ee3c93d9c4a4b1d0fe48b3a89e2287b717fdcbbde92d405065",
+    "host": "127.0.0.1",
+    "database": "thaifood_test",
+    "productionCredentialsLoaded": false,
+    "version": "PostgreSQL 17.12 on x86_64-pc-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit"
+  },
+  "toolchain": "go version go1.27.4 linux/amd64",
+  "temporarySchemasRemaining": "0",
+  "backendSourceUnchanged": true,
+  "finishedAt": "2026-11-14T08:21:52.970326+00:00",
+  "cleanupEvidence": {
+    "command": [
+      "docker",
+      "container",
+      "ls",
+      "--all",
+      "--filter",
+      "label=codex.task=thaifood-backend-verification-20261114",
+      "--format",
+      "{{.Names}}"
+    ],
+    "exitCode": 0,
+    "remainingContainers": [],
+    "independentlyConfirmedAfterRun": true
+  },
+  "coverageNotes": {
+    "lastAdminAPIInvariant": "Real PostgreSQL self-demotion rejection, actor recheck and concurrent cross-demotion preserve one admin",
+    "lastAdmin409": "Handler mock coverage; defensive DB branch unreachable under normal current API rules",
+    "notAdded": [
+      "separate API server/pool concurrency",
+      "cancellation while waiting for table lock"
+    ]
+  }
+}

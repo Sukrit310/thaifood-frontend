@@ -1,0 +1,248 @@
+{"Time":"2026-11-14T08:19:39.338966783Z","Action":"start","Package":"thaifood-backend/store"}
+{"Time":"2026-11-14T08:19:39.374864113Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:19:39.375078654Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"=== RUN   TestUpdateMemberRoleConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:39.644295133Z","Action":"start","Package":"thaifood-backend/integration"}
+{"Time":"2026-11-14T08:19:39.67527457Z","Action":"run","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:19:39.675361352Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"=== RUN   TestAdminMemberRolesConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:39.731132402Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"--- PASS: TestUpdateMemberRoleConcurrentCrossDemotions (0.36s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:39.731212872Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Elapsed":0.36}
+{"Time":"2026-11-14T08:19:39.732113847Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait"}
+{"Time":"2026-11-14T08:19:39.732144525Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"=== RUN   TestUpdateMemberRoleRechecksActorAfterLockWait\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:40.017155308Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"--- PASS: TestUpdateMemberRoleRechecksActorAfterLockWait (0.29s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:40.017521482Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Elapsed":0.29}
+{"Time":"2026-11-14T08:19:40.017730112Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:19:40.017784253Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"=== RUN   TestUpdateMemberRoleConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:40.268161205Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"--- PASS: TestUpdateMemberRoleConcurrentCrossDemotions (0.25s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:40.268261913Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Elapsed":0.25}
+{"Time":"2026-11-14T08:19:40.268291929Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait"}
+{"Time":"2026-11-14T08:19:40.268312618Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"=== RUN   TestUpdateMemberRoleRechecksActorAfterLockWait\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:40.601110153Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"--- PASS: TestUpdateMemberRoleRechecksActorAfterLockWait (0.33s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:40.601218445Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Elapsed":0.33}
+{"Time":"2026-11-14T08:19:40.601252839Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:19:40.601277596Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"=== RUN   TestUpdateMemberRoleConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:40.961738546Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"--- PASS: TestUpdateMemberRoleConcurrentCrossDemotions (0.36s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:40.961793629Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Elapsed":0.36}
+{"Time":"2026-11-14T08:19:40.96181046Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait"}
+{"Time":"2026-11-14T08:19:40.961819788Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"=== RUN   TestUpdateMemberRoleRechecksActorAfterLockWait\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:41.411802539Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"--- PASS: TestUpdateMemberRoleRechecksActorAfterLockWait (0.45s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:41.411976254Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Elapsed":0.45}
+{"Time":"2026-11-14T08:19:41.412061363Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:19:41.412109202Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"=== RUN   TestUpdateMemberRoleConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:41.706260955Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"--- PASS: TestUpdateMemberRoleConcurrentCrossDemotions (0.30s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:41.709549986Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Elapsed":0.3}
+{"Time":"2026-11-14T08:19:41.709592235Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait"}
+{"Time":"2026-11-14T08:19:41.709604919Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"=== RUN   TestUpdateMemberRoleRechecksActorAfterLockWait\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:42.038746757Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"--- PASS: TestUpdateMemberRoleRechecksActorAfterLockWait (0.33s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:42.03902138Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Elapsed":0.33}
+{"Time":"2026-11-14T08:19:42.042686404Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:19:42.042729965Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"=== RUN   TestUpdateMemberRoleConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:42.324734125Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"--- PASS: TestUpdateMemberRoleConcurrentCrossDemotions (0.28s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:42.324819865Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Elapsed":0.28}
+{"Time":"2026-11-14T08:19:42.324854209Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait"}
+{"Time":"2026-11-14T08:19:42.324879386Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"=== RUN   TestUpdateMemberRoleRechecksActorAfterLockWait\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:42.642925055Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"--- PASS: TestUpdateMemberRoleRechecksActorAfterLockWait (0.32s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:42.643863007Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Elapsed":0.32}
+{"Time":"2026-11-14T08:19:42.644920491Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:19:42.644969002Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"=== RUN   TestUpdateMemberRoleConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:42.93374189Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"--- PASS: TestUpdateMemberRoleConcurrentCrossDemotions (0.29s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:42.933837038Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Elapsed":0.29}
+{"Time":"2026-11-14T08:19:42.933864449Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait"}
+{"Time":"2026-11-14T08:19:42.933884797Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"=== RUN   TestUpdateMemberRoleRechecksActorAfterLockWait\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:43.356985784Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"--- PASS: TestUpdateMemberRoleRechecksActorAfterLockWait (0.42s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:43.357193291Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Elapsed":0.42}
+{"Time":"2026-11-14T08:19:43.357282748Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:19:43.357414895Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"=== RUN   TestUpdateMemberRoleConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:43.671749975Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"--- PASS: TestUpdateMemberRoleConcurrentCrossDemotions (0.31s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:43.671891349Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Elapsed":0.31}
+{"Time":"2026-11-14T08:19:43.671916166Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait"}
+{"Time":"2026-11-14T08:19:43.671927757Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"=== RUN   TestUpdateMemberRoleRechecksActorAfterLockWait\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:43.999723823Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"--- PASS: TestUpdateMemberRoleRechecksActorAfterLockWait (0.33s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:43.999777964Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Elapsed":0.33}
+{"Time":"2026-11-14T08:19:43.999980592Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:19:43.999999397Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"=== RUN   TestUpdateMemberRoleConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:44.262710121Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"--- PASS: TestUpdateMemberRoleConcurrentCrossDemotions (0.26s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:44.262846065Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Elapsed":0.26}
+{"Time":"2026-11-14T08:19:44.262883385Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait"}
+{"Time":"2026-11-14T08:19:44.262911707Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"=== RUN   TestUpdateMemberRoleRechecksActorAfterLockWait\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:44.587390529Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"--- PASS: TestUpdateMemberRoleRechecksActorAfterLockWait (0.33s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:44.587497759Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Elapsed":0.33}
+{"Time":"2026-11-14T08:19:44.587515051Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:19:44.587523858Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"=== RUN   TestUpdateMemberRoleConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:44.994897136Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"--- PASS: TestUpdateMemberRoleConcurrentCrossDemotions (0.41s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:44.995135521Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Elapsed":0.41}
+{"Time":"2026-11-14T08:19:44.99520962Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait"}
+{"Time":"2026-11-14T08:19:44.995241319Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"=== RUN   TestUpdateMemberRoleRechecksActorAfterLockWait\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:45.331167283Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"--- PASS: TestUpdateMemberRoleRechecksActorAfterLockWait (0.34s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:45.331250919Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Elapsed":0.34}
+{"Time":"2026-11-14T08:19:45.334040628Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:19:45.334083669Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"=== RUN   TestUpdateMemberRoleConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:45.651031568Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"--- PASS: TestUpdateMemberRoleConcurrentCrossDemotions (0.32s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:45.651122528Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Elapsed":0.32}
+{"Time":"2026-11-14T08:19:45.651143757Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait"}
+{"Time":"2026-11-14T08:19:45.651153285Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"=== RUN   TestUpdateMemberRoleRechecksActorAfterLockWait\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:46.038118446Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"--- PASS: TestUpdateMemberRoleRechecksActorAfterLockWait (0.38s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:46.038203916Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Elapsed":0.38}
+{"Time":"2026-11-14T08:19:46.038234753Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:19:46.03824384Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"=== RUN   TestUpdateMemberRoleConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:46.345870274Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"--- PASS: TestUpdateMemberRoleConcurrentCrossDemotions (0.31s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:46.345930165Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Elapsed":0.31}
+{"Time":"2026-11-14T08:19:46.345946866Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait"}
+{"Time":"2026-11-14T08:19:46.345956555Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"=== RUN   TestUpdateMemberRoleRechecksActorAfterLockWait\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:46.665969026Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"--- PASS: TestUpdateMemberRoleRechecksActorAfterLockWait (0.32s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:46.666085954Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Elapsed":0.32}
+{"Time":"2026-11-14T08:19:46.666317547Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:19:46.666370426Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"=== RUN   TestUpdateMemberRoleConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:46.778301702Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"--- PASS: TestAdminMemberRolesConcurrentCrossDemotions (7.10s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:46.77843446Z","Action":"pass","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Elapsed":7.1}
+{"Time":"2026-11-14T08:19:46.778476418Z","Action":"run","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:19:46.778545207Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"=== RUN   TestAdminMemberRolesConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:47.022109288Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"--- PASS: TestUpdateMemberRoleConcurrentCrossDemotions (0.36s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:47.022413536Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Elapsed":0.36}
+{"Time":"2026-11-14T08:19:47.022442761Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait"}
+{"Time":"2026-11-14T08:19:47.0224531Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"=== RUN   TestUpdateMemberRoleRechecksActorAfterLockWait\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:47.340690367Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"--- PASS: TestUpdateMemberRoleRechecksActorAfterLockWait (0.32s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:47.340821191Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Elapsed":0.32}
+{"Time":"2026-11-14T08:19:47.342039085Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:19:47.342106972Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"=== RUN   TestUpdateMemberRoleConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:47.633469837Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"--- PASS: TestUpdateMemberRoleConcurrentCrossDemotions (0.29s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:47.633662778Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Elapsed":0.29}
+{"Time":"2026-11-14T08:19:47.633702942Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait"}
+{"Time":"2026-11-14T08:19:47.633727118Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"=== RUN   TestUpdateMemberRoleRechecksActorAfterLockWait\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:47.958845163Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"--- PASS: TestUpdateMemberRoleRechecksActorAfterLockWait (0.33s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:47.958984363Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Elapsed":0.33}
+{"Time":"2026-11-14T08:19:47.959242695Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:19:47.959284463Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"=== RUN   TestUpdateMemberRoleConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:48.263087637Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"--- PASS: TestUpdateMemberRoleConcurrentCrossDemotions (0.30s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:48.263207491Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Elapsed":0.3}
+{"Time":"2026-11-14T08:19:48.26324408Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait"}
+{"Time":"2026-11-14T08:19:48.263268044Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"=== RUN   TestUpdateMemberRoleRechecksActorAfterLockWait\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:48.55309999Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"--- PASS: TestUpdateMemberRoleRechecksActorAfterLockWait (0.29s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:48.553245743Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Elapsed":0.29}
+{"Time":"2026-11-14T08:19:48.553296818Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:19:48.55332487Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"=== RUN   TestUpdateMemberRoleConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:48.850217771Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"--- PASS: TestUpdateMemberRoleConcurrentCrossDemotions (0.30s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:48.850328288Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Elapsed":0.3}
+{"Time":"2026-11-14T08:19:48.850364786Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait"}
+{"Time":"2026-11-14T08:19:48.850405111Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"=== RUN   TestUpdateMemberRoleRechecksActorAfterLockWait\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:49.134000472Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"--- PASS: TestUpdateMemberRoleRechecksActorAfterLockWait (0.28s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:49.134167304Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Elapsed":0.28}
+{"Time":"2026-11-14T08:19:49.136772438Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:19:49.136824385Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"=== RUN   TestUpdateMemberRoleConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:49.393557076Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"--- PASS: TestUpdateMemberRoleConcurrentCrossDemotions (0.26s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:49.393690305Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Elapsed":0.26}
+{"Time":"2026-11-14T08:19:49.393820738Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait"}
+{"Time":"2026-11-14T08:19:49.393885419Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"=== RUN   TestUpdateMemberRoleRechecksActorAfterLockWait\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:49.674703925Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"--- PASS: TestUpdateMemberRoleRechecksActorAfterLockWait (0.28s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:49.67479752Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Elapsed":0.28}
+{"Time":"2026-11-14T08:19:49.67514047Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:19:49.67518318Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"=== RUN   TestUpdateMemberRoleConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:50.005821204Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"--- PASS: TestUpdateMemberRoleConcurrentCrossDemotions (0.33s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:50.00589369Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Elapsed":0.33}
+{"Time":"2026-11-14T08:19:50.00590991Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait"}
+{"Time":"2026-11-14T08:19:50.005923586Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"=== RUN   TestUpdateMemberRoleRechecksActorAfterLockWait\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:50.289820179Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"--- PASS: TestUpdateMemberRoleRechecksActorAfterLockWait (0.28s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:50.290015945Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Elapsed":0.28}
+{"Time":"2026-11-14T08:19:50.290350569Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:19:50.290407456Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"=== RUN   TestUpdateMemberRoleConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:50.626145721Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"--- PASS: TestUpdateMemberRoleConcurrentCrossDemotions (0.34s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:50.626276125Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Elapsed":0.34}
+{"Time":"2026-11-14T08:19:50.626312713Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait"}
+{"Time":"2026-11-14T08:19:50.626334795Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"=== RUN   TestUpdateMemberRoleRechecksActorAfterLockWait\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:50.906679776Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"--- PASS: TestUpdateMemberRoleRechecksActorAfterLockWait (0.28s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:50.906881623Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Elapsed":0.28}
+{"Time":"2026-11-14T08:19:50.907775192Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:19:50.907832448Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"=== RUN   TestUpdateMemberRoleConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:51.160492565Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"--- PASS: TestUpdateMemberRoleConcurrentCrossDemotions (0.25s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:51.163391187Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Elapsed":0.25}
+{"Time":"2026-11-14T08:19:51.163470615Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait"}
+{"Time":"2026-11-14T08:19:51.163496574Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"=== RUN   TestUpdateMemberRoleRechecksActorAfterLockWait\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:51.446524646Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"--- PASS: TestUpdateMemberRoleRechecksActorAfterLockWait (0.28s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:51.44660726Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Elapsed":0.28}
+{"Time":"2026-11-14T08:19:51.448230631Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:19:51.448292346Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"=== RUN   TestUpdateMemberRoleConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:51.789412091Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"--- PASS: TestUpdateMemberRoleConcurrentCrossDemotions (0.34s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:51.789473566Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Elapsed":0.34}
+{"Time":"2026-11-14T08:19:51.790079818Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait"}
+{"Time":"2026-11-14T08:19:51.790153946Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"=== RUN   TestUpdateMemberRoleRechecksActorAfterLockWait\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:52.29576436Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"--- PASS: TestUpdateMemberRoleRechecksActorAfterLockWait (0.51s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:52.295827799Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Elapsed":0.51}
+{"Time":"2026-11-14T08:19:52.295841364Z","Action":"output","Package":"thaifood-backend/store","Output":"PASS\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:53.017850224Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"--- PASS: TestAdminMemberRolesConcurrentCrossDemotions (6.24s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:53.017968976Z","Action":"pass","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Elapsed":6.24}
+{"Time":"2026-11-14T08:19:53.018114187Z","Action":"run","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:19:53.018147099Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"=== RUN   TestAdminMemberRolesConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:53.300282421Z","Action":"output","Package":"thaifood-backend/store","Output":"ok  \tthaifood-backend/store\t13.960s\n"}
+{"Time":"2026-11-14T08:19:53.300350047Z","Action":"pass","Package":"thaifood-backend/store","Elapsed":13.961}
+{"Time":"2026-11-14T08:19:57.101627303Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"--- PASS: TestAdminMemberRolesConcurrentCrossDemotions (4.08s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:57.101707663Z","Action":"pass","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Elapsed":4.08}
+{"Time":"2026-11-14T08:19:57.101723773Z","Action":"run","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:19:57.101742648Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"=== RUN   TestAdminMemberRolesConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:20:01.067603195Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"--- PASS: TestAdminMemberRolesConcurrentCrossDemotions (3.97s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:20:01.067720374Z","Action":"pass","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Elapsed":3.97}
+{"Time":"2026-11-14T08:20:01.068879077Z","Action":"run","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:20:01.068923661Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"=== RUN   TestAdminMemberRolesConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:20:04.982930572Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"--- PASS: TestAdminMemberRolesConcurrentCrossDemotions (3.91s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:20:04.983081474Z","Action":"pass","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Elapsed":3.91}
+{"Time":"2026-11-14T08:20:04.983126948Z","Action":"run","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:20:04.983157576Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"=== RUN   TestAdminMemberRolesConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:20:09.169425053Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"--- PASS: TestAdminMemberRolesConcurrentCrossDemotions (4.19s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:20:09.169493851Z","Action":"pass","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Elapsed":4.19}
+{"Time":"2026-11-14T08:20:09.169511544Z","Action":"run","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:20:09.169520711Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"=== RUN   TestAdminMemberRolesConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:20:13.004521807Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"--- PASS: TestAdminMemberRolesConcurrentCrossDemotions (3.84s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:20:13.004595915Z","Action":"pass","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Elapsed":3.84}
+{"Time":"2026-11-14T08:20:13.004694148Z","Action":"run","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:20:13.004720167Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"=== RUN   TestAdminMemberRolesConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:20:16.961816748Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"--- PASS: TestAdminMemberRolesConcurrentCrossDemotions (3.95s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:20:16.961931914Z","Action":"pass","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Elapsed":3.95}
+{"Time":"2026-11-14T08:20:16.961973171Z","Action":"run","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:20:16.962003116Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"=== RUN   TestAdminMemberRolesConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:20:20.881278293Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"--- PASS: TestAdminMemberRolesConcurrentCrossDemotions (3.92s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:20:20.881800308Z","Action":"pass","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Elapsed":3.92}
+{"Time":"2026-11-14T08:20:20.882126837Z","Action":"run","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:20:20.882158506Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"=== RUN   TestAdminMemberRolesConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:20:24.573932066Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"--- PASS: TestAdminMemberRolesConcurrentCrossDemotions (3.69s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:20:24.574002658Z","Action":"pass","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Elapsed":3.69}
+{"Time":"2026-11-14T08:20:24.574041761Z","Action":"run","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:20:24.574054034Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"=== RUN   TestAdminMemberRolesConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:20:28.741144602Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"--- PASS: TestAdminMemberRolesConcurrentCrossDemotions (4.17s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:20:28.741307797Z","Action":"pass","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Elapsed":4.17}
+{"Time":"2026-11-14T08:20:28.742047438Z","Action":"run","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:20:28.742084107Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"=== RUN   TestAdminMemberRolesConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:20:32.75179264Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"--- PASS: TestAdminMemberRolesConcurrentCrossDemotions (4.01s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:20:32.752100665Z","Action":"pass","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Elapsed":4.01}
+{"Time":"2026-11-14T08:20:32.752421143Z","Action":"run","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:20:32.752437604Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"=== RUN   TestAdminMemberRolesConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:20:36.703804647Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"--- PASS: TestAdminMemberRolesConcurrentCrossDemotions (3.95s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:20:36.703873615Z","Action":"pass","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Elapsed":3.95}
+{"Time":"2026-11-14T08:20:36.703893022Z","Action":"run","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:20:36.70390276Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"=== RUN   TestAdminMemberRolesConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:20:40.614000291Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"--- PASS: TestAdminMemberRolesConcurrentCrossDemotions (3.91s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:20:40.614071534Z","Action":"pass","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Elapsed":3.91}
+{"Time":"2026-11-14T08:20:40.614706119Z","Action":"run","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:20:40.614731527Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"=== RUN   TestAdminMemberRolesConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:20:44.475584715Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"--- PASS: TestAdminMemberRolesConcurrentCrossDemotions (3.86s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:20:44.475688509Z","Action":"pass","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Elapsed":3.86}
+{"Time":"2026-11-14T08:20:44.476637161Z","Action":"run","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:20:44.476704656Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"=== RUN   TestAdminMemberRolesConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:20:48.494760195Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"--- PASS: TestAdminMemberRolesConcurrentCrossDemotions (4.02s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:20:48.494846987Z","Action":"pass","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Elapsed":4.02}
+{"Time":"2026-11-14T08:20:48.494879308Z","Action":"run","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:20:48.494892462Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"=== RUN   TestAdminMemberRolesConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:20:52.237153547Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"--- PASS: TestAdminMemberRolesConcurrentCrossDemotions (3.74s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:20:52.237234969Z","Action":"pass","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Elapsed":3.74}
+{"Time":"2026-11-14T08:20:52.237265125Z","Action":"run","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:20:52.237276867Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"=== RUN   TestAdminMemberRolesConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:20:56.128190777Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"--- PASS: TestAdminMemberRolesConcurrentCrossDemotions (3.89s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:20:56.128263623Z","Action":"pass","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Elapsed":3.89}
+{"Time":"2026-11-14T08:20:56.128779717Z","Action":"run","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:20:56.128805094Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"=== RUN   TestAdminMemberRolesConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:21:00.144244137Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"--- PASS: TestAdminMemberRolesConcurrentCrossDemotions (4.02s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:21:00.144323816Z","Action":"pass","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Elapsed":4.02}
+{"Time":"2026-11-14T08:21:00.144704016Z","Action":"run","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:21:00.144740093Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"=== RUN   TestAdminMemberRolesConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:21:03.992416828Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"--- PASS: TestAdminMemberRolesConcurrentCrossDemotions (3.85s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:21:03.992508689Z","Action":"pass","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Elapsed":3.85}
+{"Time":"2026-11-14T08:21:03.992532574Z","Action":"output","Package":"thaifood-backend/integration","Output":"PASS\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:21:04.997179096Z","Action":"output","Package":"thaifood-backend/integration","Output":"ok  \tthaifood-backend/integration\t85.348s\n"}
+{"Time":"2026-11-14T08:21:04.99725603Z","Action":"pass","Package":"thaifood-backend/integration","Elapsed":85.353}

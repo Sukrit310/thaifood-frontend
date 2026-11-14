@@ -1,0 +1,24 @@
+{
+  "base": "https://thaifood-frontend.vercel.app",
+  "width": 320,
+  "bundle": "/static/js/main.8f18e63b.js",
+  "source": "production with read-only UI fixtures; no real authentication or data writes",
+  "menuHTML": "<button type=\"button\" class=\"btn btn-secondary layout-menu-toggle\" aria-label=\"เปิดเมนูหลัก\" aria-expanded=\"false\" aria-controls=\"layout-navigation\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M4 7h16M4 12h16M4 17h16\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\"></path></svg><span>เมนู</span></button>",
+  "violations": [
+    {
+      "id": "label-content-name-mismatch",
+      "impact": "serious",
+      "help": "Elements must have their visible text as part of their accessible name",
+      "nodes": [
+        {
+          "target": [
+            ".btn"
+          ],
+          "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+        }
+      ]
+    }
+  ],
+  "incomplete": [],
+  "passes": 26
+}

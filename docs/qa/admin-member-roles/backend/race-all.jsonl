@@ -1,0 +1,545 @@
+{"Time":"2026-11-14T08:18:59.937602122Z","Action":"start","Package":"thaifood-backend"}
+{"Time":"2026-11-14T08:18:59.937791476Z","Action":"output","Package":"thaifood-backend","Output":"?   \tthaifood-backend\t[no test files]\n"}
+{"Time":"2026-11-14T08:18:59.937814458Z","Action":"skip","Package":"thaifood-backend","Elapsed":0}
+{"Time":"2026-11-14T08:19:03.783257702Z","Action":"start","Package":"thaifood-backend/auth"}
+{"Time":"2026-11-14T08:19:03.802263762Z","Action":"run","Package":"thaifood-backend/auth","Test":"TestIssueAndParse"}
+{"Time":"2026-11-14T08:19:03.802368327Z","Action":"output","Package":"thaifood-backend/auth","Test":"TestIssueAndParse","Output":"=== RUN   TestIssueAndParse\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:03.806634233Z","Action":"output","Package":"thaifood-backend/auth","Test":"TestIssueAndParse","Output":"--- PASS: TestIssueAndParse (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:03.806786978Z","Action":"pass","Package":"thaifood-backend/auth","Test":"TestIssueAndParse","Elapsed":0}
+{"Time":"2026-11-14T08:19:03.806915919Z","Action":"run","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens"}
+{"Time":"2026-11-14T08:19:03.806975981Z","Action":"output","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens","Output":"=== RUN   TestRejectInvalidTokens\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:03.808709979Z","Action":"run","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/expired"}
+{"Time":"2026-11-14T08:19:03.808749783Z","Action":"output","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/expired","Output":"=== RUN   TestRejectInvalidTokens/expired\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:03.808778768Z","Action":"output","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/expired","Output":"--- PASS: TestRejectInvalidTokens/expired (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:03.80881245Z","Action":"pass","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/expired","Elapsed":0}
+{"Time":"2026-11-14T08:19:03.808831095Z","Action":"run","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/missing_expiry"}
+{"Time":"2026-11-14T08:19:03.808848447Z","Action":"output","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/missing_expiry","Output":"=== RUN   TestRejectInvalidTokens/missing_expiry\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:03.808867934Z","Action":"output","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/missing_expiry","Output":"--- PASS: TestRejectInvalidTokens/missing_expiry (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:03.808885787Z","Action":"pass","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/missing_expiry","Elapsed":0}
+{"Time":"2026-11-14T08:19:03.808903651Z","Action":"run","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/future_issuance"}
+{"Time":"2026-11-14T08:19:03.808912197Z","Action":"output","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/future_issuance","Output":"=== RUN   TestRejectInvalidTokens/future_issuance\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:03.810132706Z","Action":"output","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/future_issuance","Output":"--- PASS: TestRejectInvalidTokens/future_issuance (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:03.810270834Z","Action":"pass","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/future_issuance","Elapsed":0}
+{"Time":"2026-11-14T08:19:03.810404423Z","Action":"run","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/missing_issuance"}
+{"Time":"2026-11-14T08:19:03.810431634Z","Action":"output","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/missing_issuance","Output":"=== RUN   TestRejectInvalidTokens/missing_issuance\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:03.811172678Z","Action":"output","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/missing_issuance","Output":"--- PASS: TestRejectInvalidTokens/missing_issuance (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:03.811298873Z","Action":"pass","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/missing_issuance","Elapsed":0}
+{"Time":"2026-11-14T08:19:03.811689563Z","Action":"run","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/wrong_issuer"}
+{"Time":"2026-11-14T08:19:03.81172531Z","Action":"output","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/wrong_issuer","Output":"=== RUN   TestRejectInvalidTokens/wrong_issuer\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:03.812024047Z","Action":"output","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/wrong_issuer","Output":"--- PASS: TestRejectInvalidTokens/wrong_issuer (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:03.812125787Z","Action":"pass","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/wrong_issuer","Elapsed":0}
+{"Time":"2026-11-14T08:19:03.812202681Z","Action":"run","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/wrong_audience"}
+{"Time":"2026-11-14T08:19:03.812231344Z","Action":"output","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/wrong_audience","Output":"=== RUN   TestRejectInvalidTokens/wrong_audience\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:03.812841354Z","Action":"output","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/wrong_audience","Output":"--- PASS: TestRejectInvalidTokens/wrong_audience (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:03.812946239Z","Action":"pass","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/wrong_audience","Elapsed":0}
+{"Time":"2026-11-14T08:19:03.813061855Z","Action":"run","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/invalid_subject"}
+{"Time":"2026-11-14T08:19:03.813088655Z","Action":"output","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/invalid_subject","Output":"=== RUN   TestRejectInvalidTokens/invalid_subject\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:03.813649923Z","Action":"output","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/invalid_subject","Output":"--- PASS: TestRejectInvalidTokens/invalid_subject (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:03.814706697Z","Action":"pass","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/invalid_subject","Elapsed":0}
+{"Time":"2026-11-14T08:19:03.814743094Z","Action":"run","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/wrong_algorithm"}
+{"Time":"2026-11-14T08:19:03.814753854Z","Action":"output","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/wrong_algorithm","Output":"=== RUN   TestRejectInvalidTokens/wrong_algorithm\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:03.814773511Z","Action":"output","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/wrong_algorithm","Output":"--- PASS: TestRejectInvalidTokens/wrong_algorithm (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:03.814790052Z","Action":"pass","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/wrong_algorithm","Elapsed":0}
+{"Time":"2026-11-14T08:19:03.814805691Z","Action":"run","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/forged_signature"}
+{"Time":"2026-11-14T08:19:03.81482086Z","Action":"output","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/forged_signature","Output":"=== RUN   TestRejectInvalidTokens/forged_signature\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:03.8151156Z","Action":"output","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/forged_signature","Output":"--- PASS: TestRejectInvalidTokens/forged_signature (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:03.815284606Z","Action":"pass","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens/forged_signature","Elapsed":0}
+{"Time":"2026-11-14T08:19:03.815473077Z","Action":"output","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens","Output":"--- PASS: TestRejectInvalidTokens (0.01s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:03.815591559Z","Action":"pass","Package":"thaifood-backend/auth","Test":"TestRejectInvalidTokens","Elapsed":0.01}
+{"Time":"2026-11-14T08:19:03.815698609Z","Action":"run","Package":"thaifood-backend/auth","Test":"TestPasswordHashing"}
+{"Time":"2026-11-14T08:19:03.815721872Z","Action":"output","Package":"thaifood-backend/auth","Test":"TestPasswordHashing","Output":"=== RUN   TestPasswordHashing\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.502582016Z","Action":"start","Package":"thaifood-backend/handler"}
+{"Time":"2026-11-14T08:19:05.522148191Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination"}
+{"Time":"2026-11-14T08:19:05.52226567Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination","Output":"=== RUN   TestPublicErrorsAndPagination\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.52470728Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/GET/unknown"}
+{"Time":"2026-11-14T08:19:05.524743227Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/GET/unknown","Output":"=== RUN   TestPublicErrorsAndPagination/GET/unknown\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.524773383Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/GET/unknown","Output":"--- PASS: TestPublicErrorsAndPagination/GET/unknown (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.52479302Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/GET/unknown","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.524813909Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/POST/api/restaurants"}
+{"Time":"2026-11-14T08:19:05.524832203Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/POST/api/restaurants","Output":"=== RUN   TestPublicErrorsAndPagination/POST/api/restaurants\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.524852601Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/POST/api/restaurants","Output":"--- PASS: TestPublicErrorsAndPagination/POST/api/restaurants (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.524872288Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/POST/api/restaurants","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.524890943Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/GET/api/restaurants?page=0"}
+{"Time":"2026-11-14T08:19:05.524909758Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/GET/api/restaurants?page=0","Output":"=== RUN   TestPublicErrorsAndPagination/GET/api/restaurants?page=0\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.52511441Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/GET/api/restaurants?page=0","Output":"--- PASS: TestPublicErrorsAndPagination/GET/api/restaurants?page=0 (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.525266894Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/GET/api/restaurants?page=0","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.526045819Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/GET/api/restaurants?limit=no"}
+{"Time":"2026-11-14T08:19:05.526083149Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/GET/api/restaurants?limit=no","Output":"=== RUN   TestPublicErrorsAndPagination/GET/api/restaurants?limit=no\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.526110209Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/GET/api/restaurants?limit=no","Output":"--- PASS: TestPublicErrorsAndPagination/GET/api/restaurants?limit=no (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.5261429Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/GET/api/restaurants?limit=no","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.526160623Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/GET/api/restaurants/-1"}
+{"Time":"2026-11-14T08:19:05.526175802Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/GET/api/restaurants/-1","Output":"=== RUN   TestPublicErrorsAndPagination/GET/api/restaurants/-1\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.526192823Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/GET/api/restaurants/-1","Output":"--- PASS: TestPublicErrorsAndPagination/GET/api/restaurants/-1 (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.526208703Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/GET/api/restaurants/-1","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.526225154Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/POST/api/auth/register{\"email\":\"test@example.com\",\"password\":\"12345678\",\"displayName\":\"Test\",\"role\":\"admin\"}"}
+{"Time":"2026-11-14T08:19:05.526240492Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/POST/api/auth/register{\"email\":\"test@example.com\",\"password\":\"12345678\",\"displayName\":\"Test\",\"role\":\"admin\"}","Output":"=== RUN   TestPublicErrorsAndPagination/POST/api/auth/register{\"email\":\"test@example.com\",\"password\":\"12345678\",\"displayName\":\"Test\",\"role\":\"admin\"}\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.526838099Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/POST/api/auth/register{\"email\":\"test@example.com\",\"password\":\"12345678\",\"displayName\":\"Test\",\"role\":\"admin\"}","Output":"--- PASS: TestPublicErrorsAndPagination/POST/api/auth/register{\"email\":\"test@example.com\",\"password\":\"12345678\",\"displayName\":\"Test\",\"role\":\"admin\"} (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.527710788Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/POST/api/auth/register{\"email\":\"test@example.com\",\"password\":\"12345678\",\"displayName\":\"Test\",\"role\":\"admin\"}","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.527747086Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/POST/api/auth/registernull"}
+{"Time":"2026-11-14T08:19:05.527757816Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/POST/api/auth/registernull","Output":"=== RUN   TestPublicErrorsAndPagination/POST/api/auth/registernull\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.527776881Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/POST/api/auth/registernull","Output":"--- PASS: TestPublicErrorsAndPagination/POST/api/auth/registernull (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.527793863Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/POST/api/auth/registernull","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.527825663Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/POST/api/auth/register{\"email\":\"test@example.com\",\"password\":\"12345678\",\"displayName\":\"Test\"}_{}"}
+{"Time":"2026-11-14T08:19:05.527842885Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/POST/api/auth/register{\"email\":\"test@example.com\",\"password\":\"12345678\",\"displayName\":\"Test\"}_{}","Output":"=== RUN   TestPublicErrorsAndPagination/POST/api/auth/register{\"email\":\"test@example.com\",\"password\":\"12345678\",\"displayName\":\"Test\"}_{}\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.527861159Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/POST/api/auth/register{\"email\":\"test@example.com\",\"password\":\"12345678\",\"displayName\":\"Test\"}_{}","Output":"--- PASS: TestPublicErrorsAndPagination/POST/api/auth/register{\"email\":\"test@example.com\",\"password\":\"12345678\",\"displayName\":\"Test\"}_{} (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.52804919Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/POST/api/auth/register{\"email\":\"test@example.com\",\"password\":\"12345678\",\"displayName\":\"Test\"}_{}","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.528106527Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/POST/api/auth/register{\"email\":\"test@example.com\",\"password\":\"123\",\"displayName\":\"Test\"}"}
+{"Time":"2026-11-14T08:19:05.528127466Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/POST/api/auth/register{\"email\":\"test@example.com\",\"password\":\"123\",\"displayName\":\"Test\"}","Output":"=== RUN   TestPublicErrorsAndPagination/POST/api/auth/register{\"email\":\"test@example.com\",\"password\":\"123\",\"displayName\":\"Test\"}\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.528588377Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/POST/api/auth/register{\"email\":\"test@example.com\",\"password\":\"123\",\"displayName\":\"Test\"}","Output":"--- PASS: TestPublicErrorsAndPagination/POST/api/auth/register{\"email\":\"test@example.com\",\"password\":\"123\",\"displayName\":\"Test\"} (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.528645233Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/POST/api/auth/register{\"email\":\"test@example.com\",\"password\":\"123\",\"displayName\":\"Test\"}","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.528968977Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/POST/api/auth/register{\"email\":\"test@example.com\",\"password\":\"12345678\",\"displayName\":\"Test\\u0000Name\"}"}
+{"Time":"2026-11-14T08:19:05.52900254Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/POST/api/auth/register{\"email\":\"test@example.com\",\"password\":\"12345678\",\"displayName\":\"Test\\u0000Name\"}","Output":"=== RUN   TestPublicErrorsAndPagination/POST/api/auth/register{\"email\":\"test@example.com\",\"password\":\"12345678\",\"displayName\":\"Test\\u0000Name\"}\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.529823012Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/POST/api/auth/register{\"email\":\"test@example.com\",\"password\":\"12345678\",\"displayName\":\"Test\\u0000Name\"}","Output":"--- PASS: TestPublicErrorsAndPagination/POST/api/auth/register{\"email\":\"test@example.com\",\"password\":\"12345678\",\"displayName\":\"Test\\u0000Name\"} (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.529860582Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/POST/api/auth/register{\"email\":\"test@example.com\",\"password\":\"12345678\",\"displayName\":\"Test\\u0000Name\"}","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.529872525Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/GET/api/me"}
+{"Time":"2026-11-14T08:19:05.529889015Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/GET/api/me","Output":"=== RUN   TestPublicErrorsAndPagination/GET/api/me\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.529907119Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/GET/api/me","Output":"--- PASS: TestPublicErrorsAndPagination/GET/api/me (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.529924221Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/GET/api/me","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.529948727Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/GET/api/admin/members"}
+{"Time":"2026-11-14T08:19:05.529965548Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/GET/api/admin/members","Output":"=== RUN   TestPublicErrorsAndPagination/GET/api/admin/members\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.530261841Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/GET/api/admin/members","Output":"--- PASS: TestPublicErrorsAndPagination/GET/api/admin/members (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.530707564Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination/GET/api/admin/members","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.531931129Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination","Output":"--- PASS: TestPublicErrorsAndPagination (0.01s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.531968228Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestPublicErrorsAndPagination","Elapsed":0.01}
+{"Time":"2026-11-14T08:19:05.531981102Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestRestaurantInputValidation"}
+{"Time":"2026-11-14T08:19:05.531996551Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestRestaurantInputValidation","Output":"=== RUN   TestRestaurantInputValidation\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.532383313Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestRestaurantInputValidation","Output":"--- PASS: TestRestaurantInputValidation (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.532491735Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestRestaurantInputValidation","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.533745607Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestMemberCannotUseAdminRoute"}
+{"Time":"2026-11-14T08:19:05.533777596Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestMemberCannotUseAdminRoute","Output":"=== RUN   TestMemberCannotUseAdminRoute\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.534324037Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestMemberCannotUseAdminRoute","Output":"--- PASS: TestMemberCannotUseAdminRoute (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.534437509Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestMemberCannotUseAdminRoute","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.534552003Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleAuthorization"}
+{"Time":"2026-11-14T08:19:05.534578983Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleAuthorization","Output":"=== RUN   TestUpdateMemberRoleAuthorization\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.536148193Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleAuthorization/guest"}
+{"Time":"2026-11-14T08:19:05.53617871Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleAuthorization/guest","Output":"=== RUN   TestUpdateMemberRoleAuthorization/guest\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.536193508Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleAuthorization/guest","Output":"--- PASS: TestUpdateMemberRoleAuthorization/guest (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.536210329Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleAuthorization/guest","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.53622709Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleAuthorization/invalid_token"}
+{"Time":"2026-11-14T08:19:05.536241968Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleAuthorization/invalid_token","Output":"=== RUN   TestUpdateMemberRoleAuthorization/invalid_token\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.536338218Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleAuthorization/invalid_token","Output":"--- PASS: TestUpdateMemberRoleAuthorization/invalid_token (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.536455918Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleAuthorization/invalid_token","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.536561555Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleAuthorization/member"}
+{"Time":"2026-11-14T08:19:05.536573617Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleAuthorization/member","Output":"=== RUN   TestUpdateMemberRoleAuthorization/member\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.53783376Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleAuthorization/member","Output":"--- PASS: TestUpdateMemberRoleAuthorization/member (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.53794045Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleAuthorization/member","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.538070322Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleAuthorization/self_demotion"}
+{"Time":"2026-11-14T08:19:05.538098174Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleAuthorization/self_demotion","Output":"=== RUN   TestUpdateMemberRoleAuthorization/self_demotion\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.539706948Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleAuthorization/self_demotion","Output":"--- PASS: TestUpdateMemberRoleAuthorization/self_demotion (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.539744268Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleAuthorization/self_demotion","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.539756721Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleAuthorization/self_unchanged"}
+{"Time":"2026-11-14T08:19:05.53977232Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleAuthorization/self_unchanged","Output":"=== RUN   TestUpdateMemberRoleAuthorization/self_unchanged\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.54076284Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleAuthorization/self_unchanged","Output":"--- PASS: TestUpdateMemberRoleAuthorization/self_unchanged (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.540877484Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleAuthorization/self_unchanged","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.540996746Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleAuthorization","Output":"--- PASS: TestUpdateMemberRoleAuthorization (0.01s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.541102514Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleAuthorization","Elapsed":0.01}
+{"Time":"2026-11-14T08:19:05.541702264Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation"}
+{"Time":"2026-11-14T08:19:05.541734955Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation","Output":"=== RUN   TestUpdateMemberRoleValidation\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.546073817Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/zero_id"}
+{"Time":"2026-11-14T08:19:05.546108963Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/zero_id","Output":"=== RUN   TestUpdateMemberRoleValidation/zero_id\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.549709576Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/zero_id","Output":"--- PASS: TestUpdateMemberRoleValidation/zero_id (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.549755752Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/zero_id","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.549769398Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/negative_id"}
+{"Time":"2026-11-14T08:19:05.549837454Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/negative_id","Output":"=== RUN   TestUpdateMemberRoleValidation/negative_id\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.549853003Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/negative_id","Output":"--- PASS: TestUpdateMemberRoleValidation/negative_id (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.549869464Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/negative_id","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.549886196Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/text_id"}
+{"Time":"2026-11-14T08:19:05.549935237Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/text_id","Output":"=== RUN   TestUpdateMemberRoleValidation/text_id\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.55135607Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/text_id","Output":"--- PASS: TestUpdateMemberRoleValidation/text_id (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.551488397Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/text_id","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.551651893Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/fractional_id"}
+{"Time":"2026-11-14T08:19:05.551675938Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/fractional_id","Output":"=== RUN   TestUpdateMemberRoleValidation/fractional_id\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.553362517Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/fractional_id","Output":"--- PASS: TestUpdateMemberRoleValidation/fractional_id (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.554499831Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/fractional_id","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.554533894Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/overflow_id"}
+{"Time":"2026-11-14T08:19:05.554545556Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/overflow_id","Output":"=== RUN   TestUpdateMemberRoleValidation/overflow_id\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.555242578Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/overflow_id","Output":"--- PASS: TestUpdateMemberRoleValidation/overflow_id (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.555274707Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/overflow_id","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.555289385Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/missing_role"}
+{"Time":"2026-11-14T08:19:05.555304593Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/missing_role","Output":"=== RUN   TestUpdateMemberRoleValidation/missing_role\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.557588979Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/missing_role","Output":"--- PASS: TestUpdateMemberRoleValidation/missing_role (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.557628072Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/missing_role","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.557656174Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/null_role"}
+{"Time":"2026-11-14T08:19:05.557668377Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/null_role","Output":"=== RUN   TestUpdateMemberRoleValidation/null_role\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.559752679Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/null_role","Output":"--- PASS: TestUpdateMemberRoleValidation/null_role (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.559792794Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/null_role","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.559804736Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/empty_role"}
+{"Time":"2026-11-14T08:19:05.559821127Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/empty_role","Output":"=== RUN   TestUpdateMemberRoleValidation/empty_role\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.560594932Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/empty_role","Output":"--- PASS: TestUpdateMemberRoleValidation/empty_role (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.561692081Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/empty_role","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.561723539Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/unknown_role"}
+{"Time":"2026-11-14T08:19:05.561748185Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/unknown_role","Output":"=== RUN   TestUpdateMemberRoleValidation/unknown_role\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.562572013Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/unknown_role","Output":"--- PASS: TestUpdateMemberRoleValidation/unknown_role (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.563712643Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/unknown_role","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.563743251Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/uppercase_role"}
+{"Time":"2026-11-14T08:19:05.563754852Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/uppercase_role","Output":"=== RUN   TestUpdateMemberRoleValidation/uppercase_role\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.566446288Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/uppercase_role","Output":"--- PASS: TestUpdateMemberRoleValidation/uppercase_role (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.566485431Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/uppercase_role","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.566498646Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/padded_role"}
+{"Time":"2026-11-14T08:19:05.566508875Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/padded_role","Output":"=== RUN   TestUpdateMemberRoleValidation/padded_role\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.566531477Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/padded_role","Output":"--- PASS: TestUpdateMemberRoleValidation/padded_role (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.566552196Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/padded_role","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.566580659Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/numeric_role"}
+{"Time":"2026-11-14T08:19:05.566605555Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/numeric_role","Output":"=== RUN   TestUpdateMemberRoleValidation/numeric_role\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.569710743Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/numeric_role","Output":"--- PASS: TestUpdateMemberRoleValidation/numeric_role (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.569747652Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/numeric_role","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.569761057Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/boolean_role"}
+{"Time":"2026-11-14T08:19:05.569776346Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/boolean_role","Output":"=== RUN   TestUpdateMemberRoleValidation/boolean_role\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.569797045Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/boolean_role","Output":"--- PASS: TestUpdateMemberRoleValidation/boolean_role (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.569812464Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/boolean_role","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.569828554Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/object_role"}
+{"Time":"2026-11-14T08:19:05.56984287Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/object_role","Output":"=== RUN   TestUpdateMemberRoleValidation/object_role\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.570960267Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/object_role","Output":"--- PASS: TestUpdateMemberRoleValidation/object_role (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.571080291Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/object_role","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.571182782Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/array_role"}
+{"Time":"2026-11-14T08:19:05.571214071Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/array_role","Output":"=== RUN   TestUpdateMemberRoleValidation/array_role\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.573565852Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/array_role","Output":"--- PASS: TestUpdateMemberRoleValidation/array_role (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.574754051Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/array_role","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.57479101Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/unknown_field"}
+{"Time":"2026-11-14T08:19:05.574802982Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/unknown_field","Output":"=== RUN   TestUpdateMemberRoleValidation/unknown_field\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.576388823Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/unknown_field","Output":"--- PASS: TestUpdateMemberRoleValidation/unknown_field (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.576426624Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/unknown_field","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.576439808Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/cased_field"}
+{"Time":"2026-11-14T08:19:05.576459906Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/cased_field","Output":"=== RUN   TestUpdateMemberRoleValidation/cased_field\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.577422494Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/cased_field","Output":"--- PASS: TestUpdateMemberRoleValidation/cased_field (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.580108359Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/cased_field","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.580147131Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/extra_cased_field"}
+{"Time":"2026-11-14T08:19:05.580158552Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/extra_cased_field","Output":"=== RUN   TestUpdateMemberRoleValidation/extra_cased_field\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.580178049Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/extra_cased_field","Output":"--- PASS: TestUpdateMemberRoleValidation/extra_cased_field (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.580195141Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/extra_cased_field","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.580211321Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/malformed"}
+{"Time":"2026-11-14T08:19:05.580225958Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/malformed","Output":"=== RUN   TestUpdateMemberRoleValidation/malformed\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.581701513Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/malformed","Output":"--- PASS: TestUpdateMemberRoleValidation/malformed (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.581979172Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/malformed","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.581997727Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/empty_body"}
+{"Time":"2026-11-14T08:19:05.582012224Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/empty_body","Output":"=== RUN   TestUpdateMemberRoleValidation/empty_body\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.58395399Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/empty_body","Output":"--- PASS: TestUpdateMemberRoleValidation/empty_body (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.58408256Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/empty_body","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.584743845Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/null_body"}
+{"Time":"2026-11-14T08:19:05.58477891Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/null_body","Output":"=== RUN   TestUpdateMemberRoleValidation/null_body\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.58868815Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/null_body","Output":"--- PASS: TestUpdateMemberRoleValidation/null_body (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.5887313Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/null_body","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.588744094Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/array_body"}
+{"Time":"2026-11-14T08:19:05.588753552Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/array_body","Output":"=== RUN   TestUpdateMemberRoleValidation/array_body\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.588959116Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/array_body","Output":"--- PASS: TestUpdateMemberRoleValidation/array_body (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.589694529Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/array_body","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.589736066Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/trailing_JSON"}
+{"Time":"2026-11-14T08:19:05.589747357Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/trailing_JSON","Output":"=== RUN   TestUpdateMemberRoleValidation/trailing_JSON\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.591707798Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/trailing_JSON","Output":"--- PASS: TestUpdateMemberRoleValidation/trailing_JSON (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.591818635Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/trailing_JSON","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.591934121Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/trailing_garbage"}
+{"Time":"2026-11-14T08:19:05.591950922Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/trailing_garbage","Output":"=== RUN   TestUpdateMemberRoleValidation/trailing_garbage\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.596719677Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/trailing_garbage","Output":"--- PASS: TestUpdateMemberRoleValidation/trailing_garbage (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.596759571Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/trailing_garbage","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.596773717Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/wrong_content_type"}
+{"Time":"2026-11-14T08:19:05.596783395Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/wrong_content_type","Output":"=== RUN   TestUpdateMemberRoleValidation/wrong_content_type\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.596910072Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/wrong_content_type","Output":"--- PASS: TestUpdateMemberRoleValidation/wrong_content_type (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.598690166Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/wrong_content_type","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.5987247Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/oversized_body"}
+{"Time":"2026-11-14T08:19:05.598736833Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/oversized_body","Output":"=== RUN   TestUpdateMemberRoleValidation/oversized_body\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.629522909Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/oversized_body","Output":"--- PASS: TestUpdateMemberRoleValidation/oversized_body (0.03s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.632706574Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/oversized_body","Elapsed":0.03}
+{"Time":"2026-11-14T08:19:05.632747Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/invalid_UTF8"}
+{"Time":"2026-11-14T08:19:05.632759453Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/invalid_UTF8","Output":"=== RUN   TestUpdateMemberRoleValidation/invalid_UTF8\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.632771946Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/invalid_UTF8","Output":"--- PASS: TestUpdateMemberRoleValidation/invalid_UTF8 (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.632796662Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation/invalid_UTF8","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.632808224Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation","Output":"--- PASS: TestUpdateMemberRoleValidation (0.09s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.632818242Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleValidation","Elapsed":0.09}
+{"Time":"2026-11-14T08:19:05.632827851Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleReturnsMember"}
+{"Time":"2026-11-14T08:19:05.632835785Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleReturnsMember","Output":"=== RUN   TestUpdateMemberRoleReturnsMember\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.632844892Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleReturnsMember/admin"}
+{"Time":"2026-11-14T08:19:05.632853188Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleReturnsMember/admin","Output":"=== RUN   TestUpdateMemberRoleReturnsMember/admin\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.636091104Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleReturnsMember/admin","Output":"--- PASS: TestUpdateMemberRoleReturnsMember/admin (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.636695462Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleReturnsMember/admin","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.636728614Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleReturnsMember/member"}
+{"Time":"2026-11-14T08:19:05.636745616Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleReturnsMember/member","Output":"=== RUN   TestUpdateMemberRoleReturnsMember/member\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.640484377Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleReturnsMember/member","Output":"--- PASS: TestUpdateMemberRoleReturnsMember/member (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.640513031Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleReturnsMember/member","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.640525634Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleReturnsMember","Output":"--- PASS: TestUpdateMemberRoleReturnsMember (0.01s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.640535403Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleReturnsMember","Elapsed":0.01}
+{"Time":"2026-11-14T08:19:05.640545011Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleStoreErrors"}
+{"Time":"2026-11-14T08:19:05.64055549Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleStoreErrors","Output":"=== RUN   TestUpdateMemberRoleStoreErrors\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.640565108Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleStoreErrors/NOT_FOUND"}
+{"Time":"2026-11-14T08:19:05.640573454Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleStoreErrors/NOT_FOUND","Output":"=== RUN   TestUpdateMemberRoleStoreErrors/NOT_FOUND\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.644777834Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleStoreErrors/NOT_FOUND","Output":"--- PASS: TestUpdateMemberRoleStoreErrors/NOT_FOUND (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.644815054Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleStoreErrors/NOT_FOUND","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.644836424Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleStoreErrors/FORBIDDEN"}
+{"Time":"2026-11-14T08:19:05.644845852Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleStoreErrors/FORBIDDEN","Output":"=== RUN   TestUpdateMemberRoleStoreErrors/FORBIDDEN\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.644857193Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleStoreErrors/FORBIDDEN","Output":"--- PASS: TestUpdateMemberRoleStoreErrors/FORBIDDEN (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.64486657Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleStoreErrors/FORBIDDEN","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.644875176Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleStoreErrors/CONFLICT"}
+{"Time":"2026-11-14T08:19:05.644883241Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleStoreErrors/CONFLICT","Output":"=== RUN   TestUpdateMemberRoleStoreErrors/CONFLICT\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.647698969Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleStoreErrors/CONFLICT","Output":"--- PASS: TestUpdateMemberRoleStoreErrors/CONFLICT (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.647736209Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleStoreErrors/CONFLICT","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.647757108Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleStoreErrors/LAST_ADMIN"}
+{"Time":"2026-11-14T08:19:05.647772045Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleStoreErrors/LAST_ADMIN","Output":"=== RUN   TestUpdateMemberRoleStoreErrors/LAST_ADMIN\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.648003127Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleStoreErrors/LAST_ADMIN","Output":"--- PASS: TestUpdateMemberRoleStoreErrors/LAST_ADMIN (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.651996153Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleStoreErrors/LAST_ADMIN","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.652037109Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleStoreErrors/INTERNAL_ERROR"}
+{"Time":"2026-11-14T08:19:05.652049222Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleStoreErrors/INTERNAL_ERROR","Output":"=== RUN   TestUpdateMemberRoleStoreErrors/INTERNAL_ERROR\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.652064992Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleStoreErrors/INTERNAL_ERROR","Output":"--- PASS: TestUpdateMemberRoleStoreErrors/INTERNAL_ERROR (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.652076193Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleStoreErrors/INTERNAL_ERROR","Elapsed":0}
+{"Time":"2026-11-14T08:19:05.652086462Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleStoreErrors","Output":"--- PASS: TestUpdateMemberRoleStoreErrors (0.01s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:05.6520963Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestUpdateMemberRoleStoreErrors","Elapsed":0.01}
+{"Time":"2026-11-14T08:19:05.652106659Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestRegisterNormalizesAndNeverExposesHash"}
+{"Time":"2026-11-14T08:19:05.652115807Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestRegisterNormalizesAndNeverExposesHash","Output":"=== RUN   TestRegisterNormalizesAndNeverExposesHash\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:08.459733464Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestRegisterNormalizesAndNeverExposesHash","Output":"--- PASS: TestRegisterNormalizesAndNeverExposesHash (2.81s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:08.459917648Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestRegisterNormalizesAndNeverExposesHash","Elapsed":2.81}
+{"Time":"2026-11-14T08:19:08.460040888Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestReviewUsesUnicodeLengthAndRejectsFractions"}
+{"Time":"2026-11-14T08:19:08.460065684Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestReviewUsesUnicodeLengthAndRejectsFractions","Output":"=== RUN   TestReviewUsesUnicodeLengthAndRejectsFractions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:08.462544553Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestReviewUsesUnicodeLengthAndRejectsFractions","Output":"--- PASS: TestReviewUsesUnicodeLengthAndRejectsFractions (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:08.46371065Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestReviewUsesUnicodeLengthAndRejectsFractions","Elapsed":0}
+{"Time":"2026-11-14T08:19:08.463745345Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestStoreErrorMapping"}
+{"Time":"2026-11-14T08:19:08.46377484Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestStoreErrorMapping","Output":"=== RUN   TestStoreErrorMapping\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:08.463798534Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestStoreErrorMapping","Output":"--- PASS: TestStoreErrorMapping (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:08.463834321Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestStoreErrorMapping","Elapsed":0}
+{"Time":"2026-11-14T08:19:08.463852255Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestBodyRejectsNonJSONAndOversize"}
+{"Time":"2026-11-14T08:19:08.463868615Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestBodyRejectsNonJSONAndOversize","Output":"=== RUN   TestBodyRejectsNonJSONAndOversize\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:08.487316008Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestBodyRejectsNonJSONAndOversize","Output":"--- PASS: TestBodyRejectsNonJSONAndOversize (0.02s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:08.489693628Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestBodyRejectsNonJSONAndOversize","Elapsed":0.02}
+{"Time":"2026-11-14T08:19:08.489734905Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestRestaurantDescriptionMatchesDatabaseLimit"}
+{"Time":"2026-11-14T08:19:08.489745004Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestRestaurantDescriptionMatchesDatabaseLimit","Output":"=== RUN   TestRestaurantDescriptionMatchesDatabaseLimit\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:08.4945309Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestRestaurantDescriptionMatchesDatabaseLimit","Output":"--- PASS: TestRestaurantDescriptionMatchesDatabaseLimit (0.01s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:08.495994884Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestRestaurantDescriptionMatchesDatabaseLimit","Elapsed":0.01}
+{"Time":"2026-11-14T08:19:08.496036051Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestRestaurantFiltersRejectInvalidUTF8"}
+{"Time":"2026-11-14T08:19:08.496047412Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestRestaurantFiltersRejectInvalidUTF8","Output":"=== RUN   TestRestaurantFiltersRejectInvalidUTF8\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:08.496066287Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestRestaurantFiltersRejectInvalidUTF8/q"}
+{"Time":"2026-11-14T08:19:08.496083419Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestRestaurantFiltersRejectInvalidUTF8/q","Output":"=== RUN   TestRestaurantFiltersRejectInvalidUTF8/q\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:08.496102164Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestRestaurantFiltersRejectInvalidUTF8/q","Output":"--- PASS: TestRestaurantFiltersRejectInvalidUTF8/q (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:08.496132Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestRestaurantFiltersRejectInvalidUTF8/q","Elapsed":0}
+{"Time":"2026-11-14T08:19:08.496149633Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestRestaurantFiltersRejectInvalidUTF8/province"}
+{"Time":"2026-11-14T08:19:08.49615901Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestRestaurantFiltersRejectInvalidUTF8/province","Output":"=== RUN   TestRestaurantFiltersRejectInvalidUTF8/province\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:08.496176142Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestRestaurantFiltersRejectInvalidUTF8/province","Output":"--- PASS: TestRestaurantFiltersRejectInvalidUTF8/province (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:08.496191871Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestRestaurantFiltersRejectInvalidUTF8/province","Elapsed":0}
+{"Time":"2026-11-14T08:19:08.496207531Z","Action":"run","Package":"thaifood-backend/handler","Test":"TestRestaurantFiltersRejectInvalidUTF8/category"}
+{"Time":"2026-11-14T08:19:08.49622337Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestRestaurantFiltersRejectInvalidUTF8/category","Output":"=== RUN   TestRestaurantFiltersRejectInvalidUTF8/category\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:08.496234972Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestRestaurantFiltersRejectInvalidUTF8/category","Output":"--- PASS: TestRestaurantFiltersRejectInvalidUTF8/category (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:08.496250471Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestRestaurantFiltersRejectInvalidUTF8/category","Elapsed":0}
+{"Time":"2026-11-14T08:19:08.496267533Z","Action":"output","Package":"thaifood-backend/handler","Test":"TestRestaurantFiltersRejectInvalidUTF8","Output":"--- PASS: TestRestaurantFiltersRejectInvalidUTF8 (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:08.496283453Z","Action":"pass","Package":"thaifood-backend/handler","Test":"TestRestaurantFiltersRejectInvalidUTF8","Elapsed":0}
+{"Time":"2026-11-14T08:19:08.496298591Z","Action":"output","Package":"thaifood-backend/handler","Output":"PASS\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:09.042091096Z","Action":"output","Package":"thaifood-backend/auth","Test":"TestPasswordHashing","Output":"--- PASS: TestPasswordHashing (5.23s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:09.042163251Z","Action":"pass","Package":"thaifood-backend/auth","Test":"TestPasswordHashing","Elapsed":5.23}
+{"Time":"2026-11-14T08:19:09.042179321Z","Action":"output","Package":"thaifood-backend/auth","Output":"PASS\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:09.509516608Z","Action":"output","Package":"thaifood-backend/handler","Output":"ok  \tthaifood-backend/handler\t4.007s\n"}
+{"Time":"2026-11-14T08:19:09.509671197Z","Action":"pass","Package":"thaifood-backend/handler","Elapsed":4.007}
+{"Time":"2026-11-14T08:19:10.045562915Z","Action":"output","Package":"thaifood-backend/auth","Output":"ok  \tthaifood-backend/auth\t6.262s\n"}
+{"Time":"2026-11-14T08:19:10.045782765Z","Action":"pass","Package":"thaifood-backend/auth","Elapsed":6.263}
+{"Time":"2026-11-14T08:19:11.595867214Z","Action":"start","Package":"thaifood-backend/integration"}
+{"Time":"2026-11-14T08:19:11.646122481Z","Action":"run","Package":"thaifood-backend/integration","Test":"TestAPIEndToEnd"}
+{"Time":"2026-11-14T08:19:11.646210095Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAPIEndToEnd","Output":"=== RUN   TestAPIEndToEnd\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:12.217943783Z","Action":"start","Package":"thaifood-backend/internal/config"}
+{"Time":"2026-11-14T08:19:12.23471708Z","Action":"run","Package":"thaifood-backend/internal/config","Test":"TestLoad"}
+{"Time":"2026-11-14T08:19:12.234794865Z","Action":"output","Package":"thaifood-backend/internal/config","Test":"TestLoad","Output":"=== RUN   TestLoad\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:12.234826594Z","Action":"run","Package":"thaifood-backend/internal/config","Test":"TestLoad/JWT_SECRETshort"}
+{"Time":"2026-11-14T08:19:12.234838286Z","Action":"output","Package":"thaifood-backend/internal/config","Test":"TestLoad/JWT_SECRETshort","Output":"=== RUN   TestLoad/JWT_SECRETshort\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:12.234858204Z","Action":"output","Package":"thaifood-backend/internal/config","Test":"TestLoad/JWT_SECRETshort","Output":"--- PASS: TestLoad/JWT_SECRETshort (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:12.234870416Z","Action":"pass","Package":"thaifood-backend/internal/config","Test":"TestLoad/JWT_SECRETshort","Elapsed":0}
+{"Time":"2026-11-14T08:19:12.234886206Z","Action":"run","Package":"thaifood-backend/internal/config","Test":"TestLoad/DATABASE_URL"}
+{"Time":"2026-11-14T08:19:12.234896395Z","Action":"output","Package":"thaifood-backend/internal/config","Test":"TestLoad/DATABASE_URL","Output":"=== RUN   TestLoad/DATABASE_URL\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:12.235008284Z","Action":"output","Package":"thaifood-backend/internal/config","Test":"TestLoad/DATABASE_URL","Output":"--- PASS: TestLoad/DATABASE_URL (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:12.235126525Z","Action":"pass","Package":"thaifood-backend/internal/config","Test":"TestLoad/DATABASE_URL","Elapsed":0}
+{"Time":"2026-11-14T08:19:12.235149307Z","Action":"run","Package":"thaifood-backend/internal/config","Test":"TestLoad/PORT0"}
+{"Time":"2026-11-14T08:19:12.235162572Z","Action":"output","Package":"thaifood-backend/internal/config","Test":"TestLoad/PORT0","Output":"=== RUN   TestLoad/PORT0\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:12.23530597Z","Action":"output","Package":"thaifood-backend/internal/config","Test":"TestLoad/PORT0","Output":"--- PASS: TestLoad/PORT0 (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:12.235411266Z","Action":"pass","Package":"thaifood-backend/internal/config","Test":"TestLoad/PORT0","Elapsed":0}
+{"Time":"2026-11-14T08:19:12.235692591Z","Action":"run","Package":"thaifood-backend/internal/config","Test":"TestLoad/PORT65536"}
+{"Time":"2026-11-14T08:19:12.23572387Z","Action":"output","Package":"thaifood-backend/internal/config","Test":"TestLoad/PORT65536","Output":"=== RUN   TestLoad/PORT65536\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:12.23574003Z","Action":"output","Package":"thaifood-backend/internal/config","Test":"TestLoad/PORT65536","Output":"--- PASS: TestLoad/PORT65536 (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:12.235762121Z","Action":"pass","Package":"thaifood-backend/internal/config","Test":"TestLoad/PORT65536","Elapsed":0}
+{"Time":"2026-11-14T08:19:12.235782109Z","Action":"run","Package":"thaifood-backend/internal/config","Test":"TestLoad/PORTbad"}
+{"Time":"2026-11-14T08:19:12.235794722Z","Action":"output","Package":"thaifood-backend/internal/config","Test":"TestLoad/PORTbad","Output":"=== RUN   TestLoad/PORTbad\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:12.236345143Z","Action":"output","Package":"thaifood-backend/internal/config","Test":"TestLoad/PORTbad","Output":"--- PASS: TestLoad/PORTbad (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:12.23638616Z","Action":"pass","Package":"thaifood-backend/internal/config","Test":"TestLoad/PORTbad","Elapsed":0}
+{"Time":"2026-11-14T08:19:12.236411297Z","Action":"run","Package":"thaifood-backend/internal/config","Test":"TestLoad/ALLOWED_ORIGINS*"}
+{"Time":"2026-11-14T08:19:12.23659005Z","Action":"output","Package":"thaifood-backend/internal/config","Test":"TestLoad/ALLOWED_ORIGINS*","Output":"=== RUN   TestLoad/ALLOWED_ORIGINS*\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:12.236626118Z","Action":"output","Package":"thaifood-backend/internal/config","Test":"TestLoad/ALLOWED_ORIGINS*","Output":"--- PASS: TestLoad/ALLOWED_ORIGINS* (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:12.236648289Z","Action":"pass","Package":"thaifood-backend/internal/config","Test":"TestLoad/ALLOWED_ORIGINS*","Elapsed":0}
+{"Time":"2026-11-14T08:19:12.236728699Z","Action":"run","Package":"thaifood-backend/internal/config","Test":"TestLoad/ALLOWED_ORIGINShttps://example.com/path"}
+{"Time":"2026-11-14T08:19:12.236754738Z","Action":"output","Package":"thaifood-backend/internal/config","Test":"TestLoad/ALLOWED_ORIGINShttps://example.com/path","Output":"=== RUN   TestLoad/ALLOWED_ORIGINShttps://example.com/path\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:12.236781518Z","Action":"output","Package":"thaifood-backend/internal/config","Test":"TestLoad/ALLOWED_ORIGINShttps://example.com/path","Output":"--- PASS: TestLoad/ALLOWED_ORIGINShttps://example.com/path (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:12.236837753Z","Action":"pass","Package":"thaifood-backend/internal/config","Test":"TestLoad/ALLOWED_ORIGINShttps://example.com/path","Elapsed":0}
+{"Time":"2026-11-14T08:19:12.236863791Z","Action":"output","Package":"thaifood-backend/internal/config","Test":"TestLoad","Output":"--- PASS: TestLoad (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:12.236956916Z","Action":"pass","Package":"thaifood-backend/internal/config","Test":"TestLoad","Elapsed":0}
+{"Time":"2026-11-14T08:19:12.236994536Z","Action":"output","Package":"thaifood-backend/internal/config","Output":"PASS\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.239159314Z","Action":"output","Package":"thaifood-backend/internal/config","Output":"ok  \tthaifood-backend/internal/config\t1.021s\n"}
+{"Time":"2026-11-14T08:19:13.239479943Z","Action":"pass","Package":"thaifood-backend/internal/config","Elapsed":1.022}
+{"Time":"2026-11-14T08:19:13.305145238Z","Action":"start","Package":"thaifood-backend/mw"}
+{"Time":"2026-11-14T08:19:13.339965377Z","Action":"run","Package":"thaifood-backend/mw","Test":"TestAuthenticationAndCurrentDatabaseRole"}
+{"Time":"2026-11-14T08:19:13.340580525Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestAuthenticationAndCurrentDatabaseRole","Output":"=== RUN   TestAuthenticationAndCurrentDatabaseRole\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.348255186Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestAuthenticationAndCurrentDatabaseRole","Output":"--- PASS: TestAuthenticationAndCurrentDatabaseRole (0.01s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.348530991Z","Action":"pass","Package":"thaifood-backend/mw","Test":"TestAuthenticationAndCurrentDatabaseRole","Elapsed":0.01}
+{"Time":"2026-11-14T08:19:13.348848514Z","Action":"run","Package":"thaifood-backend/mw","Test":"TestRejectMissingOrMalformedAuthorization"}
+{"Time":"2026-11-14T08:19:13.348896454Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestRejectMissingOrMalformedAuthorization","Output":"=== RUN   TestRejectMissingOrMalformedAuthorization\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.349579088Z","Action":"run","Package":"thaifood-backend/mw","Test":"TestRejectMissingOrMalformedAuthorization/#00"}
+{"Time":"2026-11-14T08:19:13.349621016Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestRejectMissingOrMalformedAuthorization/#00","Output":"=== RUN   TestRejectMissingOrMalformedAuthorization/#00\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.349647406Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestRejectMissingOrMalformedAuthorization/#00","Output":"--- PASS: TestRejectMissingOrMalformedAuthorization/#00 (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.349700816Z","Action":"pass","Package":"thaifood-backend/mw","Test":"TestRejectMissingOrMalformedAuthorization/#00","Elapsed":0}
+{"Time":"2026-11-14T08:19:13.349735831Z","Action":"run","Package":"thaifood-backend/mw","Test":"TestRejectMissingOrMalformedAuthorization/Basic_abc"}
+{"Time":"2026-11-14T08:19:13.349755628Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestRejectMissingOrMalformedAuthorization/Basic_abc","Output":"=== RUN   TestRejectMissingOrMalformedAuthorization/Basic_abc\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.351727089Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestRejectMissingOrMalformedAuthorization/Basic_abc","Output":"--- PASS: TestRejectMissingOrMalformedAuthorization/Basic_abc (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.351773335Z","Action":"pass","Package":"thaifood-backend/mw","Test":"TestRejectMissingOrMalformedAuthorization/Basic_abc","Elapsed":0}
+{"Time":"2026-11-14T08:19:13.351796959Z","Action":"run","Package":"thaifood-backend/mw","Test":"TestRejectMissingOrMalformedAuthorization/Bearer"}
+{"Time":"2026-11-14T08:19:13.351816406Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestRejectMissingOrMalformedAuthorization/Bearer","Output":"=== RUN   TestRejectMissingOrMalformedAuthorization/Bearer\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.351839709Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestRejectMissingOrMalformedAuthorization/Bearer","Output":"--- PASS: TestRejectMissingOrMalformedAuthorization/Bearer (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.351864376Z","Action":"pass","Package":"thaifood-backend/mw","Test":"TestRejectMissingOrMalformedAuthorization/Bearer","Elapsed":0}
+{"Time":"2026-11-14T08:19:13.351875426Z","Action":"run","Package":"thaifood-backend/mw","Test":"TestRejectMissingOrMalformedAuthorization/Bearer_"}
+{"Time":"2026-11-14T08:19:13.351883912Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestRejectMissingOrMalformedAuthorization/Bearer_","Output":"=== RUN   TestRejectMissingOrMalformedAuthorization/Bearer_\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.351893249Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestRejectMissingOrMalformedAuthorization/Bearer_","Output":"--- PASS: TestRejectMissingOrMalformedAuthorization/Bearer_ (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.351901585Z","Action":"pass","Package":"thaifood-backend/mw","Test":"TestRejectMissingOrMalformedAuthorization/Bearer_","Elapsed":0}
+{"Time":"2026-11-14T08:19:13.35190942Z","Action":"run","Package":"thaifood-backend/mw","Test":"TestRejectMissingOrMalformedAuthorization/Bearer_garbage"}
+{"Time":"2026-11-14T08:19:13.351917014Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestRejectMissingOrMalformedAuthorization/Bearer_garbage","Output":"=== RUN   TestRejectMissingOrMalformedAuthorization/Bearer_garbage\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.351926512Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestRejectMissingOrMalformedAuthorization/Bearer_garbage","Output":"--- PASS: TestRejectMissingOrMalformedAuthorization/Bearer_garbage (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.351934757Z","Action":"pass","Package":"thaifood-backend/mw","Test":"TestRejectMissingOrMalformedAuthorization/Bearer_garbage","Elapsed":0}
+{"Time":"2026-11-14T08:19:13.351942301Z","Action":"run","Package":"thaifood-backend/mw","Test":"TestRejectMissingOrMalformedAuthorization/Bearer_eyJhbGci"}
+{"Time":"2026-11-14T08:19:13.351949925Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestRejectMissingOrMalformedAuthorization/Bearer_eyJhbGci","Output":"=== RUN   TestRejectMissingOrMalformedAuthorization/Bearer_eyJhbGci\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.351963921Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestRejectMissingOrMalformedAuthorization/Bearer_eyJhbGci","Output":"--- PASS: TestRejectMissingOrMalformedAuthorization/Bearer_eyJhbGci (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.351974571Z","Action":"pass","Package":"thaifood-backend/mw","Test":"TestRejectMissingOrMalformedAuthorization/Bearer_eyJhbGci","Elapsed":0}
+{"Time":"2026-11-14T08:19:13.351983498Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestRejectMissingOrMalformedAuthorization","Output":"--- PASS: TestRejectMissingOrMalformedAuthorization (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.351992074Z","Action":"pass","Package":"thaifood-backend/mw","Test":"TestRejectMissingOrMalformedAuthorization","Elapsed":0}
+{"Time":"2026-11-14T08:19:13.352007863Z","Action":"run","Package":"thaifood-backend/mw","Test":"TestRoleRequiresMemberContext"}
+{"Time":"2026-11-14T08:19:13.352015418Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestRoleRequiresMemberContext","Output":"=== RUN   TestRoleRequiresMemberContext\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.352024384Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestRoleRequiresMemberContext","Output":"--- PASS: TestRoleRequiresMemberContext (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.352032289Z","Action":"pass","Package":"thaifood-backend/mw","Test":"TestRoleRequiresMemberContext","Elapsed":0}
+{"Time":"2026-11-14T08:19:13.352039863Z","Action":"run","Package":"thaifood-backend/mw","Test":"TestCORS"}
+{"Time":"2026-11-14T08:19:13.352047407Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestCORS","Output":"=== RUN   TestCORS\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.352055593Z","Action":"run","Package":"thaifood-backend/mw","Test":"TestCORS/nonbrowser"}
+{"Time":"2026-11-14T08:19:13.352064198Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestCORS/nonbrowser","Output":"=== RUN   TestCORS/nonbrowser\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.352074127Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestCORS/nonbrowser","Output":"--- PASS: TestCORS/nonbrowser (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.352088564Z","Action":"pass","Package":"thaifood-backend/mw","Test":"TestCORS/nonbrowser","Elapsed":0}
+{"Time":"2026-11-14T08:19:13.352098052Z","Action":"run","Package":"thaifood-backend/mw","Test":"TestCORS/allowed"}
+{"Time":"2026-11-14T08:19:13.352105516Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestCORS/allowed","Output":"=== RUN   TestCORS/allowed\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.35227927Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestCORS/allowed","Output":"--- PASS: TestCORS/allowed (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.352432076Z","Action":"pass","Package":"thaifood-backend/mw","Test":"TestCORS/allowed","Elapsed":0}
+{"Time":"2026-11-14T08:19:13.352614807Z","Action":"run","Package":"thaifood-backend/mw","Test":"TestCORS/preflight"}
+{"Time":"2026-11-14T08:19:13.352715765Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestCORS/preflight","Output":"=== RUN   TestCORS/preflight\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.353218434Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestCORS/preflight","Output":"--- PASS: TestCORS/preflight (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.353397158Z","Action":"pass","Package":"thaifood-backend/mw","Test":"TestCORS/preflight","Elapsed":0}
+{"Time":"2026-11-14T08:19:13.353642425Z","Action":"run","Package":"thaifood-backend/mw","Test":"TestCORS/untrusted"}
+{"Time":"2026-11-14T08:19:13.353718177Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestCORS/untrusted","Output":"=== RUN   TestCORS/untrusted\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.354177865Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestCORS/untrusted","Output":"--- PASS: TestCORS/untrusted (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.354494246Z","Action":"pass","Package":"thaifood-backend/mw","Test":"TestCORS/untrusted","Elapsed":0}
+{"Time":"2026-11-14T08:19:13.354601476Z","Action":"run","Package":"thaifood-backend/mw","Test":"TestCORS/suffix"}
+{"Time":"2026-11-14T08:19:13.35475354Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestCORS/suffix","Output":"=== RUN   TestCORS/suffix\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.355051757Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestCORS/suffix","Output":"--- PASS: TestCORS/suffix (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.35540665Z","Action":"pass","Package":"thaifood-backend/mw","Test":"TestCORS/suffix","Elapsed":0}
+{"Time":"2026-11-14T08:19:13.355451814Z","Action":"run","Package":"thaifood-backend/mw","Test":"TestCORS/bad_method"}
+{"Time":"2026-11-14T08:19:13.355527375Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestCORS/bad_method","Output":"=== RUN   TestCORS/bad_method\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.355806506Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestCORS/bad_method","Output":"--- PASS: TestCORS/bad_method (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.357469952Z","Action":"pass","Package":"thaifood-backend/mw","Test":"TestCORS/bad_method","Elapsed":0}
+{"Time":"2026-11-14T08:19:13.357497223Z","Action":"run","Package":"thaifood-backend/mw","Test":"TestCORS/bad_header"}
+{"Time":"2026-11-14T08:19:13.357509867Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestCORS/bad_header","Output":"=== RUN   TestCORS/bad_header\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.357522681Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestCORS/bad_header","Output":"--- PASS: TestCORS/bad_header (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.35753274Z","Action":"pass","Package":"thaifood-backend/mw","Test":"TestCORS/bad_header","Elapsed":0}
+{"Time":"2026-11-14T08:19:13.357542077Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestCORS","Output":"--- PASS: TestCORS (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.357550333Z","Action":"pass","Package":"thaifood-backend/mw","Test":"TestCORS","Elapsed":0}
+{"Time":"2026-11-14T08:19:13.357606979Z","Action":"run","Package":"thaifood-backend/mw","Test":"TestRecoverHidesPanic"}
+{"Time":"2026-11-14T08:19:13.357628589Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestRecoverHidesPanic","Output":"=== RUN   TestRecoverHidesPanic\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.3576559Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestRecoverHidesPanic","Output":"2026/11/14 08:19:13 request panic recovered\n"}
+{"Time":"2026-11-14T08:19:13.357710301Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestRecoverHidesPanic","Output":"--- PASS: TestRecoverHidesPanic (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.35773638Z","Action":"pass","Package":"thaifood-backend/mw","Test":"TestRecoverHidesPanic","Elapsed":0}
+{"Time":"2026-11-14T08:19:13.358326512Z","Action":"run","Package":"thaifood-backend/mw","Test":"TestLoggingOmitsCredentialsAndQuery"}
+{"Time":"2026-11-14T08:19:13.35834679Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestLoggingOmitsCredentialsAndQuery","Output":"=== RUN   TestLoggingOmitsCredentialsAndQuery\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.358770832Z","Action":"output","Package":"thaifood-backend/mw","Test":"TestLoggingOmitsCredentialsAndQuery","Output":"--- PASS: TestLoggingOmitsCredentialsAndQuery (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:13.359118932Z","Action":"pass","Package":"thaifood-backend/mw","Test":"TestLoggingOmitsCredentialsAndQuery","Elapsed":0}
+{"Time":"2026-11-14T08:19:13.359189223Z","Action":"output","Package":"thaifood-backend/mw","Output":"PASS\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:14.362196985Z","Action":"output","Package":"thaifood-backend/mw","Output":"ok  \tthaifood-backend/mw\t1.057s\n"}
+{"Time":"2026-11-14T08:19:14.362343028Z","Action":"pass","Package":"thaifood-backend/mw","Elapsed":1.057}
+{"Time":"2026-11-14T08:19:15.949284025Z","Action":"start","Package":"thaifood-backend/store"}
+{"Time":"2026-11-14T08:19:15.96795548Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRolePersistenceAndIdempotence"}
+{"Time":"2026-11-14T08:19:15.968191901Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRolePersistenceAndIdempotence","Output":"=== RUN   TestUpdateMemberRolePersistenceAndIdempotence\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:16.253272585Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRolePersistenceAndIdempotence","Output":"--- PASS: TestUpdateMemberRolePersistenceAndIdempotence (0.28s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:16.253354999Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRolePersistenceAndIdempotence","Elapsed":0.28}
+{"Time":"2026-11-14T08:19:16.253374856Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleGuards"}
+{"Time":"2026-11-14T08:19:16.253383352Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleGuards","Output":"=== RUN   TestUpdateMemberRoleGuards\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:16.413278962Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleGuards/self_demotion_of_last_admin"}
+{"Time":"2026-11-14T08:19:16.413410607Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleGuards/self_demotion_of_last_admin","Output":"=== RUN   TestUpdateMemberRoleGuards/self_demotion_of_last_admin\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:16.414387351Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleGuards/self_demotion_of_last_admin","Output":"--- PASS: TestUpdateMemberRoleGuards/self_demotion_of_last_admin (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:16.414452653Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleGuards/self_demotion_of_last_admin","Elapsed":0}
+{"Time":"2026-11-14T08:19:16.414530018Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleGuards/self_unchanged"}
+{"Time":"2026-11-14T08:19:16.414561546Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleGuards/self_unchanged","Output":"=== RUN   TestUpdateMemberRoleGuards/self_unchanged\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:16.415201471Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleGuards/self_unchanged","Output":"--- PASS: TestUpdateMemberRoleGuards/self_unchanged (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:16.415261133Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleGuards/self_unchanged","Elapsed":0}
+{"Time":"2026-11-14T08:19:16.415332386Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleGuards/member_caller"}
+{"Time":"2026-11-14T08:19:16.415363884Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleGuards/member_caller","Output":"=== RUN   TestUpdateMemberRoleGuards/member_caller\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:16.417453126Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleGuards/member_caller","Output":"--- PASS: TestUpdateMemberRoleGuards/member_caller (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:16.417509702Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleGuards/member_caller","Elapsed":0}
+{"Time":"2026-11-14T08:19:16.417579592Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleGuards/member_no-op"}
+{"Time":"2026-11-14T08:19:16.417611862Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleGuards/member_no-op","Output":"=== RUN   TestUpdateMemberRoleGuards/member_no-op\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:16.418905187Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleGuards/member_no-op","Output":"--- PASS: TestUpdateMemberRoleGuards/member_no-op (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:16.419020643Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleGuards/member_no-op","Elapsed":0}
+{"Time":"2026-11-14T08:19:16.4190565Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleGuards/missing_caller"}
+{"Time":"2026-11-14T08:19:16.419084612Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleGuards/missing_caller","Output":"=== RUN   TestUpdateMemberRoleGuards/missing_caller\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:16.420522123Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleGuards/missing_caller","Output":"--- PASS: TestUpdateMemberRoleGuards/missing_caller (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:16.420619295Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleGuards/missing_caller","Elapsed":0}
+{"Time":"2026-11-14T08:19:16.420876305Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleGuards/missing_target"}
+{"Time":"2026-11-14T08:19:16.420906852Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleGuards/missing_target","Output":"=== RUN   TestUpdateMemberRoleGuards/missing_target\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:16.423016721Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleGuards/missing_target","Output":"--- PASS: TestUpdateMemberRoleGuards/missing_target (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:16.423054783Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleGuards/missing_target","Elapsed":0}
+{"Time":"2026-11-14T08:19:16.423067066Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleGuards/invalid_role"}
+{"Time":"2026-11-14T08:19:16.423075822Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleGuards/invalid_role","Output":"=== RUN   TestUpdateMemberRoleGuards/invalid_role\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:16.423714144Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleGuards/invalid_role","Output":"--- PASS: TestUpdateMemberRoleGuards/invalid_role (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:16.423743098Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleGuards/invalid_role","Elapsed":0}
+{"Time":"2026-11-14T08:19:16.485781921Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleGuards","Output":"--- PASS: TestUpdateMemberRoleGuards (0.23s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:16.485860568Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleGuards","Elapsed":0.23}
+{"Time":"2026-11-14T08:19:16.485876318Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:19:16.485884764Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"=== RUN   TestUpdateMemberRoleConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:16.80892388Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Output":"--- PASS: TestUpdateMemberRoleConcurrentCrossDemotions (0.32s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:16.809150984Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleConcurrentCrossDemotions","Elapsed":0.32}
+{"Time":"2026-11-14T08:19:16.809192692Z","Action":"run","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait"}
+{"Time":"2026-11-14T08:19:16.809274885Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"=== RUN   TestUpdateMemberRoleRechecksActorAfterLockWait\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:17.108901501Z","Action":"output","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Output":"--- PASS: TestUpdateMemberRoleRechecksActorAfterLockWait (0.30s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:17.109000836Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestUpdateMemberRoleRechecksActorAfterLockWait","Elapsed":0.3}
+{"Time":"2026-11-14T08:19:17.109033297Z","Action":"run","Package":"thaifood-backend/store","Test":"TestSeedIsIdempotentAndHasAllProvinces"}
+{"Time":"2026-11-14T08:19:17.109052803Z","Action":"output","Package":"thaifood-backend/store","Test":"TestSeedIsIdempotentAndHasAllProvinces","Output":"=== RUN   TestSeedIsIdempotentAndHasAllProvinces\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:17.345303268Z","Action":"output","Package":"thaifood-backend/store","Test":"TestSeedIsIdempotentAndHasAllProvinces","Output":"--- PASS: TestSeedIsIdempotentAndHasAllProvinces (0.24s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:17.345407453Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestSeedIsIdempotentAndHasAllProvinces","Elapsed":0.24}
+{"Time":"2026-11-14T08:19:17.34587224Z","Action":"run","Package":"thaifood-backend/store","Test":"TestSeedProvidesRealRestaurantsWithAttributedPhotos"}
+{"Time":"2026-11-14T08:19:17.345985933Z","Action":"output","Package":"thaifood-backend/store","Test":"TestSeedProvidesRealRestaurantsWithAttributedPhotos","Output":"=== RUN   TestSeedProvidesRealRestaurantsWithAttributedPhotos\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:17.596337228Z","Action":"output","Package":"thaifood-backend/store","Test":"TestSeedProvidesRealRestaurantsWithAttributedPhotos","Output":"--- PASS: TestSeedProvidesRealRestaurantsWithAttributedPhotos (0.25s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:17.598717853Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestSeedProvidesRealRestaurantsWithAttributedPhotos","Elapsed":0.25}
+{"Time":"2026-11-14T08:19:17.598776853Z","Action":"run","Package":"thaifood-backend/store","Test":"TestReseedRetiresOnlyUntouchedUnreferencedFictionalRestaurants"}
+{"Time":"2026-11-14T08:19:17.598802261Z","Action":"output","Package":"thaifood-backend/store","Test":"TestReseedRetiresOnlyUntouchedUnreferencedFictionalRestaurants","Output":"=== RUN   TestReseedRetiresOnlyUntouchedUnreferencedFictionalRestaurants\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:17.862792443Z","Action":"output","Package":"thaifood-backend/store","Test":"TestReseedRetiresOnlyUntouchedUnreferencedFictionalRestaurants","Output":"--- PASS: TestReseedRetiresOnlyUntouchedUnreferencedFictionalRestaurants (0.27s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:17.862898Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestReseedRetiresOnlyUntouchedUnreferencedFictionalRestaurants","Elapsed":0.27}
+{"Time":"2026-11-14T08:19:17.862931072Z","Action":"run","Package":"thaifood-backend/store","Test":"TestMemberUniquenessPasswordCASAndSafeJSON"}
+{"Time":"2026-11-14T08:19:17.862954055Z","Action":"output","Package":"thaifood-backend/store","Test":"TestMemberUniquenessPasswordCASAndSafeJSON","Output":"=== RUN   TestMemberUniquenessPasswordCASAndSafeJSON\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:18.080949182Z","Action":"output","Package":"thaifood-backend/store","Test":"TestMemberUniquenessPasswordCASAndSafeJSON","Output":"--- PASS: TestMemberUniquenessPasswordCASAndSafeJSON (0.22s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:18.081043298Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestMemberUniquenessPasswordCASAndSafeJSON","Elapsed":0.22}
+{"Time":"2026-11-14T08:19:18.081073123Z","Action":"run","Package":"thaifood-backend/store","Test":"TestPartialRestaurantUpdateAndExplicitImageClear"}
+{"Time":"2026-11-14T08:19:18.081095565Z","Action":"output","Package":"thaifood-backend/store","Test":"TestPartialRestaurantUpdateAndExplicitImageClear","Output":"=== RUN   TestPartialRestaurantUpdateAndExplicitImageClear\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:18.313725409Z","Action":"output","Package":"thaifood-backend/store","Test":"TestPartialRestaurantUpdateAndExplicitImageClear","Output":"--- PASS: TestPartialRestaurantUpdateAndExplicitImageClear (0.23s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:18.313887061Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestPartialRestaurantUpdateAndExplicitImageClear","Elapsed":0.23}
+{"Time":"2026-11-14T08:19:18.313945861Z","Action":"run","Package":"thaifood-backend/store","Test":"TestDatabaseConstraintsProtectInvalidDirectWrites"}
+{"Time":"2026-11-14T08:19:18.313991657Z","Action":"output","Package":"thaifood-backend/store","Test":"TestDatabaseConstraintsProtectInvalidDirectWrites","Output":"=== RUN   TestDatabaseConstraintsProtectInvalidDirectWrites\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:18.594837964Z","Action":"output","Package":"thaifood-backend/store","Test":"TestDatabaseConstraintsProtectInvalidDirectWrites","Output":"--- PASS: TestDatabaseConstraintsProtectInvalidDirectWrites (0.28s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:18.594957618Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestDatabaseConstraintsProtectInvalidDirectWrites","Elapsed":0.28}
+{"Time":"2026-11-14T08:19:18.594987123Z","Action":"run","Package":"thaifood-backend/store","Test":"TestRestaurantSearchReviewOwnershipAggregatesAndCascade"}
+{"Time":"2026-11-14T08:19:18.595007521Z","Action":"output","Package":"thaifood-backend/store","Test":"TestRestaurantSearchReviewOwnershipAggregatesAndCascade","Output":"=== RUN   TestRestaurantSearchReviewOwnershipAggregatesAndCascade\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:18.850118523Z","Action":"output","Package":"thaifood-backend/store","Test":"TestRestaurantSearchReviewOwnershipAggregatesAndCascade","Output":"--- PASS: TestRestaurantSearchReviewOwnershipAggregatesAndCascade (0.26s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:18.850185408Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestRestaurantSearchReviewOwnershipAggregatesAndCascade","Elapsed":0.26}
+{"Time":"2026-11-14T08:19:18.850201879Z","Action":"run","Package":"thaifood-backend/store","Test":"TestConcurrentDuplicateReviewOnlyOneSucceeds"}
+{"Time":"2026-11-14T08:19:18.850210105Z","Action":"output","Package":"thaifood-backend/store","Test":"TestConcurrentDuplicateReviewOnlyOneSucceeds","Output":"=== RUN   TestConcurrentDuplicateReviewOnlyOneSucceeds\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:19.225847243Z","Action":"output","Package":"thaifood-backend/store","Test":"TestConcurrentDuplicateReviewOnlyOneSucceeds","Output":"--- PASS: TestConcurrentDuplicateReviewOnlyOneSucceeds (0.38s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:19.225972106Z","Action":"pass","Package":"thaifood-backend/store","Test":"TestConcurrentDuplicateReviewOnlyOneSucceeds","Elapsed":0.38}
+{"Time":"2026-11-14T08:19:19.226007061Z","Action":"output","Package":"thaifood-backend/store","Output":"PASS\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:20.232103451Z","Action":"output","Package":"thaifood-backend/store","Output":"ok  \tthaifood-backend/store\t4.282s\n"}
+{"Time":"2026-11-14T08:19:20.232169454Z","Action":"pass","Package":"thaifood-backend/store","Elapsed":4.283}
+{"Time":"2026-11-14T08:19:27.199329071Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAPIEndToEnd","Output":"    api_test.go:338: Verified all 20 Contract v2 endpoints + health, PostgreSQL persistence, role/ownership checks, validation, uniqueness and cascades\n"}
+{"Time":"2026-11-14T08:19:27.242847973Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAPIEndToEnd","Output":"--- PASS: TestAPIEndToEnd (15.60s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:27.242919477Z","Action":"pass","Package":"thaifood-backend/integration","Test":"TestAPIEndToEnd","Elapsed":15.6}
+{"Time":"2026-11-14T08:19:27.242941568Z","Action":"run","Package":"thaifood-backend/integration","Test":"TestConcurrentDuplicates"}
+{"Time":"2026-11-14T08:19:27.242950384Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestConcurrentDuplicates","Output":"=== RUN   TestConcurrentDuplicates\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:29.240571144Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestConcurrentDuplicates","Output":"--- PASS: TestConcurrentDuplicates (2.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:29.241458651Z","Action":"pass","Package":"thaifood-backend/integration","Test":"TestConcurrentDuplicates","Elapsed":2}
+{"Time":"2026-11-14T08:19:29.242517959Z","Action":"run","Package":"thaifood-backend/integration","Test":"TestAdminMemberRoles"}
+{"Time":"2026-11-14T08:19:29.242603108Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRoles","Output":"=== RUN   TestAdminMemberRoles\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:33.140876801Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRoles","Output":"--- PASS: TestAdminMemberRoles (3.90s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:33.140954746Z","Action":"pass","Package":"thaifood-backend/integration","Test":"TestAdminMemberRoles","Elapsed":3.9}
+{"Time":"2026-11-14T08:19:33.140977569Z","Action":"run","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions"}
+{"Time":"2026-11-14T08:19:33.140987497Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"=== RUN   TestAdminMemberRolesConcurrentCrossDemotions\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:37.14522794Z","Action":"output","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Output":"--- PASS: TestAdminMemberRolesConcurrentCrossDemotions (4.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:37.145423946Z","Action":"pass","Package":"thaifood-backend/integration","Test":"TestAdminMemberRolesConcurrentCrossDemotions","Elapsed":4}
+{"Time":"2026-11-14T08:19:37.145932415Z","Action":"output","Package":"thaifood-backend/integration","Output":"PASS\n","OutputType":"frame"}
+{"Time":"2026-11-14T08:19:38.150577209Z","Action":"output","Package":"thaifood-backend/integration","Output":"ok  \tthaifood-backend/integration\t26.554s\n"}
+{"Time":"2026-11-14T08:19:38.150644395Z","Action":"pass","Package":"thaifood-backend/integration","Elapsed":26.555}

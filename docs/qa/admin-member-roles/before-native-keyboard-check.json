@@ -1,0 +1,55 @@
+{
+  "status": "failed",
+  "base": "http://127.0.0.1:3100",
+  "source": "isolated UI contract fixtures; no production data mutations",
+  "axeScope": ".admin-content (member directory and dialog)",
+  "cases": [],
+  "guards": [],
+  "audits": [
+    {
+      "engine": "chromium",
+      "width": 320,
+      "state": "directory",
+      "violations": [],
+      "incomplete": [],
+      "passes": 19
+    }
+  ],
+  "requests": [
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    }
+  ],
+  "pageErrors": [],
+  "corsErrors": [],
+  "unexpectedRequests": [],
+  "focusFailure": {
+    "engine": "chromium",
+    "width": 320,
+    "tab": 2,
+    "within": false,
+    "tag": "BODY",
+    "id": "",
+    "classes": "",
+    "documentFocused": false,
+    "modal": true
+  },
+  "failure": "AssertionError [ERR_ASSERTION]: Focus escaped the native modal\n    at /workspaces/thaifood-frontend/docs/qa/admin-member-roles/check.cjs:86:20"
+}

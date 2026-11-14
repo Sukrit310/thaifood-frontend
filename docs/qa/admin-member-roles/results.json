@@ -1,0 +1,2111 @@
+{
+  "status": "passed",
+  "base": "http://127.0.0.1:3100",
+  "source": "isolated UI contract fixtures; no production data mutations",
+  "axeScope": ".admin-content (member directory and dialog)",
+  "cases": [
+    {
+      "engine": "chromium",
+      "version": "141.0.7390.37",
+      "width": 320,
+      "passed": true,
+      "focusSequence": [
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": false,
+          "tag": "BODY",
+          "id": "",
+          "classes": "",
+          "documentFocused": false,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "SELECT",
+          "id": "member-role",
+          "classes": "input",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-secondary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": false,
+          "tag": "BODY",
+          "id": "",
+          "classes": "",
+          "documentFocused": false,
+          "modal": true
+        }
+      ],
+      "checks": [
+        "native modal",
+        "self-row guard",
+        "unchanged-role guard",
+        "long content",
+        "native inert background/Escape/focus",
+        "pending lock",
+        "error/no optimistic update",
+        "retry/promotion/re-fetch",
+        "demotion/re-fetch"
+      ]
+    },
+    {
+      "engine": "chromium",
+      "version": "141.0.7390.37",
+      "width": 375,
+      "passed": true,
+      "focusSequence": [
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": false,
+          "tag": "BODY",
+          "id": "",
+          "classes": "",
+          "documentFocused": false,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "SELECT",
+          "id": "member-role",
+          "classes": "input",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-secondary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": false,
+          "tag": "BODY",
+          "id": "",
+          "classes": "",
+          "documentFocused": false,
+          "modal": true
+        }
+      ],
+      "checks": [
+        "native modal",
+        "self-row guard",
+        "unchanged-role guard",
+        "long content",
+        "native inert background/Escape/focus",
+        "pending lock",
+        "error/no optimistic update",
+        "retry/promotion/re-fetch",
+        "demotion/re-fetch"
+      ]
+    },
+    {
+      "engine": "chromium",
+      "version": "141.0.7390.37",
+      "width": 768,
+      "passed": true,
+      "focusSequence": [
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": false,
+          "tag": "BODY",
+          "id": "",
+          "classes": "",
+          "documentFocused": false,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "SELECT",
+          "id": "member-role",
+          "classes": "input",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-secondary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": false,
+          "tag": "BODY",
+          "id": "",
+          "classes": "",
+          "documentFocused": false,
+          "modal": true
+        }
+      ],
+      "checks": [
+        "native modal",
+        "self-row guard",
+        "unchanged-role guard",
+        "long content",
+        "native inert background/Escape/focus",
+        "pending lock",
+        "error/no optimistic update",
+        "retry/promotion/re-fetch",
+        "demotion/re-fetch"
+      ]
+    },
+    {
+      "engine": "chromium",
+      "version": "141.0.7390.37",
+      "width": 1024,
+      "passed": true,
+      "focusSequence": [
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": false,
+          "tag": "BODY",
+          "id": "",
+          "classes": "",
+          "documentFocused": false,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "SELECT",
+          "id": "member-role",
+          "classes": "input",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-secondary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": false,
+          "tag": "BODY",
+          "id": "",
+          "classes": "",
+          "documentFocused": false,
+          "modal": true
+        }
+      ],
+      "checks": [
+        "native modal",
+        "self-row guard",
+        "unchanged-role guard",
+        "long content",
+        "native inert background/Escape/focus",
+        "pending lock",
+        "error/no optimistic update",
+        "retry/promotion/re-fetch",
+        "demotion/re-fetch"
+      ]
+    },
+    {
+      "engine": "chromium",
+      "version": "141.0.7390.37",
+      "width": 1440,
+      "passed": true,
+      "focusSequence": [
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": false,
+          "tag": "BODY",
+          "id": "",
+          "classes": "",
+          "documentFocused": false,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "SELECT",
+          "id": "member-role",
+          "classes": "input",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-secondary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": false,
+          "tag": "BODY",
+          "id": "",
+          "classes": "",
+          "documentFocused": false,
+          "modal": true
+        }
+      ],
+      "checks": [
+        "native modal",
+        "self-row guard",
+        "unchanged-role guard",
+        "long content",
+        "native inert background/Escape/focus",
+        "pending lock",
+        "error/no optimistic update",
+        "retry/promotion/re-fetch",
+        "demotion/re-fetch"
+      ]
+    },
+    {
+      "engine": "firefox",
+      "version": "142.0.1",
+      "width": 320,
+      "passed": true,
+      "focusSequence": [
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        }
+      ],
+      "checks": [
+        "native modal",
+        "self-row guard",
+        "unchanged-role guard",
+        "long content",
+        "native inert background/Escape/focus",
+        "pending lock",
+        "error/no optimistic update",
+        "retry/promotion/re-fetch",
+        "demotion/re-fetch"
+      ]
+    },
+    {
+      "engine": "firefox",
+      "version": "142.0.1",
+      "width": 375,
+      "passed": true,
+      "focusSequence": [
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        }
+      ],
+      "checks": [
+        "native modal",
+        "self-row guard",
+        "unchanged-role guard",
+        "long content",
+        "native inert background/Escape/focus",
+        "pending lock",
+        "error/no optimistic update",
+        "retry/promotion/re-fetch",
+        "demotion/re-fetch"
+      ]
+    },
+    {
+      "engine": "firefox",
+      "version": "142.0.1",
+      "width": 768,
+      "passed": true,
+      "focusSequence": [
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        }
+      ],
+      "checks": [
+        "native modal",
+        "self-row guard",
+        "unchanged-role guard",
+        "long content",
+        "native inert background/Escape/focus",
+        "pending lock",
+        "error/no optimistic update",
+        "retry/promotion/re-fetch",
+        "demotion/re-fetch"
+      ]
+    },
+    {
+      "engine": "firefox",
+      "version": "142.0.1",
+      "width": 1024,
+      "passed": true,
+      "focusSequence": [
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        }
+      ],
+      "checks": [
+        "native modal",
+        "self-row guard",
+        "unchanged-role guard",
+        "long content",
+        "native inert background/Escape/focus",
+        "pending lock",
+        "error/no optimistic update",
+        "retry/promotion/re-fetch",
+        "demotion/re-fetch"
+      ]
+    },
+    {
+      "engine": "firefox",
+      "version": "142.0.1",
+      "width": 1440,
+      "passed": true,
+      "focusSequence": [
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        }
+      ],
+      "checks": [
+        "native modal",
+        "self-row guard",
+        "unchanged-role guard",
+        "long content",
+        "native inert background/Escape/focus",
+        "pending lock",
+        "error/no optimistic update",
+        "retry/promotion/re-fetch",
+        "demotion/re-fetch"
+      ]
+    },
+    {
+      "engine": "webkit",
+      "version": "26.0",
+      "width": 320,
+      "passed": true,
+      "focusSequence": [
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": false,
+          "tag": "BODY",
+          "id": "",
+          "classes": "",
+          "documentFocused": false,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "DIALOG",
+          "id": "",
+          "classes": "admin-role-dialog",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "SELECT",
+          "id": "member-role",
+          "classes": "input",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-secondary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        }
+      ],
+      "checks": [
+        "native modal",
+        "self-row guard",
+        "unchanged-role guard",
+        "long content",
+        "native inert background/Escape/focus",
+        "pending lock",
+        "error/no optimistic update",
+        "retry/promotion/re-fetch",
+        "demotion/re-fetch"
+      ]
+    },
+    {
+      "engine": "webkit",
+      "version": "26.0",
+      "width": 375,
+      "passed": true,
+      "focusSequence": [
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": false,
+          "tag": "BODY",
+          "id": "",
+          "classes": "",
+          "documentFocused": false,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "DIALOG",
+          "id": "",
+          "classes": "admin-role-dialog",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "SELECT",
+          "id": "member-role",
+          "classes": "input",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-secondary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        }
+      ],
+      "checks": [
+        "native modal",
+        "self-row guard",
+        "unchanged-role guard",
+        "long content",
+        "native inert background/Escape/focus",
+        "pending lock",
+        "error/no optimistic update",
+        "retry/promotion/re-fetch",
+        "demotion/re-fetch"
+      ]
+    },
+    {
+      "engine": "webkit",
+      "version": "26.0",
+      "width": 768,
+      "passed": true,
+      "focusSequence": [
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": false,
+          "tag": "BODY",
+          "id": "",
+          "classes": "",
+          "documentFocused": false,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "DIALOG",
+          "id": "",
+          "classes": "admin-role-dialog",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "SELECT",
+          "id": "member-role",
+          "classes": "input",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-secondary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        }
+      ],
+      "checks": [
+        "native modal",
+        "self-row guard",
+        "unchanged-role guard",
+        "long content",
+        "native inert background/Escape/focus",
+        "pending lock",
+        "error/no optimistic update",
+        "retry/promotion/re-fetch",
+        "demotion/re-fetch"
+      ]
+    },
+    {
+      "engine": "webkit",
+      "version": "26.0",
+      "width": 1024,
+      "passed": true,
+      "focusSequence": [
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": false,
+          "tag": "BODY",
+          "id": "",
+          "classes": "",
+          "documentFocused": false,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "DIALOG",
+          "id": "",
+          "classes": "admin-role-dialog",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "SELECT",
+          "id": "member-role",
+          "classes": "input",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-secondary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        }
+      ],
+      "checks": [
+        "native modal",
+        "self-row guard",
+        "unchanged-role guard",
+        "long content",
+        "native inert background/Escape/focus",
+        "pending lock",
+        "error/no optimistic update",
+        "retry/promotion/re-fetch",
+        "demotion/re-fetch"
+      ]
+    },
+    {
+      "engine": "webkit",
+      "version": "26.0",
+      "width": 1440,
+      "passed": true,
+      "focusSequence": [
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": false,
+          "tag": "BODY",
+          "id": "",
+          "classes": "",
+          "documentFocused": false,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "DIALOG",
+          "id": "",
+          "classes": "admin-role-dialog",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "SELECT",
+          "id": "member-role",
+          "classes": "input",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-secondary",
+          "documentFocused": true,
+          "modal": true
+        },
+        {
+          "within": true,
+          "tag": "BUTTON",
+          "id": "",
+          "classes": "btn btn-primary",
+          "documentFocused": true,
+          "modal": true
+        }
+      ],
+      "checks": [
+        "native modal",
+        "self-row guard",
+        "unchanged-role guard",
+        "long content",
+        "native inert background/Escape/focus",
+        "pending lock",
+        "error/no optimistic update",
+        "retry/promotion/re-fetch",
+        "demotion/re-fetch"
+      ]
+    }
+  ],
+  "guards": [
+    {
+      "engine": "chromium",
+      "role": "guest",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "role": "member",
+      "passed": true
+    },
+    {
+      "engine": "firefox",
+      "role": "guest",
+      "passed": true
+    },
+    {
+      "engine": "firefox",
+      "role": "member",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "role": "guest",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "role": "member",
+      "passed": true
+    }
+  ],
+  "audits": [
+    {
+      "engine": "chromium",
+      "width": 320,
+      "state": "directory",
+      "violations": [],
+      "incomplete": [],
+      "passes": 19
+    },
+    {
+      "engine": "chromium",
+      "width": 320,
+      "state": "promotion-dialog",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 3
+        }
+      ],
+      "passes": 18
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "state": "directory",
+      "violations": [],
+      "incomplete": [],
+      "passes": 19
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "state": "promotion-dialog",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 3
+        }
+      ],
+      "passes": 18
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "state": "error-dialog",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ],
+      "passes": 18
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "state": "directory",
+      "violations": [],
+      "incomplete": [],
+      "passes": 19
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "state": "promotion-dialog",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 3
+        }
+      ],
+      "passes": 18
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "state": "directory",
+      "violations": [],
+      "incomplete": [],
+      "passes": 19
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "state": "promotion-dialog",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 3
+        }
+      ],
+      "passes": 18
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "state": "directory",
+      "violations": [],
+      "incomplete": [],
+      "passes": 19
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "state": "promotion-dialog",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 3
+        }
+      ],
+      "passes": 18
+    },
+    {
+      "engine": "firefox",
+      "width": 320,
+      "state": "directory",
+      "violations": [],
+      "incomplete": [],
+      "passes": 19
+    },
+    {
+      "engine": "firefox",
+      "width": 320,
+      "state": "promotion-dialog",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 3
+        }
+      ],
+      "passes": 18
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "state": "directory",
+      "violations": [],
+      "incomplete": [],
+      "passes": 19
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "state": "promotion-dialog",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 2
+        }
+      ],
+      "passes": 18
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "state": "error-dialog",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ],
+      "passes": 18
+    },
+    {
+      "engine": "firefox",
+      "width": 768,
+      "state": "directory",
+      "violations": [],
+      "incomplete": [],
+      "passes": 19
+    },
+    {
+      "engine": "firefox",
+      "width": 768,
+      "state": "promotion-dialog",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 3
+        }
+      ],
+      "passes": 18
+    },
+    {
+      "engine": "firefox",
+      "width": 1024,
+      "state": "directory",
+      "violations": [],
+      "incomplete": [],
+      "passes": 19
+    },
+    {
+      "engine": "firefox",
+      "width": 1024,
+      "state": "promotion-dialog",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 2
+        }
+      ],
+      "passes": 18
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "state": "directory",
+      "violations": [],
+      "incomplete": [],
+      "passes": 19
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "state": "promotion-dialog",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 3
+        }
+      ],
+      "passes": 18
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "state": "directory",
+      "violations": [],
+      "incomplete": [],
+      "passes": 19
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "state": "promotion-dialog",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 3
+        }
+      ],
+      "passes": 18
+    },
+    {
+      "engine": "webkit",
+      "width": 375,
+      "state": "directory",
+      "violations": [],
+      "incomplete": [],
+      "passes": 19
+    },
+    {
+      "engine": "webkit",
+      "width": 375,
+      "state": "promotion-dialog",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 2
+        }
+      ],
+      "passes": 18
+    },
+    {
+      "engine": "webkit",
+      "width": 375,
+      "state": "error-dialog",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ],
+      "passes": 18
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "state": "directory",
+      "violations": [],
+      "incomplete": [],
+      "passes": 19
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "state": "promotion-dialog",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 3
+        }
+      ],
+      "passes": 18
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "state": "directory",
+      "violations": [],
+      "incomplete": [],
+      "passes": 19
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "state": "promotion-dialog",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 3
+        }
+      ],
+      "passes": 18
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "state": "directory",
+      "violations": [],
+      "incomplete": [],
+      "passes": 19
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "state": "promotion-dialog",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 3
+        }
+      ],
+      "passes": 18
+    }
+  ],
+  "requests": [
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/7/role",
+      "status": 500
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/7/role",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/9/role",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/7/role",
+      "status": 500
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/7/role",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/9/role",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/7/role",
+      "status": 500
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/7/role",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/9/role",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/7/role",
+      "status": 500
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/7/role",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/9/role",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/7/role",
+      "status": 500
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/7/role",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/9/role",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/7/role",
+      "status": 500
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/7/role",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/9/role",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/7/role",
+      "status": 500
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/7/role",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/9/role",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/7/role",
+      "status": 500
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/7/role",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/9/role",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/7/role",
+      "status": 500
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/7/role",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/9/role",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/7/role",
+      "status": 500
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/7/role",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/9/role",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/7/role",
+      "status": 500
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/7/role",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/9/role",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/7/role",
+      "status": 500
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/7/role",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/9/role",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/7/role",
+      "status": 500
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/7/role",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/9/role",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/7/role",
+      "status": 500
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/7/role",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/9/role",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/7/role",
+      "status": 500
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/7/role",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/9/role",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    }
+  ],
+  "pageErrors": [],
+  "corsErrors": [],
+  "unexpectedRequests": []
+}

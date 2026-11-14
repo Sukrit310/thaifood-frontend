@@ -1,0 +1,81 @@
+{
+  "status": "passed",
+  "startedAt": "2026-11-14T08:03:46.277Z",
+  "clientTimezone": "Asia/Bangkok",
+  "frontend": "https://thaifood-frontend.vercel.app",
+  "backend": "https://thaifood-guide-api-a7c7.onrender.com",
+  "mode": "read-only preflight",
+  "checks": [
+    {
+      "check": "Production Admin login, real directory, CORS, and existing QA target confirmed",
+      "adminLogin": 200,
+      "directory": 200,
+      "targetRole": "member"
+    },
+    {
+      "check": "Production directory displays current members and protects the signed-in Admin row"
+    }
+  ],
+  "requests": [
+    {
+      "method": "POST",
+      "path": "/api/auth/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "source": "independent API",
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "source": "independent API",
+      "method": "POST",
+      "path": "/api/auth/login",
+      "status": 200
+    }
+  ],
+  "pageErrors": [],
+  "corsErrors": [],
+  "blockedRequests": [],
+  "roleWrites": [],
+  "cleanup": {
+    "roleWrites": 0,
+    "roleStateUnchanged": true
+  },
+  "limitations": [],
+  "accountsCreated": 0,
+  "accountsDeleted": 0,
+  "browser": {
+    "engine": "chromium",
+    "version": "141.0.7390.37"
+  },
+  "actorId": 13,
+  "memberCountBefore": 6,
+  "adminCountBefore": 2,
+  "existingQACandidates": [
+    {
+      "id": 15,
+      "role": "member"
+    },
+    {
+      "id": 16,
+      "role": "member"
+    }
+  ],
+  "targetId": 12,
+  "originalTargetRole": "member",
+  "memberCredentialsAvailable": true,
+  "memberCredentialsVerified": true,
+  "finishedAt": "2026-11-14T08:03:49.592Z"
+}

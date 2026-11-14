@@ -1,0 +1,334 @@
+{
+  "status": "passed",
+  "startedAt": "2026-11-14T08:04:51.037Z",
+  "clientTimezone": "Asia/Bangkok",
+  "frontend": "https://thaifood-frontend.vercel.app",
+  "backend": "https://thaifood-guide-api-a7c7.onrender.com",
+  "mode": "existing QA role round trip",
+  "checks": [
+    {
+      "check": "Production Admin login, real directory, CORS, and existing QA target confirmed",
+      "adminLogin": 200,
+      "directory": 200,
+      "targetRole": "member"
+    },
+    {
+      "check": "Production directory displays current members and protects the signed-in Admin row"
+    },
+    {
+      "check": "Real API rejects guest, invalid JWT and self-change without changing any role",
+      "guest": 401,
+      "invalidJWT": 401,
+      "self": 403
+    },
+    {
+      "check": "Previously issued QA token uses current member permissions",
+      "me": 200,
+      "adminDirectory": 403,
+      "memberEndpoint": 200,
+      "relogin": false
+    },
+    {
+      "check": "Real Member token cannot call role mutation",
+      "status": 403
+    },
+    {
+      "check": "Real directory/dialog cancel and viewport 1440x900",
+      "changedRoles": 0
+    },
+    {
+      "check": "Real directory/dialog cancel and viewport 375x667",
+      "changedRoles": 0
+    },
+    {
+      "check": "UI promotion persists and appears without reload and after reload",
+      "patchStatus": 200,
+      "persistedGETStatus": 200
+    },
+    {
+      "check": "Previously issued QA token uses current admin permissions",
+      "me": 200,
+      "adminDirectory": 200,
+      "memberEndpoint": 200,
+      "relogin": false
+    },
+    {
+      "check": "UI demotion persists and appears without reload and after reload",
+      "patchStatus": 200,
+      "persistedGETStatus": 200
+    },
+    {
+      "check": "Previously issued QA token uses current member permissions",
+      "me": 200,
+      "adminDirectory": 403,
+      "memberEndpoint": 200,
+      "relogin": false
+    },
+    {
+      "check": "Real API accepts unchanged role idempotently",
+      "status": 200
+    }
+  ],
+  "requests": [
+    {
+      "method": "POST",
+      "path": "/api/auth/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "source": "independent API",
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "source": "independent API",
+      "method": "POST",
+      "path": "/api/auth/login",
+      "status": 200
+    },
+    {
+      "source": "independent API",
+      "method": "PATCH",
+      "path": "/api/admin/members/12/role",
+      "status": 401,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "source": "independent API",
+      "method": "PATCH",
+      "path": "/api/admin/members/12/role",
+      "status": 401,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "source": "independent API",
+      "method": "PATCH",
+      "path": "/api/admin/members/13/role",
+      "status": 403,
+      "code": "FORBIDDEN"
+    },
+    {
+      "source": "independent API",
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "source": "independent API",
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 403,
+      "code": "FORBIDDEN"
+    },
+    {
+      "source": "independent API",
+      "method": "GET",
+      "path": "/api/favorites",
+      "status": 200
+    },
+    {
+      "source": "independent API",
+      "method": "PATCH",
+      "path": "/api/admin/members/12/role",
+      "status": 403,
+      "code": "FORBIDDEN"
+    },
+    {
+      "source": "independent API",
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/12/role",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "source": "independent API",
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "source": "independent API",
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "source": "independent API",
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "source": "independent API",
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "source": "independent API",
+      "method": "GET",
+      "path": "/api/favorites",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/members/12/role",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "source": "independent API",
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "source": "independent API",
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "source": "independent API",
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "source": "independent API",
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 403,
+      "code": "FORBIDDEN"
+    },
+    {
+      "source": "independent API",
+      "method": "GET",
+      "path": "/api/favorites",
+      "status": 200
+    },
+    {
+      "source": "independent API",
+      "method": "PATCH",
+      "path": "/api/admin/members/12/role",
+      "status": 200
+    },
+    {
+      "source": "independent API",
+      "method": "PATCH",
+      "path": "/api/admin/members/12/role",
+      "status": 200
+    },
+    {
+      "source": "independent API",
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "source": "independent API",
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    }
+  ],
+  "pageErrors": [],
+  "corsErrors": [],
+  "blockedRequests": [],
+  "roleWrites": [
+    {
+      "source": "production UI",
+      "id": 12,
+      "role": "admin",
+      "status": 200
+    },
+    {
+      "source": "production UI",
+      "id": 12,
+      "role": "member",
+      "status": 200
+    },
+    {
+      "source": "finally restoration",
+      "id": 12,
+      "role": "member",
+      "status": 200
+    }
+  ],
+  "cleanup": {
+    "targetOriginalRoleRestored": true,
+    "allOriginalRolesPreserved": true,
+    "memberCountUnchanged": true,
+    "adminActorStillAdmin": true,
+    "actorSessionValid": true
+  },
+  "limitations": [],
+  "accountsCreated": 0,
+  "accountsDeleted": 0,
+  "browser": {
+    "engine": "chromium",
+    "version": "141.0.7390.37"
+  },
+  "actorId": 13,
+  "memberCountBefore": 6,
+  "adminCountBefore": 2,
+  "existingQACandidates": [
+    {
+      "id": 15,
+      "role": "member"
+    },
+    {
+      "id": 16,
+      "role": "member"
+    }
+  ],
+  "targetId": 12,
+  "originalTargetRole": "member",
+  "memberCredentialsAvailable": true,
+  "memberCredentialsVerified": true,
+  "finishedAt": "2026-11-14T08:05:02.440Z"
+}

@@ -1,0 +1,25 @@
+{
+  "recordedAt": "2026-11-13T17:29:09.363Z",
+  "backend": {
+    "sha": "927869a09821f49064f6305353db1ebd7b707611",
+    "url": "https://github.com/Sukrit310/thaifood-backend/commit/927869a09821f49064f6305353db1ebd7b707611",
+    "message": "addcomman",
+    "date": "2026-11-13T17:00:02Z"
+  },
+  "probe": {
+    "method": "PATCH",
+    "base": "https://thaifood-guide-api-a7c7.onrender.com",
+    "path": "/api/admin/members/0/role",
+    "authorization": "none",
+    "body": {
+      "role": "admin"
+    },
+    "status": 404,
+    "code": "NOT_FOUND",
+    "allowedOrigin": "https://thaifood-frontend.vercel.app",
+    "expectedWhenDeployed": 401,
+    "dataChanges": false
+  },
+  "conclusion": "The deployed API still returned endpoint-not-found. No production role updates attempted.",
+  "recheckedAt": "2026-11-13T17:52:37.189Z"
+}

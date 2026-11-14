@@ -1,0 +1,123 @@
+{
+  "status": "frontend_live_role_and_backend_checks_verified",
+  "recordedAt": "2026-11-13T18:03:48.667Z",
+  "clientTimezone": "Asia/Bangkok",
+  "userScope": "Frontend only; Backend deployment declined for this task; QA deletion canceled",
+  "baseline": "da2485136999ea8efcf47698ab447e8018a6e44f",
+  "head": "9bdb798b8ea9b5ae3c43efc582b84d7ae598e9b1",
+  "externalCommitDuringWork": "9bdb798",
+  "tests": {
+    "passed": 254,
+    "suites": 23,
+    "newCases": 45
+  },
+  "build": {
+    "status": "Compiled successfully",
+    "mainJS": "/static/js/main.86983198.js",
+    "mainCSS": "/static/css/main.d937cd42.css",
+    "jsGzipKB": 106.7,
+    "cssGzipKB": 15.07
+  },
+  "browser": {
+    "status": "passed",
+    "viewportCases": 15,
+    "roleGuardCases": 6,
+    "axeScans": 33,
+    "axeScope": ".admin-content (member directory and dialog)",
+    "violations": 0,
+    "pageErrors": 0,
+    "corsErrors": 0,
+    "unexpectedRequests": 0
+  },
+  "liveAPI": {
+    "probeStatus": 401,
+    "code": "UNAUTHORIZED",
+    "roleChangesAttempted": 2,
+    "rolePersistenceVerified": true,
+    "evidence": "live-results.json; UI PATCH200 plus independent GET and reload",
+    "latestVerifiedAt": "2026-11-14T08:05:02.440Z"
+  },
+  "review": {
+    "independent": true,
+    "critical": 0,
+    "important": 0,
+    "deferredMinors": [
+      "All automated viewport cases use height1000px; short-height/internal dialog scrolling unverified"
+    ]
+  },
+  "scope": {
+    "backendEdited": false,
+    "dependenciesChanged": false,
+    "authTransportGuardsOrDesignTokensChanged": false,
+    "dbChanges": false,
+    "accountsDeleted": false
+  },
+  "privacy": {
+    "candidateFiles": 30,
+    "qaCredentialsIgnored": true,
+    "newConfiguredCredentialLeaks": [],
+    "jwtFindings": []
+  },
+  "git": {
+    "agentCommitCreated": false,
+    "agentPushPerformed": false,
+    "stagedFiles": 0
+  },
+  "deploymentPerformed": false,
+  "limits": [
+    "WebKit26 Linux automation is not native Safari on macOS/iOS",
+    "No real NVDA/VoiceOver session",
+    "Original Header axe label-content warning reproduced on baseline and left outside page-only scope"
+  ],
+  "preview": {
+    "port": 3100,
+    "pid": 78675,
+    "stopped": true,
+    "stopRequested": true,
+    "verified": "Preview process exited with code0; PID78675 absent; port3100 has no listeners"
+  },
+  "latestLiveVerification": {
+    "startedAt": "2026-11-14T08:04:51.037Z",
+    "finishedAt": "2026-11-14T08:05:02.440Z",
+    "frontend": "https://thaifood-frontend.vercel.app",
+    "backend": "https://thaifood-guide-api-a7c7.onrender.com",
+    "checksPassed": 12,
+    "requests": 35,
+    "status": "passed",
+    "retainedJWTAuthorizationVerified": true,
+    "cleanup": {
+      "targetOriginalRoleRestored": true,
+      "allOriginalRolesPreserved": true,
+      "memberCountUnchanged": true,
+      "adminActorStillAdmin": true,
+      "actorSessionValid": true
+    },
+    "accountsCreated": 0,
+    "accountsDeleted": 0,
+    "lastAdminConcurrencyTestedLive": false,
+    "goTestsRun": false,
+    "report": "live-results.json"
+  },
+  "latestBackendVerification": {
+    "revision": "a8c0d78f76220f596a1646913685021ccfdc83f8",
+    "toolchain": "go version go1.27.4 linux/amd64",
+    "databaseVersion": "PostgreSQL 17.12 on x86_64-pc-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit",
+    "finishedAt": "2026-11-14T08:21:52.970326+00:00",
+    "status": "passed",
+    "topLevelTestsPassed": 39,
+    "subtestsPassed": 90,
+    "additionalConcurrencyPasses": 60,
+    "testFailures": 0,
+    "testSkips": 0,
+    "vetExitCode": 0,
+    "buildExitCode": 0,
+    "sourceUnchanged": true,
+    "productionAccessed": false,
+    "cleanup": {
+      "containerStopped": true,
+      "temporaryContainerRemoved": true,
+      "daemonListingSucceeded": true
+    },
+    "report": "backend/results.json"
+  }
+}

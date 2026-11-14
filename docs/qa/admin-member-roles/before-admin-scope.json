@@ -1,0 +1,58 @@
+{
+  "status": "failed",
+  "base": "http://127.0.0.1:3100",
+  "source": "isolated UI contract fixtures; no production data mutations",
+  "cases": [],
+  "guards": [],
+  "audits": [
+    {
+      "engine": "chromium",
+      "width": 320,
+      "state": "directory",
+      "violations": [
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "nodes": [
+            {
+              "target": [
+                ".btn"
+              ],
+              "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name",
+              "html": "<button type=\"button\" class=\"btn btn-secondary layout-menu-toggle\" aria-label=\"เปิดเมนูหลัก\" aria-expanded=\"false\" aria-controls=\"layout-navigation\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M4 7h16M4 12h16M4 17h16\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\"></path></svg><span>เมนู</span></button>"
+            }
+          ]
+        }
+      ],
+      "incomplete": [],
+      "passes": 26
+    }
+  ],
+  "requests": [
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/members",
+      "status": 200
+    }
+  ],
+  "pageErrors": [],
+  "corsErrors": [],
+  "unexpectedRequests": [],
+  "failure": "AssertionError [ERR_ASSERTION]: Axe violations in chromium/320/directory\n+ actual - expected\n\n+ [\n+   {\n+     help: 'Elements must have their visible text as part of their accessible name',\n+     id: 'label-content-name-mismatch',\n+     impact: 'serious',\n+     nodes: [\n+       {\n+         failureSummary: 'Fix any of the following:\\n' +\n+           '  Text inside the element is not included in the accessible name',\n+         html: '<button type=\"button\" class=\"btn btn-secondary layout-menu-toggle\" aria-label=\"เปิดเมนูหลัก\" aria-expanded=\"false\" aria-controls=\"layout-navigation\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M4 7h16M4 12h16M4 17h16\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\"></path></svg><span>เมนู</span></button>',\n+         target: [\n+           '.btn'\n+         ]\n+       }\n+     ]\n+   }\n+ ]\n- []\n\n    at audit (/workspaces/thaifood-frontend/docs/qa/admin-member-roles/check.cjs:20:10)\n    at async /workspaces/thaifood-frontend/docs/qa/admin-member-roles/check.cjs:69:11"
+}
